@@ -10,10 +10,6 @@
         <module name="cluod-erueka" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cluod-common" target="1.5" />
-      <module name="cluodcommon" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
