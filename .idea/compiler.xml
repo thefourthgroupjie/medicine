@@ -6,14 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cluod-common" />
+        <module name="drug-provider-zh" />
+        <module name="drug-fegin-zh" />
+        <module name="drug-api-zh" />
         <module name="cluod-erueka" />
+        <module name="cluod-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="culod-api-zh" target="1.7" />
+      <module name="culod-fegin-zh" target="1.8" />
+      <module name="culod-provider-zh" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cluod-erueka" options="-parameters" />
+      <module name="drug-fegin-zh" options="-parameters" />
+      <module name="drug-provider-zh" options="-parameters" />
     </option>
   </component>
 </project>

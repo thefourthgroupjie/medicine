@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xb.mapper.DrugMapper" >
+    <select id="findDrugCount" resultType="int" parameterType="com.xb.model.DrugBean">
+        select count(*) from t_drug
+    </select>
+    <select id="findDrugList" resultType="com.xb.model.DrugBean">
+        select * from t_drug
+        limit #{start},#{rows}
+    </select>
+</mapper>

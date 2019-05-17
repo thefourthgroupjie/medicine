@@ -1,0 +1,22 @@
+server:
+  port: 8081
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+spring:
+  application:
+    name: springcloud-feign
+jpa:
+  hibernate:
+    ddl-auto: update
+    show-sql: true
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    content-type: textml
+    mode: HTML5
