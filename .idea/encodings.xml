@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/cloud-huai" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-jiao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-jiao-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-xin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cluod-erueka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dloud-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dluod-fign" charset="UTF-8" />
   </component>
 </project>
