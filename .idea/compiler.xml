@@ -6,14 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cluod-common" />
         <module name="cluod-erueka" />
+        <module name="cluod-provider-wlz" />
+        <module name="cluod-feign-wlz" />
+        <module name="cluod-common" />
+        <module name="cluod-api-wlz" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cluod-fegin-wlz" target="1.8" />
+      <module name="cluod-proviter-wlz" target="1.8" />
+      <module name="springcloud-feign" target="1.8" />
+      <module name="springcloud-provider-wlz" target="1.8" />
+      <module name="springcloudapi" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cluod-erueka" options="-parameters" />
+      <module name="cluod-fegin-wlz" options="-parameters" />
+      <module name="cluod-feign-wlz" options="-parameters" />
+      <module name="cluod-provider-wlz" options="-parameters" />
+      <module name="cluod-proviter-wlz" options="-parameters" />
     </option>
   </component>
 </project>

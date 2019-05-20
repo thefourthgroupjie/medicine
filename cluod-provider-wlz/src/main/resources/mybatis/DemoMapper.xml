@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xb.mapper.DemoMapper">
+    <select id="queryGoods" resultType="com.xb.model.GoodsBean" >
+             select
+    tg.time,
+    t1.deptName as sheName,
+    t2.deptName as shiName,
+    t3.deptName as quName
+    from t_gyxx tg
+    left join t_dept t1 on tg.sheId = t1.id
+    left join t_dept t2 on tg.shiId = t2.id
+    left join t_dept t3 on tg.quId = t3.id limit 5
+    </select>
+    <select id="findDaiLiCount" resultType="int" parameterType="com.xb.model.DaiLiBean">
+        select count(*) from t_zs
+    </select>
+
+    <select id="findDaiLi" resultType="com.xb.model.DaiLiBean">
+          select t.id,t.name,t.quyu,t.shenc,t.guage,t.time from t_zs t
+        limit #{start},#{rows}
+    </select>
+</mapper>

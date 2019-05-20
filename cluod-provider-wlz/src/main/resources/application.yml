@@ -1,0 +1,27 @@
+server:
+  port: 8080
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/1810a?serverTimezone=Hongkong&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 1234
+  application:
+    name: springcloud-server
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    content-type: textml
+    mode: HTML5
