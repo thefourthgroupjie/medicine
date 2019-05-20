@@ -3,9 +3,68 @@
 <mapper namespace="com.xb.mapper.DrugMapper" >
     <select id="findDrugCount" resultType="int" parameterType="com.xb.model.DrugBean">
         select count(*) from t_drug
+        <!--<include refid="where"></include>-->
     </select>
     <select id="findDrugList" resultType="com.xb.model.DrugBean">
         select * from t_drug
+        <!--<include refid="where"></include>-->
         limit #{start},#{rows}
     </select>
+    <select id="findDrugStoreListCount" resultType="int" parameterType="com.xb.model.DrugStoreBean">
+        select count(*) from t_drugstore
+        <!--<include refid="where"></include>-->
+    </select>
+    <select id="findDrugStoreList1" resultType="com.xb.model.DrugStoreBean">
+        select * from t_drugstore
+        <!--<include refid="where"></include>-->
+        limit #{start},#{rows}
+    </select>
+    <!--<sql id="where" >
+         <where>
+             <if test="drugBean.drugName!=null and drugBean.drugName!=''">
+                and drugName like '%${drugBean.drugName}%'
+             </if>
+             <if test="drugBean.drugForm!=null and drugBean.drugForm!=''">
+                 and drugForm like '%${drugBean.drugForm}%'
+             </if>
+             <if test="drugBean.specification!=null and drugBean.specification!=''">
+                 and specification like '%${drugBean.specification}%'
+             </if>
+             <if test="drugBean.directoryType!=null and drugBean.directoryType!=''">
+                 and directoryType like '%${drugBean.directoryType}%'
+             </if>
+             <if test="drugBean.manEnterprise!=null and drugBean.manEnterprise!=''">
+                 and manEnterprise like '%${drugBean.manEnterprise}%'
+             </if>
+         </where>
+    </sql>-->
+    <select id="findDrugStoreList" resultType="com.xb.model.DrugStoreBean">
+       select * from t_drugstore
+       <!--<include refid="store"></include>-->
+    </select>
+
+    <sql id="store">
+        <if test="drugstoreName!=null and drugstoreName!=''">
+               and drugstoreName like '%${drugstoreName}%'
+        </if>
+        <if test="site!=null and site!=0">
+           and site like '%${site}%'
+       </if>
+    </sql>
+    <select id="findHospitalList" resultType="com.xb.model.hospitalBean">
+        select * from t_hospital
+    </select>
+
+    <select id="findComPanyCount" resultType="int" parameterType="com.xb.model.CompanyBean">
+         select count(*) from t_company
+</select>
+    <select id="findComPanyList" resultType="com.xb.model.CompanyBean">
+        select * from t_company
+          limit #{start},#{rows}
+    </select>
+
+    <select id="findConventionList" resultType="com.xb.model.ConventionBean">
+        select * from t_convention
+    </select>
+
 </mapper>

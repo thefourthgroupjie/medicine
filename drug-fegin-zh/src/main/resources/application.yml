@@ -7,16 +7,14 @@ eureka:
 spring:
   application:
     name: springcloud-feign
-jpa:
-  hibernate:
-    ddl-auto: update
-    show-sql: true
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
   thymeleaf:
     cache: false
+    check-template: true
+    enabled: true
+    encoding: UTF-8
+    mode: LEGACYHTML5
     prefix: classpath:/templates/
     suffix: .html
-    encoding: UTF-8
-    content-type: textml
-    mode: HTML5
+    servlet:
+      content-type: text/html
+

@@ -8,10 +8,12 @@ eureka:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.1.147:3306/1810a?serverTimezone=Hongkong&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/t_user?serverTimezone=Hongkong&useUnicode=true&characterEncoding=utf-8
     username: root
-    password: root
+    password: 123
   application:
     name: springcloud-server
+
 mybatis:
   mapper-locations: classpath:mybatis/*.xml
+

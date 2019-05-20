@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class DrugBean implements Serializable {
     private static final long serialVersionUID = -2430219220702731185L;
+
     private  Integer id;
 
     private  Integer drugId;
