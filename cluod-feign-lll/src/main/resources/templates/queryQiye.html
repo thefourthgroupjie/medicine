@@ -199,6 +199,8 @@
                     当前位置： 首页 &gt;  上榜企业
                 </div>
             </div>
+
+
             <!--内容-->
             <div class="company-box">
                 <div class="company-con">
@@ -255,14 +257,7 @@
                     </div>
                     </ul>
                    <script>
-                       // $(function () {
 
-                      //     id=$("#button").val();
-
-
-                            //initUserTable(id);//初始化用户表格数据
-
-                     //   })
                         function initUserTable(id) {
             $('#myTable').bootstrapTable({
                                 url: "/main/queryDrugType?id="+id,
@@ -282,10 +277,11 @@
 
                         /* 页面加载 */
                         $(function () {
-                            initMyTableDrugs();
+                            var id=1;
+                            initMyTableDrugs(id);
                         });
 
-
+ myidi ="";
                         /* 页面查询 */
                         function initMyTableDrugs(id) {
                             var  content="";
@@ -301,16 +297,21 @@
                                             '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
 
                                             '                                </div>\n'+
-                                            '                                <a href="/page/queryDianpu"  class="zs-shop">查看详情</a>\n'+
+                                            '                                <a href="/page/queryDianpu?id='+obj.typeid+'" class="zs-shop">查看详情</a>\n'+
                                             '                            </div>\n' +
                                             '                        </li>';
                                         $("#drugs").html(content);
-                                        alert(obj.id);
+
+                                        myidi=obj.typeid;
+
                                     })
+
+
 
                                 }
                             })
                         }
+
                     </script>
                     <div class="search-com">
                         <h4>企业搜索</h4>

@@ -29,7 +29,12 @@
     <script src="../js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
     <!-- 引入弹框的js、css -->
     <script src="../js/bootstrap-bootbox/bootbox.js"></script>
+    <style type="text/css">
+        .glyphicon-education {
 
+            font-size:40px;
+        }
+    </style>
 </head>
 <body class="hold-transition skin-blue sidebar-mini" id="app">
 <div class="wrapper">
@@ -202,37 +207,46 @@
             <!--内容-->
             <div class="company-box">
                 <div class="company-con">
-                    <h2>药品查询</h2>
+                    <h2>
+                        <i class="glyphicon glyphicon-education" style="color: red"></i><a href="tencent://message/?uin=77474968&Site=&Menu=yes"  style="text-decoration:none">咨询客服</a>
+                    </h2>
                 </div>
                 <!--企业列表-->
                 <div class="company-list" >
-                    <ul class="comlist-topname" id="sss">
 
-                    </ul>
+
+
+
 
                     <ul class="comlist-topname" id="drugs">
 
 
                     </ul>
 
-                    <ul>
+                    <ul >
                         <div>
                             <table class="table" id="myTable"></table>
                         </div>
+
                     </ul>
 
                     <script type="text/javascript" th:inline="none" >
 
                         /* 页面加载 */
                         $(function () {
-                            var id=1;
-                            initMyTableName(id);
-
+                     //获取当前页面的url值 "?+参数 "
+                   var ids=window.location.search;
+                            //截取等号后面的值
+                     var idss=ids.split("=")[1];
+                    // 将截取到的值赋给id
+                    var  id=idss;
+                            initMyTableName(id)
                         });
 
-
                         /* 页面查询 */
+
                         function initMyTableName(id) {
+
                             var  content="";
                             $.ajax({
                                 url: "/main/queryMySql?id="+id,
@@ -243,7 +257,7 @@
                                             '                                <div class="productimg-top">\n' +
                                             '                                        <img src="'+obj.drugimg+'">\n' +
                                             '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
-                                            '                                        <p class="prodct-newszs-name" style="color: #999">规格:'+obj.drugdetails+'</p>\n' +
+                                            '                                        <p class="prodct-newszs-name" style="color: #999">主治:'+obj.drugdetails+'</p>\n' +
                                             '                                        <h3 class="prodct-newszs-name" style="width: 96%">库存:'+obj.kucun+'</h3>                        </a>\n' +
                                             '                                </div>\n'+
                                             '                                <a   class="zs-shop">加入购物车</a>\n'+
