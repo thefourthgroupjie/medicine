@@ -1,0 +1,11 @@
+server:
+  port: 8010
+
+spring:
+  application:
+    name: springcloud-server
+  data:
+  thymeleaf:
+    encoding: UTF-8
+    servlet:
+      content-type: text/html

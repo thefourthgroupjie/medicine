@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/cluod-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cluod-erueka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cluod-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cluod-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/img-oss" charset="UTF-8" />
   </component>
 </project>

@@ -6,14 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cluod-api" />
         <module name="cluod-common" />
         <module name="cluod-erueka" />
+        <module name="cluod-feign" />
+        <module name="cluod-provider" />
+        <module name="img-oss" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cluod-proviter-cls" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cluod-api" options="-parameters" />
       <module name="cluod-erueka" options="-parameters" />
+      <module name="cluod-feign" options="-parameters" />
+      <module name="cluod-provider" options="-parameters" />
+      <module name="img-oss" options="-parameters" />
     </option>
   </component>
 </project>

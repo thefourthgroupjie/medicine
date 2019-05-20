@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/img-oss/pom.xml" />
       </list>
     </option>
   </component>

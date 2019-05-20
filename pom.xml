@@ -11,6 +11,7 @@
     <modules>
         <module>cluod-common</module>
         <module>cluod-erueka</module>
+        <module>cluod-api</module>
     </modules>
 
 

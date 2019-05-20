@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)http://www.xb1y.com/index.php/Home/Activityzone/index.html -->
+<html xmlns:th="http://www.springframework.org/schema/jdbc"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>活动专区</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="../hd_files/common.css">
+    <link rel="stylesheet" href="../hd_files/css.css">
+    <script src="../hd_files/jQuery-2.2.0.min.js.下载"></script>
+    <script src="../hd_files/layer.js.下载"></script><link rel="stylesheet" href="../hd_files/layer.css" id="layui_layer_skinlayercss" style="">
+    <!--[if lt IE 9]>
+    <script src="/Public/houtai/bootstrap/js/html5shiv.min.js"></script>
+    <script src="/Public/houtai/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut  icon" type="image/x-icon" href="http://www.xb1y.com/index.php/Home/Activityzone/favicon.ico" media="screen">
+
+
+    <link rel="stylesheet" href="../hd_files/common.css">
+    <link rel="stylesheet" href="../hd_files/navregister.css">
+    <link rel="stylesheet" href="../hd_files/banner-index.css">
+    <script src="../hd_files/lrtk.js.下载"></script>
+
+    <link rel="shortcut  icon" type="image/x-icon" href="http://www.xb1y.com/index.php/Home/Activityzone/favicon.ico" media="screen">
+</head>
+<body class="hold-transition skin-blue sidebar-mini" id="app">
+<div class="wrapper">
+    <header class="main-header">
+        <div class="logotop">
+            <div class="logotop-bar">
+                <div class="logotop-lf">
+                    Hi,欢迎来到西北医药网
+                    <span>
+                【
+                <a href="http://www.xb1y.com/index.php/Home/Member/Member_login.html" style="color: #e57816;">请先登录</a>
+                |
+                <a href="http://www.xb1y.com/index.php/Home/Member/Member_register.html">注册</a>
+                                】
+            </span>
+                </div>
+            </div>
+        </div>
+        <!--logo栏目-->
+        <div class="logobox" style="overflow:initial;height:120px;">
+            <script>
+
+                $("body").on("input propertychange",".ss-input",function(){
+                    var name=$(".ss-input").val();
+                    // alert(name);
+                    $.ajax({
+                        type:'post',
+                        url:"/index.php/Home/Index/see.html",
+                        data:{'name':name},
+                        success:function(data){
+                            if(data.state=='1'){
+                                var html="";
+                                //console.log(data.temp)
+                                for(var i=0;i<data.temp.length;i++){
+                                    html +="<div class='xl-list' inclick>"+data.temp[i].goods_name +"</div>";
+                                }
+
+                                $("#zhaode").html(html);
+
+                            }
+                        }
+                    });
+
+                })
+                var text22 = '';
+                $("#zhaode").on('mouseover',"div", function(){
+                    text22 = $(this).html()
+                    //$('.ss-input').val()
+                })
+                $('.ss-input').focus(function(){
+                    $('.input-xlbox').show();
+                    $('.input-xlbox').css('zIndex','999');
+                    $('.input-xlbox').css('opacity','1');
+                });
+                $('.ss-input').blur(function(){
+                    $('.input-xlbox').css('zIndex','-1');
+                    $('.input-xlbox').css('opacity','0');
+                    $(this).val(text22)
+                });
+
+            </script>
+            <style>
+                .input-xlbox{position: absolute;width:350px;top:41px;left:-1px;background:#fff;border:1px solid #ff912f;display:none;}
+                .xl-list{width:100%;padding:5px;box-sizing:border-box;}
+                .xl-list:hover{background:#f2f2f2}
+            </style>
+        </div>
+        <!--导航-->
+        <div class="navbar">
+            <div class="navbox">
+                <h3>药品分类</h3>
+                <ul class="navbar-list">
+                    <li><a href="">活动专区</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <style>
+        .xb-rightbox{width:50px;height:655px;position: fixed;right:0;top:15%;background: #377bee;border-radius: 5px;padding:0 2.5px;box-sizing:border-box;color:#fff;text-align:center;}
+        .xb-right_list{color:#fff;margin-top:50px;}
+        .xb-right_list img{width:36px;}
+        .xb-qq{margin:5px auto;width:20px;height:20px;border-radius:50%;background:#ff5a00;line-height:20px;font-size:12px;}
+    </style>
+    <div class="content-wrapper">
+        <section class="content-header">
+
+
+
+        </section>
+        <section class="content">
+            <!--位置导航-->
+            <div class="location-now">
+                <div class="location-text">
+                    <img src="../hd_files/compang_03.png">
+                    当前位置： 首页 &gt;>   中西药品>泌尿科用药>肾结石用药>龙都 肾石通颗粒
+                </div>
+            </div>
+                   <!--  <div >
+                        &lt;!&ndash;活动专区内容区域&ndash;&gt;
+                        <div class="pro-infobigbox"  style="background: yellow">
+                            &lt;!&ndash;左边内容展示&ndash;&gt;
+                            <div class="pro-infoobox">
+                                &lt;!&ndash;商品图片内容&ndash;&gt;
+                                <div class="pro-info-top">
+                                    &lt;!&ndash;左边图片展示&ndash;&gt;
+                                    <div class="proinfotop-img">
+                                        <div class="page-imgpro">
+                                            <div class="sp-wrap" style="display: inline-block;">
+                                                &lt;!&ndash;图片上半部分&ndash;&gt;
+                                                <div class="sp-large">
+                                                    <a href="#" class>
+                                                        <img src="http://langmoren.oss-cn-beijing.aliyuncs.com/langmoren/1558099095863.png" alt="齐鲁天地">
+                                                    </a>
+                                                </div>
+                                                <div class="sp-thumbs sp-tb-active">
+                                                    <a href="#" class="sp-current">
+                                                        <img src="http://langmoren.oss-cn-beijing.aliyuncs.com/langmoren/1558239659572.jpg" alt="齐鲁天地">
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 left" style="background: #00bbee">
+                                <div class="proinfo-right">
+                                    <div id="xiangqing">1111</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                     </div>-->
+            <!--商品详情-->
+            <div class="pro-infobigbox">
+                <!--左边的内容-->
+                <div class="pro-infobox">
+                    <!--商品图片内容-->
+                    <div class="pro-info-top">
+                        <!--左边的图片展示-->
+                        <div class="proinfotop-img">
+                            <div class="page-imgpro">
+                                <div class="sp-wrap" style="display: inline-block;">
+                                    <a href="http://www.xb1y.com/index.php/Home/Goods/goodInfo/id/1.html#" class="sp-current"><img src="./商品详情_files/1484129241Rnv1yyR0.jpg" alt="齐鲁天和惠世卡马西平片"></a></div>
+                                <ul class="proiinfo-imgbtn">
+                                    <li style="width: 70%">
+
+                                        <div class="share-dialog">
+                                            <div class="share-dialog-cont">
+                                                <div class="share-platform">
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--右边的内容展示-->
+                        <div class="proinfotop-rt">
+                            <div class="proinfo-rttop">
+                                <div id="xiangqing"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
+<!--底部内容-->
+<div class="footer-box">
+    <div class="footer-link" style="height:215px;">
+        <div class="erweima-box">
+            <img src="../hd_files/erweima_03.png">
+            <p>扫描关注，微信二维码</p>
+        </div>
+    </div>
+    <div style="padding:15px;font-size:15px;text-align: center;color:#fff">备案号；陕ICP备18007246号-1</div>
+</div>
+<div class="footer-bottom">
+    <p>Copyright ©   西北医药网版权所有</p>
+</div>
+<script>
+    $(function(){
+        $.ajax({
+            'url':"/index.php/HoMme/AjaxMessage/index.html",
+            type:'get',
+            dataType:'json',
+            success:function(data){
+                if(data.status==1) {
+                    if(data.type===1){
+                        layer.msg(data.message,{icon:1});
+                    }else{
+                        layer.alert(data.message,{icon:2});
+                    }
+                }
+            }
+        })
+    })
+
+</script>
+
+</body>
+</html>
