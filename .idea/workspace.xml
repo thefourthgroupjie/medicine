@@ -2,178 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42af2251-6960-44f2-b235-96d2c9eb9345" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/CompanyBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/ConventionBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugStoreBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/hospitalBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cluod-common/target/classes/com/xb/model/CompanyBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cluod-common/target/classes/com/xb/model/ConventionBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cluod-common/target/classes/com/xb/model/DrugStoreBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cluod-common/target/classes/com/xb/model/hospitalBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/common.css.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/compang_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/dataimg_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/dataimg_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/dataimg_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/dataimg_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/dataimg_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/dd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/erweima_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/gr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/gwc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/index_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/index_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/index_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/jQuery-2.2.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/navregister.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/sc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/tw.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/files/zhaoshangdown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/006f.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/110422104J0-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/110422104J0-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/110422105125-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/110422105125-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/111.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/1215606999583.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/130503114345-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/130503114345-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/130505115K4-0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/14112G10100-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/14112G10100-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/1559223433-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/15_5_8_21_37_54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/15da000019c141f50674.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/15da000019c141f50674.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/160G1142624-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/1d3738f72ff245d28392d3cc716f0a8d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/20170820034430391.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/20180130063847_95288.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/20180524164105_a150b3a78a5ce485f4dbf75e0be698ee_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/333.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/Camera Roll/WIN_20190318_15_45_01_Pro.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/Camera Roll/desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/Saved Pictures/desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/Saved Pictures/捕获.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/Saved Pictures/标识符的命名规则 - 副本.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/Saved Pictures/标识符的命名规则.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/Saved Pictures/框架集2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/bc110b6cjw1e2cfog7h7cg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/dataimg_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/dataimg_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/dataimg_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/dataimg_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/dataimg_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/detail.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/img_1120542.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t011d34ae1f0b567e7d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t0124877085f0e6ef85.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t01277e376312aaa8fc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t012c4dac33bbcfb3c8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t01376a01e82d51df3e.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t013bf255de16744f3d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t014f5e4642ef8e9ac9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t015da7b51484aea427.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t0172472c1f01b701ee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t01758ab2d24e17e75c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t01a9c3987ff92f7de4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t01c34c41fb0d8d5469.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/t01e303d1ca378ec1cc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/timg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/u=131277962,4097281928&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/u=2150268721,285040093&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/u=2166787702,1310384901&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/u=2729224790,3868225865&amp;fm=11&amp;gp=0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/img/zhaoshangdown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/AttractPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ComPanyAptitudePage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ConventionPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugAptitudePage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStoreAptitudePage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStorePage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalAptitudePage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/ConventionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/ConventionBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-common/target/classes/com/xb/model/DrugBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-common/target/classes/com/xb/model/DrugBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-api-zh/src/main/java/com/xb/service/DrugServiceApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-api-zh/src/main/java/com/xb/service/DrugServiceApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-api-zh/target/classes/com/xb/service/DrugServiceApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/drug-api-zh/target/classes/com/xb/service/DrugServiceApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/DrugController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/DrugController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap-theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap-theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/bootstrap3/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootStrap-addTabs/bootstrap.addtabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootStrap-addTabs/bootstrap.addtabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-bootbox/bootbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-bootbox/bootbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-fileinput/js/fileinput.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-fileinput/js/fileinput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-fileinput/themes/explorer/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-fileinput/themes/explorer/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-switch-master/css/bootstrap3/bootstrap-switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-switch-master/css/bootstrap3/bootstrap-switch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-switch-master/js/bootstrap-switch.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-switch-master/js/bootstrap-switch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/bootstrap-table-locale-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/bootstrap-table-locale-all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/bootstrap-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/bootstrap-table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/accent-neutralise/bootstrap-table-accent-neutralise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/angular/bootstrap-table-angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/angular/bootstrap-table-angular.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/auto-refresh/bootstrap-table-auto-refresh.css" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/auto-refresh/bootstrap-table-auto-refresh.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/auto-refresh/bootstrap-table-auto-refresh.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/auto-refresh/bootstrap-table-auto-refresh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/click-edit-row/bootstrap-table-click-edit-row.css" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/click-edit-row/bootstrap-table-click-edit-row.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/click-edit-row/bootstrap-table-click-edit-row.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/click-edit-row/bootstrap-table-click-edit-row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/cookie/bootstrap-table-cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/cookie/bootstrap-table-cookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/copy-rows/bootstrap-table-copy-rows.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/copy-rows/bootstrap-table-copy-rows.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/editable/bootstrap-table-editable.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/editable/bootstrap-table-editable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/export/bootstrap-table-export.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/export/bootstrap-table-export.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/filter-control/bootstrap-table-filter-control.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/filter-control/bootstrap-table-filter-control.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/filter/bootstrap-table-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/filter/bootstrap-table-filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/group-by-v2/bootstrap-table-group-by.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/group-by-v2/bootstrap-table-group-by.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/i18n-enhance/bootstrap-table-i18n-enhance.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/key-events/bootstrap-table-key-events.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/key-events/bootstrap-table-key-events.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/mobile/bootstrap-table-mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/mobile/bootstrap-table-mobile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/multi-column-toggle/bootstrap-table-multi-toggle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/multiple-search/bootstrap-table-multiple-search.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/multiple-search/bootstrap-table-multiple-search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/multiple-selection-row/bootstrap-table-multiple-selection-row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/multiple-sort/bootstrap-table-multiple-sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/multiple-sort/bootstrap-table-multiple-sort.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/natural-sorting/bootstrap-table-natural-sorting.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/natural-sorting/bootstrap-table-natural-sorting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/print/bootstrap-table-print.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/print/bootstrap-table-print.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/reorder-columns/bootstrap-table-reorder-columns.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/reorder-columns/bootstrap-table-reorder-columns.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/reorder-rows/bootstrap-table-reorder-rows.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/reorder-rows/bootstrap-table-reorder-rows.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/select2-filter/bootstrap-table-select2-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/select2-filter/bootstrap-table-select2-filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/sticky-header/bootstrap-table-sticky-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/sticky-header/bootstrap-table-sticky-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/sticky-header/bootstrap-table-sticky-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/sticky-header/bootstrap-table-sticky-header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/tree-column/bootstrap-table-tree-column.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/extensions/tree-column/bootstrap-table-tree-column.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-de-DE.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-de-DE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-es-CL.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-es-CL.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-es-MX.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-es-MX.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-es-SP.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-es-SP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-id-ID.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-id-ID.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-it-IT.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-it-IT.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-ja-JP.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-ja-JP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-ka-GE.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-ka-GE.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-nl-NL.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-nl-NL.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-pt-BR.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-pt-BR.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-uk-UA.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-uk-UA.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-ur-PK.js" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/static/js/bootstrap-table/locale/bootstrap-table-ur-PK.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/controller/DrugControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/controller/DrugControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/mapper/DrugMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/mapper/DrugMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-provider-zh/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/drug-provider-zh/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-provider-zh/src/main/resources/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drug-provider-zh/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugStoreBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugStoreBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/hospitalBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/hospitalBean.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/cluod-common/target/" />
@@ -211,63 +43,64 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugAptitudePage.html">
+        <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/hospitalBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+            <state relative-caret-position="69">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugpage.html">
+        <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/ConventionBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+            <state relative-caret-position="69">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStoreAptitudePage.html">
+        <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/CompanyBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+            <state relative-caret-position="69">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ConventionPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-748">
+              <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ComPanyAptitudePage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-667">
+              <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
               <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalAptitudePage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/AttractPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="46">
               <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -280,44 +113,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ConventionPage.html">
+        <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ComPanyAptitudePage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/PageController.java">
+        <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugStoreBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="43" column="42" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="42" />
+            <state relative-caret-position="69">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -372,19 +185,15 @@
         <option value="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/service/DrugService.java" />
         <option value="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/DrugFeginZhApplication.java" />
         <option value="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugBean.java" />
-        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/hospitalBean.java" />
         <option value="$PROJECT_DIR$/drug-provider-zh/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/CompanyBean.java" />
         <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/ConventionBean.html" />
-        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/ConventionBean.java" />
         <option value="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/PageController.java" />
         <option value="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/DrugController.java" />
         <option value="$PROJECT_DIR$/drug-api-zh/src/main/java/com/xb/service/DrugServiceApi.java" />
         <option value="$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/mapper/DrugMapper.java" />
         <option value="$PROJECT_DIR$/drug-provider-zh/src/main/resources/mybatis/UserMapper.xml" />
         <option value="$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/controller/DrugControllerImpl.java" />
-        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugStoreBean.java" />
         <option value="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugpage.html" />
         <option value="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStorePage.html" />
         <option value="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalPage.html" />
@@ -394,6 +203,10 @@
         <option value="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStoreAptitudePage.html" />
         <option value="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalAptitudePage.html" />
         <option value="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ComPanyAptitudePage.html" />
+        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugBean.java" />
+        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugStoreBean.java" />
+        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/hospitalBean.java" />
+        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/ConventionBean.java" />
       </list>
     </option>
   </component>
@@ -426,62 +239,6 @@
             <path>
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
               <item name="drug-fegin-zh" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -504,36 +261,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="drug-fegin-zh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="drug-fegin-zh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="drug-fegin-zh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
@@ -593,48 +320,7 @@
               <item name="drug-provider-zh" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="drug-provider-zh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="drug-provider-zh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="drug-provider-zh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="drug-provider-zh" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -730,7 +416,7 @@
       <workItem from="1558137017600" duration="4801000" />
       <workItem from="1558259165648" duration="9033000" />
       <workItem from="1558275677262" duration="2588000" />
-      <workItem from="1558308543653" duration="16088000" />
+      <workItem from="1558308543653" duration="16653000" />
     </task>
     <task id="LOCAL-00001" summary="数据中心药品库查询">
       <created>1558065361599</created>
@@ -739,11 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558065361599</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="页面查询">
+      <created>1558333610286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558333610286</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82826000" />
+    <option name="totallyTimeSpent" value="83391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -790,7 +483,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="数据中心药品库查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据中心药品库查询" />
+    <MESSAGE value="页面查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面查询" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -922,28 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/hospitalBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drug-provider-zh/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -967,13 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/CompanyBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -1025,26 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/ConventionBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugStoreBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-          <folding>
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStorePage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1077,19 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/AttractPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugAptitudePage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1110,19 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStoreAptitudePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalAptitudePage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1136,22 +759,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStoreAptitudePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugStoreBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding>
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/hospitalBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/ConventionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/CompanyBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ConventionPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
+        <state relative-caret-position="-748">
           <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ComPanyAptitudePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="-667">
           <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/AttractPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="83" column="18" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

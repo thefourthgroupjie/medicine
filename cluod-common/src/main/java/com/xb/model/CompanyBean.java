@@ -1,7 +1,7 @@
 package com.xb.model;
 
 import java.io.Serializable;
-
+//商业公司实体bean
 public class CompanyBean implements Serializable {
     private static final long serialVersionUID = -2430219220702731185L;
 

@@ -1,7 +1,7 @@
 package com.xb.model;
 
 import java.io.Serializable;
-
+//医院大全实体bean
 public class hospitalBean implements Serializable {
     private static final long serialVersionUID = -2430219220702731185L;
 

@@ -1,7 +1,7 @@
 package com.xb.model;
 
 import java.io.Serializable;
-
+//国药会展资料实体bean
 public class ConventionBean implements Serializable {
     private static final long serialVersionUID = -2430219220702731185L;
 

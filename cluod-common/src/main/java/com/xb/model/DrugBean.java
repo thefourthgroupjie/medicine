@@ -1,7 +1,7 @@
 package com.xb.model;
 
 import java.io.Serializable;
-
+//药品库实体bean
 public class DrugBean implements Serializable {
     private static final long serialVersionUID = -2430219220702731185L;
 
