@@ -4,13 +4,12 @@
     <list default="true" id="393682e9-043b-4f6d-becb-ebcc03f2c4b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-api-wlz/src/main/java/com/xb/service/DemoServiceApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-api-wlz/src/main/java/com/xb/service/DemoServiceApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-api-wlz/target/classes/com/xb/service/DemoServiceApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-api-wlz/target/classes/com/xb/service/DemoServiceApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DaiLiBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DaiLiBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GoodsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GoodsBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GyxxBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GyxxBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/mapper/DemoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/mapper/DemoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,11 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="99">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -63,63 +62,165 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="416">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluod-api-wlz/src/main/java/com/xb/service/DemoServiceApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-208">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/mapper/DemoMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="44" column="53" lean-forward="true" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+            <state relative-caret-position="233">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1030#1031#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/service/DemoServiceFeign.java">
+        <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GoodsBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="130">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="46" />
+              <folding>
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+                <element signature="e#1269#1270#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+                <element signature="e#1334#1335#0" expanded="true" />
+                <element signature="e#1362#1363#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1503#1504#0" expanded="true" />
+                <element signature="e#1549#1550#0" expanded="true" />
+                <element signature="e#1587#1588#0" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
+                <element signature="e#1648#1649#0" expanded="true" />
+                <element signature="e#1691#1692#0" expanded="true" />
+                <element signature="e#1725#1726#0" expanded="true" />
+                <element signature="e#1759#1760#0" expanded="true" />
+                <element signature="e#1789#1790#0" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
+                <element signature="e#1873#1874#0" expanded="true" />
+                <element signature="e#1905#1906#0" expanded="true" />
+                <element signature="e#1932#1933#0" expanded="true" />
+                <element signature="e#1973#1974#0" expanded="true" />
+                <element signature="e#2005#2006#0" expanded="true" />
+                <element signature="e#2038#2039#0" expanded="true" />
+                <element signature="e#2067#2068#0" expanded="true" />
+                <element signature="e#2111#2112#0" expanded="true" />
+                <element signature="e#2147#2148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DaiLiBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding>
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#946#947#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GyxxBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#1009#1010#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1381#1382#0" expanded="true" />
+                <element signature="e#1429#1430#0" expanded="true" />
+                <element signature="e#1469#1470#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,8 +228,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/spring-redis-xml">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-156">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -136,13 +246,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/PageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="520">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#378#379#0" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
                 <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
                 <element signature="e#716#717#0" expanded="true" />
               </folding>
             </state>
@@ -152,8 +264,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="1040">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -194,7 +306,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cluod-proviter-wlz/src/main/java/com/xb/CluodProviterWlzApplication.java" />
         <option value="$PROJECT_DIR$/cluod-fegin-wlz/src/main/java/com/xb/CluodFeginWlzApplication.java" />
         <option value="$PROJECT_DIR$/cluod-fegin-wlz/src/main/java/com/xb/controller/DemoController.java" />
         <option value="$PROJECT_DIR$/cluod-fegin-wlz/pom.xml" />
@@ -210,8 +321,6 @@
         <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/service/DemoServiceFeign.java" />
         <option value="$PROJECT_DIR$/cluod-proviter/pom.xml" />
         <option value="$PROJECT_DIR$/cluod-proviter/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GoodsBean.java" />
-        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DaiLiBean.java" />
         <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main2.html" />
         <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/dlxx.html" />
         <option value="$PROJECT_DIR$/cluod-proviter/src/main/java/com/xb/controller/DemoControllerImp.java" />
@@ -228,9 +337,7 @@
         <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/yem.html" />
         <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/zs.html" />
         <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add2.html" />
-        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GyxxBean.java" />
         <option value="$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/mapper/DemoMapper.java" />
-        <option value="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml" />
         <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying.html" />
         <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html" />
         <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main.html" />
@@ -239,12 +346,17 @@
         <option value="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/spring-redis-xml" />
         <option value="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cluod-provider-wlz/pom.xml" />
-        <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" />
-        <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" />
         <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/PageController.java" />
         <option value="$PROJECT_DIR$/cluod-api-wlz/src/main/java/com/xb/service/DemoServiceApi.java" />
         <option value="$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java" />
+        <option value="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml" />
+        <option value="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/spring-redis-xml" />
+        <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GoodsBean.java" />
+        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DaiLiBean.java" />
+        <option value="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GyxxBean.java" />
+        <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" />
       </list>
     </option>
   </component>
@@ -278,7 +390,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,70 +401,25 @@
             <path>
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-erueka" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-erueka" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-erueka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-erueka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-erueka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-erueka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-provider-wlz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-provider-wlz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-provider-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-provider-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -360,7 +427,7 @@
             <path>
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-provider-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -369,7 +436,7 @@
             <path>
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-provider-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -379,7 +446,63 @@
             <path>
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-provider-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xb" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -390,18 +513,7 @@
             <path>
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-provider-wlz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-provider-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -409,17 +521,17 @@
             <path>
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-provider-wlz" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,26 +544,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\medicine\cluod-feign-wlz\src\main\resources\templates" />
-      <recent name="E:\medicine\cluod-feign-wlz\src\main\resources\static" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xb" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\medicine\cluod-feign-wlz\src\main\resources" />
       <recent name="E:\medicine\cluod-feign-wlz\src\main\resources\templates" />
+      <recent name="E:\medicine\cluod-feign-wlz\src\main\resources" />
       <recent name="E:\medicine\cluod-feign-wlz\src\main\resources\static" />
       <recent name="E:\medicine\cluod-provider-wlz\src\main\java\com\xb" />
       <recent name="E:\medicine\cluod-provider-wlz\src\main\resources" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.xb" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\medicine\cluod-feign-wlz\src\main\resources\templates" />
+      <recent name="E:\medicine\cluod-feign-wlz\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -516,7 +628,8 @@
       <workItem from="1558341622689" duration="5332000" />
       <workItem from="1558351585663" duration="2951000" />
       <workItem from="1558355022972" duration="5573000" />
-      <workItem from="1558398023639" duration="12329000" />
+      <workItem from="1558398023639" duration="12998000" />
+      <workItem from="1558421219233" duration="4576000" />
     </task>
     <task id="LOCAL-00001" summary="wanglizhong">
       <created>1558334221100</created>
@@ -525,11 +638,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558334221100</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wanglizhong 提交">
+      <created>1558419893143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558419893143</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120530000" />
+    <option name="totallyTimeSpent" value="125775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -541,7 +661,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25567323" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25037822" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -558,7 +678,7 @@
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.7479542" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.049099836" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.19639935" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" weight="0.32980332" />
@@ -578,23 +698,10 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="wanglizhong" />
-    <option name="LAST_COMMIT_MESSAGE" value="wanglizhong" />
+    <MESSAGE value="wanglizhong 提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="wanglizhong 提交" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/i18n/LocaleContextHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/web/context/request/RequestContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../maven-repository/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/web/filter/RequestContextFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -646,43 +753,234 @@
     <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/static/yem_files/css.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DaiLiBean.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-proviter-wlz/src/main/resources/mybatis/DemoMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/cluod-proviter-wlz/src/main/java/com/xb/mapper/DemoMapper.java" />
+    <entry file="file://$PROJECT_DIR$/cluod-proviter-wlz/src/main/java/com/xb/controller/DemoControllerImp.java" />
+    <entry file="file://$PROJECT_DIR$/cluod-proviter-wlz/src/main/resources/application.yml" />
+    <entry file="file://$USER_HOME$/Desktop/哈哈哈哈/cluod-proviter-wlz/src/main/java/com/xb/controller/DemoControllerImp.java" />
+    <entry file="file://$PROJECT_DIR$/cluod-proviter-wlz/src/main/java/com/xb/CluodProviterApplication.java" />
+    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/CluodProviderWlzApplicationImpl.java" />
+    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/CluodProviderWlzApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.xb:medicine:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.xb:medicine:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.xb:medicine:1.0-SNAPSHOT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="256.0" y="99.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/static/bootstrap3/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/zs.html" />
+    <entry file="file://$PROJECT_DIR$/cluod-api-wlz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/static/gunying_files/index_08.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/static/gunying_files/index_06.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/static/gunying_files/index_03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="106" column="41" lean-forward="true" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1267">
+          <caret line="265" column="37" selection-start-line="265" selection-start-column="37" selection-end-line="265" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6932">
+          <caret line="194" column="12" selection-start-line="194" selection-start-column="12" selection-end-line="194" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="23" />
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/spring-redis.xml" />
+    <entry file="file://$PROJECT_DIR$/../first_week_wlz/users/src/main/java/com/jk/wlz/ConstantConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/CluodFeignWlzApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/spring-redis-xml" />
+    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-erueka/src/main/java/com/xb/CluodEruekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-api-wlz/src/main/java/com/xb/service/DemoServiceApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/mapper/DemoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/service/DemoServiceFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/house/fangyuan-provider-rhj/src/main/java/com/jk/FangyuanProviderRhjApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/addHouse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1976">
+          <caret line="158" column="39" lean-forward="true" selection-start-line="158" selection-start-column="39" selection-end-line="158" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/spring-redis-xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GoodsBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="130">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="46" />
           <folding>
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#462#463#0" expanded="true" />
@@ -740,76 +1038,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-proviter-wlz/src/main/resources/mybatis/DemoMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/cluod-proviter-wlz/src/main/java/com/xb/mapper/DemoMapper.java" />
-    <entry file="file://$PROJECT_DIR$/cluod-proviter-wlz/src/main/java/com/xb/controller/DemoControllerImp.java" />
-    <entry file="file://$PROJECT_DIR$/cluod-proviter-wlz/src/main/resources/application.yml" />
-    <entry file="file://$USER_HOME$/Desktop/哈哈哈哈/cluod-proviter-wlz/src/main/java/com/xb/controller/DemoControllerImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-proviter-wlz/src/main/java/com/xb/CluodProviterApplication.java" />
-    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/CluodProviderWlzApplicationImpl.java" />
-    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/CluodProviderWlzApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.xb:medicine:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.xb:medicine:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.xb:medicine:1.0-SNAPSHOT</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="256.0" y="99.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/static/bootstrap3/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/zs.html" />
-    <entry file="file://$PROJECT_DIR$/cluod-api-wlz/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/static/gunying_files/index_08.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/static/gunying_files/index_06.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/static/gunying_files/index_03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GyxxBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="156">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
             <element signature="e#307#308#0" expanded="true" />
             <element signature="e#332#333#0" expanded="true" />
@@ -851,177 +1083,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="106" column="41" lean-forward="true" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1267">
-          <caret line="265" column="37" selection-start-line="265" selection-start-column="37" selection-end-line="265" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6932">
-          <caret line="194" column="12" selection-start-line="194" selection-start-column="12" selection-end-line="194" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-353">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../first_week_wlz/users/src/main/java/com/jk/wlz/ConstantConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/CluodFeignWlzApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/spring-redis-xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DaiLiBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/spring-redis-xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-erueka/src/main/java/com/xb/CluodEruekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="44" column="53" lean-forward="true" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+        <state relative-caret-position="233">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-api-wlz/src/main/java/com/xb/service/DemoServiceApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/service/DemoServiceFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#987#988#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/mapper/DemoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
         </state>
       </provider>
     </entry>

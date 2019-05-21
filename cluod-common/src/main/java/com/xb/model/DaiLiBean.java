@@ -1,7 +1,9 @@
 package com.xb.model;
 
-public class DaiLiBean {
+import java.io.Serializable;
 
+public class DaiLiBean implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String id;
     private String name;
     private String guage;

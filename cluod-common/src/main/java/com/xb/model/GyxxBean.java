@@ -1,7 +1,9 @@
 package com.xb.model;
 
-public class GyxxBean {
+import java.io.Serializable;
 
+public class GyxxBean implements Serializable {
+    private static final long serialVersionUID = 1L;
     private Integer id;
     private String name;
     private String guge;

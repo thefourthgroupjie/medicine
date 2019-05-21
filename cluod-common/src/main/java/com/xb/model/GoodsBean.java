@@ -1,8 +1,10 @@
 package com.xb.model;
 
-import java.util.Date;
 
-public class GoodsBean {
+import java.io.Serializable;
+
+public class GoodsBean implements Serializable {
+    private static final long serialVersionUID = -2430219220702731185L;
     private Integer id;
     private String name;
     private String guge;
