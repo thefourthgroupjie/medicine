@@ -5,10 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cluod-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/cluod-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/img-oss/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-feign-cls/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-proviter-cls/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/cluod-api/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">

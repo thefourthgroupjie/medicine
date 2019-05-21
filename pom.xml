@@ -11,7 +11,9 @@
     <modules>
         <module>cluod-common</module>
         <module>cluod-erueka</module>
-        <module>cluod-api</module>
+        <module>cluod-proviter-cls</module>
+        <module>cluod-feign-cls</module>
+        <module>cluod-api-cls</module>
     </modules>
 
 

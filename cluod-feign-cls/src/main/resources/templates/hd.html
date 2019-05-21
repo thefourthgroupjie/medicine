@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)http://www.xb1y.com/index.php/Home/Activityzone/index.html -->
+<html xmlns:th="http://www.springframework.org/schema/jdbc"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>活动专区</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link rel="stylesheet" href="../hd_files/common.css">
+<link rel="stylesheet" href="../hd_files/css.css">
+<script src="../hd_files/jQuery-2.2.0.min.js.下载"></script>
+<script src="../hd_files/layer.js.下载"></script><link rel="stylesheet" href="../hd_files/layer.css" id="layui_layer_skinlayercss" style="">
+<!--[if lt IE 9]>
+<script src="/Public/houtai/bootstrap/js/html5shiv.min.js"></script>
+<script src="/Public/houtai/bootstrap/js/respond.min.js"></script>
+<![endif]-->
+<link rel="shortcut  icon" type="image/x-icon" href="http://www.xb1y.com/index.php/Home/Activityzone/favicon.ico" media="screen">
+
+    
+<link rel="stylesheet" href="../hd_files/common.css">
+<link rel="stylesheet" href="../hd_files/navregister.css">
+<link rel="stylesheet" href="../hd_files/banner-index.css">
+<script src="../hd_files/lrtk.js.下载"></script>
+
+    <link rel="shortcut  icon" type="image/x-icon" href="http://www.xb1y.com/index.php/Home/Activityzone/favicon.ico" media="screen">
+</head>
+<body class="hold-transition skin-blue sidebar-mini" id="app">
+<div class="wrapper">
+    <header class="main-header">
+<div class="logotop">
+    <div class="logotop-bar">
+        <div class="logotop-lf">
+            Hi,欢迎来到西北医药网
+            <span>
+                【
+                <a href="http://www.xb1y.com/index.php/Home/Member/Member_login.html" style="color: #e57816;">请先登录</a>
+                |
+                <a href="http://www.xb1y.com/index.php/Home/Member/Member_register.html">注册</a>
+                                】
+            </span>
+        </div>
+    </div>
+</div>
+<!--logo栏目-->
+<div class="logobox" style="overflow:initial;height:120px;">
+		<script>
+			$("body").on("input propertychange",".ss-input",function(){
+				 var name=$(".ss-input").val();
+				  // alert(name);
+				   $.ajax({
+						type:'post',
+						url:"/index.php/Home/Index/see.html",
+						data:{'name':name},
+						success:function(data){
+							if(data.state=='1'){
+								var html="";
+								//console.log(data.temp)
+								for(var i=0;i<data.temp.length;i++){
+									html +="<div class='xl-list' inclick>"+data.temp[i].goods_name +"</div>";
+								}
+								
+							   $("#zhaode").html(html);
+								
+							}
+						}
+					});
+				
+			}) 
+			var text22 = '';
+			$("#zhaode").on('mouseover',"div", function(){
+				 text22 = $(this).html()
+			    //$('.ss-input').val()
+			})
+			$('.ss-input').focus(function(){
+				$('.input-xlbox').show();
+				$('.input-xlbox').css('zIndex','999');
+				$('.input-xlbox').css('opacity','1');
+			});
+			$('.ss-input').blur(function(){
+				$('.input-xlbox').css('zIndex','-1');
+				$('.input-xlbox').css('opacity','0');
+				$(this).val(text22)
+			});
+			
+		</script>
+		<style>
+		.input-xlbox{position: absolute;width:350px;top:41px;left:-1px;background:#fff;border:1px solid #ff912f;display:none;}
+		.xl-list{width:100%;padding:5px;box-sizing:border-box;}
+		.xl-list:hover{background:#f2f2f2}
+		</style>
+    </div>
+<!--导航-->
+<div class="navbar">
+    <div class="navbox">
+        <h3>药品分类</h3>
+        <ul class="navbar-list">
+            <li><a href="">活动专区</a></li>
+        </ul>
+    </div>
+</div>
+</header>
+<style>
+.xb-rightbox{width:50px;height:655px;position: fixed;right:0;top:15%;background: #377bee;border-radius: 5px;padding:0 2.5px;box-sizing:border-box;color:#fff;text-align:center;}
+.xb-right_list{color:#fff;margin-top:50px;}
+.xb-right_list img{width:36px;}
+.xb-qq{margin:5px auto;width:20px;height:20px;border-radius:50%;background:#ff5a00;line-height:20px;font-size:12px;}
+</style>
+    <div class="content-wrapper">
+    <section class="content-header">
+        
+
+
+    </section>
+    <section class="content">
+
+<!--位置导航-->
+<div class="location-now">
+    <div class="location-text">
+        <img src="../hd_files/compang_03.png">
+        当前位置： 首页 &gt;  活动专区   &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: red">活动专区所有产品购买后不可退换！</span>
+    </div>
+</div>
+<!--活动专区内容区域-->
+
+        <!--限时秒杀-->
+        <div class="active-containerbox">
+            <div class="avtive-container">
+                <!--限时秒杀-->
+                <div class="xianshimiaosha">
+                    <h1><font color="green" size="30px">限时秒杀</font></h1>
+<!--显示秒杀第一张表格-->
+                    <script type="text/javascript" th:inline="none" >
+                        /* 页面加载 */
+                        $(function () {
+                            initMyTableDrugs();
+                        });
+                        /* 页面查询 */
+                        function initMyTableDrugs() {
+                            var  content="";
+                            $.ajax({
+                                url: "/query/xqdetails",
+                                success: function (item) {
+                                    $.each(item,function (index,obj) {
+                                        content+=' <li>\n' +
+                                            '                            <div class="productzs-imglist">\n' +
+                                            '                                <div class="productimg-top">\n' +
+                                            '                                    <a href="http://localhost:8089/page/MSintroduceOne#?id='+obj.id+'">\n' +
+                                            '                                        <img src="'+obj.picture+'">\n' +
+                                            '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
+                                            '                                        <p class="prodct-newszs-name" style="color: #999">规格:'+obj.gg+'</p>\n' +
+                                            '                                        <h3 class="news-index-pricestyle" style="width: 96%">价格：'+obj.jg+'</h3>                        </a>\n' +
+                                            '                                </div>\n' +
+                                            '                                <a  href=\'javascript:activityid("+obj.id+")\' class="zs-shop">查看详情</a>\n' +
+                                            '                            </div>\n' +
+                                            '                        </li>';
+                                        $("#drugs").html(content);
+                                    })
+
+                                }
+                            })
+                        }
+                    </script>
+                    <ul class="xianshimiaosha-product" id="drugs">
+                    </ul>
+                    <a href="http://localhost:8089/page/more" class="active-morepro">
+                        查看更多&gt;&gt;
+                    </a>
+                </div>
+<!--团购专区-->
+                <div class="tuangouzhuanqu">
+                    <h1><font color="green" size="30px">团购专区</font></h1>
+                    <script type="text/javascript" th:inline="none" >
+                        /* 页面加载 */
+                        $(function () {
+                            querytgzqTableDrugs();
+                        });
+                        /* 页面查询 */
+                        function querytgzqTableDrugs() {
+                            var  content="";
+                            $.ajax({
+                                url: "/query/tgdetails",
+                                success: function (item) {
+                                    $.each(item,function (index,obj) {
+                                        content+=' <li>\n' +
+                                            '                            <div class="productzs-imglist">\n' +
+                                            '                                <div class="productimg-top">\n' +
+                                            '                                    <a href="/Drug/activity?id='+obj.id+'">\n' +
+                                            '                                        <img src="'+obj.picture+'">\n' +
+                                            '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
+                                            '                                        <p class="prodct-newszs-name" style="color: #999">规格:'+obj.gg+'</p>\n' +
+                                            '                                        <h3 class="news-index-pricestyle" style="width: 96%">价格：'+obj.jg+'</h3>                        </a>\n' +
+                                            '                                </div>\n' +
+                                            '                                <a  href=\'javascript:activityck("+obj.id+")\' class="zs-shop">我要参团</a>\n' +
+                                            '                            </div>\n' +
+                                            '                        </li>';
+                                        $("#tgzqdrugs").html(content);
+                                    })
+                                }
+                            })
+                        }
+                    </script>
+                    <ul class="xianshimiaosha-product" id="tgzqdrugs">
+                    </ul>
+                    <a href="http://localhost:8089/page/group" class="active-morepro">
+                        查看更多&gt;&gt;
+                    </a>
+                </div>
+<!--积分兑换-->
+                <div class="jifenduihuan">
+                    <center><h1><font color="green" size="30px">积分兑换</font></h1></center>
+                    <script type="text/javascript" th:inline="none" >
+                        /* 页面加载 */
+                        $(function () {
+                            queryjfdhTableDrugs();
+                        });
+                        /* 页面查询 */
+                        function queryjfdhTableDrugs() {
+                            var  content="";
+                            $.ajax({
+                                url: "/query/jfdetails",
+                                success: function (item) {
+                                    $.each(item,function (index,obj) {
+                                        content+=' <li>\n' +
+                                            '                            <div class="productzs-imglist">\n' +
+                                            '                                <div class="productimg-top">\n' +
+                                            '                                    <a href="/Drug/activity?id='+obj.id+'">\n' +
+                                            '                                        <img src="'+obj.picture+'">\n' +
+                                            '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
+                                            '                                        <p class="prodct-newszs-name" style="color: #999">积分:'+obj.jf+'</p>\n' +
+                                            '                                        <p class="prodct-newszs-name" style="width: 96%">价格：'+obj.jg+'</p>                        </a>\n' +
+                                            '                                </div>\n' +
+                                            '                                <a  href=\'javascript:activityck("+obj.id+")\' class="zs-shop">兑换</a>\n' +
+                                            '                            </div>\n' +
+                                            '                        </li>';
+                                        $("#jfdhdrugs").html(content);
+                                    })
+
+                                }
+                            })
+                        }
+                    </script>
+                    <ul class="xianshimiaosha-product" id="jfdhdrugs">
+                    </ul>
+                    <a href="http://localhost:8089/page/integral" class="tuangou-morelist" style="background-color:#e113b8;">查看更多&gt;&gt;
+                    </a>
+                </div>
+<!--买赠活动-->
+                <div class="maizenhuodong">
+                    <h1>买赠活动</h1>
+
+                    <script type="text/javascript" th:inline="none" >
+
+                        /* 页面加载 */
+                        $(function () {
+                            querymzhdTableDrugs();
+                        });
+
+
+                        /* 页面查询 */
+                        function querymzhdTableDrugs() {
+                            var  content="";
+                            $.ajax({
+                                url: "/query/mzdetails",
+                                success: function (item) {
+                                    $.each(item,function (index,obj) {
+                                        content+=' <li>\n' +
+                                            '                            <div class="productzs-imglist">\n' +
+                                            '                                <div class="productimg-top">\n' +
+                                            '                                    <a href="http://www.xb1y.com/index.php/Home/Goods/goodInfo/id/1.html='+obj.id+'">\n' +
+                                            '                                        <img src="'+obj.picture+'">\n' +
+                                            '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
+                                            '                                        <p class="prodct-newszs-name" style="color: #999">规格:'+obj.gg+'</p>\n' +
+                                            '                                        <h3 class="prodct-newszs-name" style="width: 96%">价格：'+obj.jg+'</h3>                        </a>\n' +
+                                            '                                </div>\n' +
+                                            '                                <a  href=\'javascript:activityck("+obj.id+")\' class="zs-shop">查看详情</a>\n' +
+                                            '                            </div>\n' +
+                                            '                        </li>';
+                                        $("#mzhddrugs").html(content);
+                                    })
+
+                                }
+
+                            })
+
+                        }
+
+                    </script>
+
+                    <ul class="xianshimiaosha-product" id="mzhddrugs">
+                    </ul>
+                    <a href="http://localhost:8089/page/Gift" class="tuangou-morelist" style="background-color:#e113b8;">查看更多&gt;&gt;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+</div>
+    <!--底部内容-->
+<div class="footer-box">
+    <div class="footer-link" style="height:215px;">
+        <div class="erweima-box">
+            <img src="../hd_files/erweima_03.png">
+            <p>扫描关注，微信二维码</p>
+        </div>
+    </div>
+    <div style="padding:15px;font-size:15px;text-align: center;color:#fff">备案号；陕ICP备18007246号-1</div>
+</div>
+<div class="footer-bottom">
+    <p>Copyright ©   西北医药网版权所有</p>
+</div>
+<script>
+    $(function(){
+        $.ajax({
+            'url':"/index.php/HoMme/AjaxMessage/index.html",
+            type:'get',
+            dataType:'json',
+            success:function(data){
+                if(data.status==1) {
+                    if(data.type===1){
+                    	layer.msg(data.message,{icon:1});
+                    }else{
+                    	layer.alert(data.message,{icon:2});
+                    }
+                }
+            }
+        })
+    })
+
+</script>
+
+</body>
+</html>
