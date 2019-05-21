@@ -1,0 +1,24 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+server:
+  port: 8010
+spring:
+  application:
+    name: server-feign
+  thymeleaf:
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+feign:
+  hystrix:
+    enabled: false
+  redis:
+    host: localhost
+    port: 6379
+    maxIdle: 300
+    maxActive: 600
+    maxWait: 1000
+    testOnBorrow: true
+    timeout: 1000

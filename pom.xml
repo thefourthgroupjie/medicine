@@ -11,6 +11,8 @@
     <modules>
         <module>cluod-common</module>
         <module>cluod-erueka</module>
+        <module>cloud-xin</module>
+        <module>cloud-jiao-api</module>
     </modules>
 
 
