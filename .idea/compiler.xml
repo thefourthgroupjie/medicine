@@ -9,15 +9,14 @@
         <module name="cloud-jiao-api" />
         <module name="cluod-api-lll" />
         <module name="cluod-common" />
-        <module name="drug-provider-zh" />
-        <module name="drug-fegin-zh" />
-        <module name="drug-api-zh" />
         <module name="cluod-erueka" />
         <module name="cluod-feign-lll" />
         <module name="cluod-proviter-lll" />
         <module name="dloud-provider" />
         <module name="dluod-fign" />
-        <module name="cluod-common" />
+        <module name="drug-api-zh" />
+        <module name="drug-fegin-zh" />
+        <module name="drug-provider-zh" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

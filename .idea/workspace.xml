@@ -1,28 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42af2251-6960-44f2-b235-96d2c9eb9345" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/ZsBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/util/ExportExcel.java" afterDir="false" />
+    <list default="true" id="ed9caec3-a224-4297-8294-868119a584f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-api-zh/src/main/java/com/xb/service/DrugServiceApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-api-zh/src/main/java/com/xb/service/DrugServiceApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-api-zh/target/classes/com/xb/service/DrugServiceApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/drug-api-zh/target/classes/com/xb/service/DrugServiceApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/DrugController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/DrugController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/AttractPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/AttractPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ComPanyAptitudePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ComPanyAptitudePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ConventionPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ConventionPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugAptitudePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugAptitudePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStoreAptitudePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStoreAptitudePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStorePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStorePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalAptitudePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalAptitudePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/controller/DrugControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/controller/DrugControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/mapper/DrugMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/mapper/DrugMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-provider-zh/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/drug-provider-zh/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-provider-zh/src/main/resources/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/drug-provider-zh/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/cluod-common/target/" />
@@ -58,7 +40,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cluod-proviter-lll/src/main/java/com/xb/CluodProviterLllApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,20 +70,20 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugpage.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/drug-provider-zh/src/main/resources/mybatis/UserMapper.xml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/controller/DrugControllerImpl.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DrugBean.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugAptitudePage.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/drug-provider-zh/src/main/resources/mybatis/UserMapper.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalPage.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/AttractPage.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ConventionPage.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStoreAptitudePage.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ComPanyAptitudePage.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalAptitudePage.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugpage.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/util/ExportExcel.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/controller/DrugController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/controller/DrugControllerImpl.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStorePage.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ComPanyAptitudePage.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugAptitudePage.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/AttractPage.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/drugStoreAptitudePage.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalAptitudePage.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/ConventionPage.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/resources/templates/hospitalPage.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -143,6 +135,12 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="337" />
     <option name="y" value="36" />
@@ -155,6 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,12 +161,73 @@
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-proviter-lll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-proviter-lll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-proviter-lll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-proviter-lll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-proviter-lll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-proviter-lll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-proviter-lll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-proviter-lll" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,6 +239,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558420701080" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (2)" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -186,24 +247,24 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\azxsaxa\practical training1\medicine\drug-provider-zh\src\main\resources\mybatis" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.xb" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.xb.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\azxsaxa\practical training1\medicine\drug-fegin-zh\src\main\java\com\xb" />
       <recent name="D:\azxsaxa\practical training1\medicine\drug-fegin-zh\src\main\resources\static" />
       <recent name="D:\azxsaxa\practical training1\medicine\drug-provider-zh\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.xb.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\azxsaxa\practical training1\medicine\drug-provider-zh\src\main\resources\mybatis" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -212,6 +273,11 @@
     </option>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -227,6 +293,34 @@
     <configuration name="CluodEruekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cluod-erueka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xb.CluodEruekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CluodFeignLllApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cluod-feign-lll" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xb.CluodFeignLllApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CluodProviterLllApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cluod-proviter-lll" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xb.CluodProviterLllApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DloudProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dloud-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xb.DloudProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DluodFignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dluod-fign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xb.DluodFignApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -251,7 +345,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="42af2251-6960-44f2-b235-96d2c9eb9345" name="Default Changelist" comment="" />
+      <changelist id="ed9caec3-a224-4297-8294-868119a584f7" name="Default Changelist" comment="" />
       <created>1558010022012</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -265,6 +359,7 @@
       <workItem from="1558275677262" duration="2588000" />
       <workItem from="1558308543653" duration="23759000" />
       <workItem from="1558397153601" duration="13346000" />
+      <workItem from="1558420445367" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="数据中心药品库查询">
       <created>1558065361599</created>
@@ -291,12 +386,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103843000" />
+    <option name="totallyTimeSpent" value="104340000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22312045" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -304,21 +399,22 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.339254" />
-      <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Spring" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004042" side_tool="true" weight="0.27531084" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.339254" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="14" sideWeight="0.4995958" visible="true" weight="0.27886322" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.5759219" />
+      <window_info anchor="bottom" id="Run" order="14" sideWeight="0.4995958" weight="0.27886322" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5004042" side_tool="true" weight="0.27531084" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,6 +465,46 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
@@ -381,20 +517,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1.jar!/org/apache/ibatis/binding/MapperProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.17/tomcat-embed-core-9.0.17.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drug-fegin-zh/src/main/java/com/xb/DrugFeginZhApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -817,6 +939,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-lll/src/main/java/com/xb/CluodFeignLllApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-proviter-lll/src/main/java/com/xb/CluodProviterLllApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
