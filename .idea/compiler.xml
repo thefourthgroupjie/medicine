@@ -10,6 +10,11 @@
         <module name="cluod-erueka" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-jiao-api" target="1.7" />
+      <module name="dloud-provider" target="1.8" />
+      <module name="dluod-fign" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
