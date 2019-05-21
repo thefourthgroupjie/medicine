@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cluod-erueka" />
-        <module name="cluod-provider-wlz" />
+        <module name="cluod-api-wlz" />
         <module name="cluod-feign-wlz" />
         <module name="cluod-common" />
-        <module name="cluod-api-wlz" />
+        <module name="cluod-provider-wlz" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

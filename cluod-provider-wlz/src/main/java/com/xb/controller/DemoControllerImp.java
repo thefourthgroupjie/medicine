@@ -3,6 +3,7 @@ package com.xb.controller;
 import com.xb.mapper.DemoMapper;
 import com.xb.model.DaiLiBean;
 import com.xb.model.GoodsBean;
+import com.xb.model.GyxxBean;
 import com.xb.service.DemoServiceApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -42,6 +43,20 @@ public class DemoControllerImp implements DemoServiceApi {
         return params;
     }
 
+
+
+    @RequestMapping(value = "findGlxx",method = RequestMethod.POST)
+    @ResponseBody
+    @Override
+    public Map<String, Object> findGlxx(Integer page, Integer rows) {
+        HashMap<String, Object> params = new HashMap<>();
+        int total= demoMapper.findGlxxCount();
+        int start=(page-1)*rows;
+        List<GyxxBean>list=demoMapper.findGlxx(start,rows);
+        params.put("total",total);
+        params.put("rows",list);
+        return params;
+    }
 
 
 }

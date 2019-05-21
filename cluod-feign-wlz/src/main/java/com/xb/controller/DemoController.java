@@ -20,12 +20,15 @@ public class DemoController {
     @Autowired
     private DemoServiceFeign demoServiceFeign;
 
+
     // 查询招商列表信息
     @RequestMapping(value = "queryGoods",method = RequestMethod.GET)
     @ResponseBody
-    public List<GoodsBean> queryGoods(GoodsBean goodsBean){
+    public List<GoodsBean> queryGoods(GoodsBean goodsBean) {
         return demoServiceFeign.queryGoods(goodsBean);
     }
+
+
     //分页查询
     @RequestMapping(value = "findDaiLi",method = RequestMethod.GET)
     @ResponseBody
@@ -34,4 +37,12 @@ public class DemoController {
 
     }
 
+
+    //分页查询
+    @RequestMapping(value = "findGlxx",method = RequestMethod.GET)
+    @ResponseBody
+    public Map<String,Object> findGlxx(Integer page, Integer rows) {
+        return demoServiceFeign.findGlxx(page, rows);
+
     }
+}

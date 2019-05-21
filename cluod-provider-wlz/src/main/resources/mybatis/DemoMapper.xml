@@ -10,7 +10,7 @@
     from t_gyxx tg
     left join t_dept t1 on tg.sheId = t1.id
     left join t_dept t2 on tg.shiId = t2.id
-    left join t_dept t3 on tg.quId = t3.id limit 5
+    left join t_dept t3 on tg.quId = t3.id
     </select>
     <select id="findDaiLiCount" resultType="int" parameterType="com.xb.model.DaiLiBean">
         select count(*) from t_zs
@@ -18,6 +18,19 @@
 
     <select id="findDaiLi" resultType="com.xb.model.DaiLiBean">
           select t.id,t.name,t.quyu,t.shenc,t.guage,t.time from t_zs t
+        limit #{start},#{rows}
+    </select>
+
+
+    <select id="findGlxxCount" resultType="int" parameterType="com.xb.model.GyxxBean">
+        select count(*) from t_gyxx
+    </select>
+
+    <select id="findGlxx" resultType="com.xb.model.GyxxBean">
+        select tg.id,tg.name,tg.lxdh,tg.lxr,tg.shul,tg.time,t.guge,
+         tf.name as typeName
+        from t_gyxx tg
+        left join t_fltype_copy1 tf on tg.typeId = tf.id
         limit #{start},#{rows}
     </select>
 </mapper>
