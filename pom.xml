@@ -11,8 +11,12 @@
     <modules>
         <module>cluod-common</module>
         <module>cluod-erueka</module>
-        <module>cloud-xin</module>
+        <module>dloud-provider</module>
         <module>cloud-jiao-api</module>
+        <module>dluod-fign</module>
+        <module>cluod-api-lll</module>
+        <module>cluod-proviter-lll</module>
+        <module>cluod-feign-lll</module>
     </modules>
 
 

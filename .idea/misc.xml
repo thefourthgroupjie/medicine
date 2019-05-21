@@ -5,10 +5,15 @@
     <file type="web" url="file://$PROJECT_DIR$/cloud-jiao-api" />
     <file type="web" url="file://$PROJECT_DIR$/cloud-xin" />
   </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-proviter-lll/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-feign-lll/pom.xml" />
         <option value="$PROJECT_DIR$/dluod-fign/pom.xml" />
         <option value="$PROJECT_DIR$/dloud-provider/pom.xml" />
       </list>

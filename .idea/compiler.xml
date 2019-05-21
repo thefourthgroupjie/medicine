@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-jiao-api" />
+        <module name="cluod-api-lll" />
         <module name="cluod-common" />
         <module name="cluod-erueka" />
+        <module name="cluod-feign-lll" />
+        <module name="cluod-proviter-lll" />
         <module name="dloud-provider" />
         <module name="dluod-fign" />
       </profile>
@@ -17,6 +20,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cluod-erueka" options="-parameters" />
+      <module name="cluod-feign-lll" options="-parameters" />
+      <module name="cluod-proviter-lll" options="-parameters" />
       <module name="dloud-provider" options="-parameters" />
       <module name="dluod-fign" options="-parameters" />
     </option>
