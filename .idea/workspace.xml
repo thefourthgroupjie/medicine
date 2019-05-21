@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="393682e9-043b-4f6d-becb-ebcc03f2c4b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DaiLiBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/DaiLiBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GoodsBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GoodsBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GyxxBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/GyxxBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml" afterDir="false" />
-    </list>
+    <list default="true" id="393682e9-043b-4f6d-becb-ebcc03f2c4b8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/cluod-common/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="280">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -391,146 +381,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xb" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name="cluod-feign-wlz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -629,7 +480,7 @@
       <workItem from="1558351585663" duration="2951000" />
       <workItem from="1558355022972" duration="5573000" />
       <workItem from="1558398023639" duration="12998000" />
-      <workItem from="1558421219233" duration="4576000" />
+      <workItem from="1558421219233" duration="4811000" />
     </task>
     <task id="LOCAL-00001" summary="wanglizhong">
       <created>1558334221100</created>
@@ -645,14 +496,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558419893143</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="wanglizhong 提交代码">
+      <created>1558432709736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558432709736</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125775000" />
+    <option name="totallyTimeSpent" value="126010000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -661,7 +519,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25037822" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25037822" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -678,7 +536,7 @@
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.7479542" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.19639935" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.20458265" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" weight="0.32980332" />
@@ -699,7 +557,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="wanglizhong" />
     <MESSAGE value="wanglizhong 提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="wanglizhong 提交" />
+    <MESSAGE value="wanglizhong 提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="wanglizhong 提交代码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../maven-repository/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/web/filter/RequestContextFilter.java">
@@ -1118,8 +977,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state relative-caret-position="280">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
