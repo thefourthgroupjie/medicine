@@ -40,4 +40,11 @@ public class ShopServiceImpl implements ShangpinService {
         params.put("rows",list);
         return params;
     }
+
+    @Override
+    public void updateCar(Integer shulian, Integer id) {
+        shopMapper.updateCar(shulian,id);
+    }
+
+
 }

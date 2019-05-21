@@ -162,9 +162,9 @@
                         $('#total').text((($('#total').text()*100+price*100)/100).toFixed(2));
                     }
                 }
-                function shuliang(e) {
+                function shuliang1(e) {
                     var mm = $(e).parent().parent().parent();
-                    var price = mm.find("#goods_price").text();
+                    var price = mm.find("#price").text();
 
                     if(mm.find(".nums").val()==''){
                         mm.find(".nums").val(1);
@@ -241,8 +241,8 @@
                 function getPrice1() {
                     var id = "";
                     var count="";
-                    var shuliang = $("input[name='id[]']:checked").length;
-                    $("#count").html(shuliang);//商品总件数
+                    var shuliang1 = $("input[name='id[]']:checked").length;
+                    $("#count").html(shuliang1);//商品总件数
                     $("input[name='id[]']:checked").each(function(){//复选框class=fxkfxk
                         var countid = "num"+$(this).attr('value');//价格框数值num+id
                         id += id == "" ? $(this).attr('value') : ","+$(this).attr('value');
@@ -367,21 +367,24 @@
                     '            <li class="myshopcar-num">\n' +
                     '                <div class="num-add-jian">\n' +
                     '                    <a href="javascript:void(0);" onclick="reduce(this)">-</a>\n' +
-                    '                    <input onkeyup="this.value=this.value.replace(/[^\\d]/g,\'\');" onBlur="shuliang(this) " onafterpaste="this.value=this.value.replace(/\\D/g,\'\')" type="text" name="goods_num[]" class="nums" id="num'+data[i].id+'" value="'+ data[i].shulian+'">\n' +
+                    '                    <input onkeyup="this.value=this.value.replace(/[^\\d]/g,\'\');" onBlur="shuliang1(this) " onafterpaste="this.value=this.value.replace(/\\D/g,\'\')" type="text" name="goods_num[]" class="nums" id="num'+data[i].id+'" value="'+ data[i].shulian+'">\n' +
                     '                    <a href="javascript:void(0);" onclick="plus(this)">+</a>\n' +
                     '                </div>\n' +
                     '            </li>\n' +
                     '            <li class="myshopcar-count" style="color: #fe1b1b;font-weight: bold;">￥<span id="price">'+(data[i].price*data[i].shulian)+'</span></li>\n' +
                     '            <li class="myshop-itemlist">\n' +
-                    '                <a href="javascript:void(0);" onclick="del_cart(this,912)">删除</a>\n' +
+                    '                <input type="button"   value="删除"  onclick="deleteCar('+data[i].id+')">\n' +
                     '                <a href="javascript:void(0);">收藏</a>\n' +
                     '            </li>\n' +
                     '        </ul>'
                 }
+
                 $("#myshoppro-list").append(html1)
             }
         })
     }
+
+
 </script>
 <script type="text/javascript">
     $('#num').keyup(function (){
@@ -393,6 +396,18 @@
             this.value='';
         }
     })
+    function deleteCar(id){
+        $.ajax({
+            url: "/deleteCar?id="+id,
+            type: "get",
+            success: function () {
+                if (confirm("已经删除")) {
+
+                }
+            }
+        })
+    }
+
 </script>
 
 </body>

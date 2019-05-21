@@ -16,4 +16,7 @@ public interface ShopMapper {
     int findDrugCount();
 
     List<ShopModel> findDrugList(int start, Integer rows);
+
+
+    void updateCar(Integer shulian, Integer id);
 }

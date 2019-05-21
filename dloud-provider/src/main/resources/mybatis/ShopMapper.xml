@@ -20,7 +20,9 @@
         <!--<include refid="where"></include>-->
         limit #{start},#{rows}
     </select>
-
+    <update id="updateCar">
+        update j_drug_name set shulian =#{shulian} where id = #{id}
+    </update>
 
 
 

@@ -72,16 +72,44 @@ public class ShopController {
 
         return shopService.findDrugAll(page,rows);
     }
+    //加入购物车
     @RequestMapping(value = "addDrugCar")
     @ResponseBody
     public ShopModel addDrugCar(Integer id,Integer shulian){
         ShopModel shopModel = new ShopModel();
         //List<ShopModel> shoplist = new ArrayList<>();
         String niubikey ="keys2"+"1";
+        shopService.updateCar(shulian,id);
         shopModel = (ShopModel) shopService.queryShop(id);
         redisTemplate.opsForList().leftPush(niubikey, shopModel);
         return shopModel;
     }
+    //删除商品
+    @RequestMapping(value = "deleteCar")
+    @ResponseBody
+    public void deleteCar(Integer id){
+        //定义缓存key
+        String key ="keys2"+"1";
+        //根据key查找数据
+        List<ShopModel> list = (List<ShopModel>)redisTemplate.opsForList().range(key, 0, -1);
+        //循环
+        redisTemplate.delete(key);
+        ShopModel wupin = new  ShopModel();
+        for (int k=0;k<list.size();k++){
+            wupin = (ShopModel)list.get(k);
+            Integer wupinid =  wupin.getId();
+            if (id.equals(wupinid)){
+                System.out.println(wupinid);
+            }else {
+                redisTemplate.opsForList().leftPush(key, wupin);
+            }
+        }
+    }
+
+    //走后台+   -
+
+
+
     /**
      * 1.支付完成减库存2.赠订单3.删缓存
      * @param ids
