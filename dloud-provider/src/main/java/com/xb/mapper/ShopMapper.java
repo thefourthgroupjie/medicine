@@ -12,4 +12,8 @@ public interface ShopMapper {
 
 
     ShopModel queryShop(Integer id);
+
+    int findDrugCount();
+
+    List<ShopModel> findDrugList(int start, Integer rows);
 }

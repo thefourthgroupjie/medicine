@@ -80,8 +80,8 @@
             <!--全选-->
             <script language="JavaScript" type="text/javascript">
                 function zhifu() {
-                    var money=$("#total").text();
-                    var productId =document.getElementById('productid').value;
+                    var price=$("#total").text();
+                    var drugid =document.getElementById('drugid').value;
                     var id="";
                     var count="";
                     $("input[name='id[]']:checked").each(function(){//复选框class=fxkfxk
@@ -89,9 +89,9 @@
                         id += id == "" ? $(this).attr('value') : ","+$(this).attr('value');
                         count += count == "" ? $("input[id='"+countid+"']").val() : ","+$("input[id='"+countid+"']").val();
                     })
-                    window.location.href="../pay?money="+money;
+                    window.location.href="/goAlipay?price="+price;
                     $.ajax({
-                        url:"../addOrdelGoods",
+                        url:"/addOrdelGoods",
                         type:"get",
                         data:{
                             id:id,
@@ -149,7 +149,7 @@
                 //数量增加操作
                 function plus(e){
                     var mm = $(e).parent().parent().parent();
-                    var price = mm.find("#goods_price").text();
+                    var price = mm.find("#price").text();
 
                     if(mm.find(".nums").val()==''){
                         mm.find(".nums").val(1);
@@ -177,7 +177,7 @@
                 //数量减少操作
                 function reduce(e){
                     var mm = $(e).parent().parent().parent();
-                    var price = mm.find("#goods_price").text();
+                    var price = mm.find("#price").text();
 
                     if(mm.find(".nums").val()==''){
                         mm.find(".nums").val(1);
@@ -249,7 +249,7 @@
                         count += count == "" ? $("input[id='"+countid+"']").val() : ","+$("input[id='"+countid+"']").val();
                     })
                     $.ajax({
-                        url:"../queryTotal",
+                        url:"/queryTotal",
                         data:{"id":id,"count":count},
                         success:function (data) {
                             $("#total").html(data);
@@ -344,8 +344,6 @@
             type:"get",
             dataType:"json",
             success:function (data) {
-
-
                 /*alert(data);
                 var  car=data.webDrugBean;
                 alert(car.length);*/
@@ -355,9 +353,9 @@
                         '        <ul class="myshop-pro-information">\n' +
                         '            <li class="myshopcar-choise">\n' +
                         '                <input type="checkbox" name="id[]" onclick="getPrice1()" value="'+ data[i].id+'" style="margin: 30px 10px 0 20px;float: left;">\n' +
-                        '                <input type="hidden" name="name[]" id="id" value="'+ data[i].id+'">\n' +
+                        '                <input type="hidden" name="drugid[]" id="drugid" value="'+ data[i].id+'">\n' +
                         '                <a href="/index.php/Home/Goods/goodInfo/id/912.html" target="_black" class="myshop-pro-img">\n' +
-                        '                    <img src="'+data[i].price+'">\n' +
+                        '                    <img src="'+data[i].drugimg+'">\n' +
                         '                </a>\n' +
                         '            </li>\n' +
                         '            <li class="myshop-proinfobox">\n' +

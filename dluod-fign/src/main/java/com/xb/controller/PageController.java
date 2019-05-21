@@ -12,5 +12,10 @@ public class PageController {
         return "mycar";
     }
 
+    @RequestMapping("goxiadan")
+    public String goxiadan(){
+        return "xiadan";
+    }
+
 
 }
