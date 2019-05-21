@@ -1,10 +1,7 @@
 package com.xb.mapper;
 
 
-import com.xb.model.ConventionBean;
-import com.xb.model.DrugBean;
-import com.xb.model.DrugStoreBean;
-import com.xb.model.hospitalBean;
+import com.xb.model.*;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
@@ -30,4 +27,15 @@ public interface DrugMapper {
     List<DrugBean> findComPanyList(int start, Integer rows);
 
     List<ConventionBean> findConventionList();
+
+
+    List<ConventionBean> queryConventionListPoi(@Param("id") Integer id);
+
+    List<CompanyBean> queryCompanyListPoi(@Param("id") Integer id);
+
+    List<DrugStoreBean> queryDrugStoreListPoi(@Param("id") Integer id);
+
+    List<DrugBean> queryDrugListPoi(@Param("id") Integer id);
+
+    List<ZsBean> queryAttratListPoi();
 }

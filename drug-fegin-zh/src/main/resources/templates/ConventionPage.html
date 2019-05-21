@@ -108,10 +108,10 @@
         initConventionTable();
 
     })
-    //查询医院大全数据
+    //查询医药会展数据
     function initConventionTable(){
         $("#conventionTable").bootstrapTable({
-            url:"/drug/findConventionList",
+            url:"/findConventionList",
             //search:true,//是否显示搜索框
             //searchText:'试试',//初始化搜索文字
             showColumns:false,//是否显示 内容列下拉框
@@ -122,22 +122,22 @@
             showFooter:false,//是否显示列脚
             clickToSelect: true, //是否启用点击选中行
             striped:true,//斑马线
-            queryParams:function(){
-                return{
-
-                }
-            },
             columns:[
                 {field:'id',title:"ID"},
                 {field:'name',title:'资料名'},
                 {field:'123',title:'下载地址',formatter:function(value,row,index){
-                        return '<a   href="javascript:openUserEdit('+row.id+');">点击下载</a>';
+                        return '<a   href="javascript:exportExcel1('+row.id+');">点击下载</a>';
                     }},
                 {field:'111',title:'获取密码',formatter:function(value,row,index){
                         return '<a   href="javascript:openUserEdit('+row.id+');">获取密码</a>';
                     }}
             ]
         })
+    }
+
+    //下载
+    function exportExcel1(id){
+     location.href="./exportExcel1?id="+id;
     }
 </script>
 </html>

@@ -123,7 +123,7 @@
     //查询药品库数据
     function initMyTable(){
         $("#drugStoreAptitudeTable").bootstrapTable({
-            url:"/drug/findDrugStoreList1",
+            url:"/findDrugStoreList1",
             pagination:true,
             pageList:[5,10,15,20],
             pageNumber:1,
@@ -146,16 +146,21 @@
                 }
             },
             columns:[
-                [
+
                     {field:'id',title:"序号"},
                     {field:'drugstoreName',title:'药店/诊所'},
                     {field:'site',title:'地址'},
                     {field:'123',title:'操作',formatter:function(value,row,index){
-                            return '<a   href="javascript:openUserEdit('+row.id+');">下载</a>';
+                            return '<a   href="javascript:exportExcel3('+row.id+');">下载</a>';
                         }}
-                ]
+
             ]
         })
+    }
+
+    //下载
+    function exportExcel3(id){
+        location.href="./exportExcel3?id="+id;
     }
 </script>
 </html>

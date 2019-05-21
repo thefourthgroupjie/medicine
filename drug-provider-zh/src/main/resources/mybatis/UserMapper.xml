@@ -55,6 +55,7 @@
         select * from t_hospital
     </select>
 
+
     <select id="findComPanyCount" resultType="int" parameterType="com.xb.model.CompanyBean">
          select count(*) from t_company
 </select>
@@ -66,5 +67,24 @@
     <select id="findConventionList" resultType="com.xb.model.ConventionBean">
         select * from t_convention
     </select>
+    <select id="queryConventionListPoi" resultType="com.xb.model.ConventionBean">
+        select * from t_convention where id=#{id}
+    </select>
 
+    <select id="queryCompanyListPoi" resultType="com.xb.model.CompanyBean">
+         select * from t_company where id=#{id}
+</select>
+    <select id="queryDrugListPoi" resultType="com.xb.model.DrugBean">
+        select * from t_drug where drugId=#{id}
+
+    </select>
+
+    <select id="queryDrugStoreListPoi" resultType="com.xb.model.DrugStoreBean">
+        select * from t_drugstore  where id=#{id}
+
+    </select>
+
+    <select id="queryAttratListPoi" resultType="com.xb.model.ZsBean">
+        select * from t_zs
+    </select>
 </mapper>

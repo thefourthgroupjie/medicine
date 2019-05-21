@@ -121,7 +121,7 @@
     //查询药品库数据
     function initMyTable(){
         $("#ComPanyTable").bootstrapTable({
-            url:"/drug/findComPanyList",
+            url:"/findComPanyList",
             pagination:true,
             pageList:[5,10,15,20],
             pageNumber:1,
@@ -144,15 +144,20 @@
                 }
             },
             columns:[
-                [
+
                     {field:'id',title:"编号"},
                     {field:'companyName',title:"企业名称"},
                     {field:'123',title:'操作',formatter:function(value,row,index){
-                            return '<a   href="javascript:openUserEdit('+row.id+');">申请下载</a>';
+                            return '<a   href="javascript:exportExcel4('+row.id+');">申请下载</a>';
                         }}
-                ]
+
             ]
         })
+    }
+
+    //下载
+    function exportExcel4(id){
+        location.href="./exportExcel4?id="+id;
     }
 </script>
 </html>

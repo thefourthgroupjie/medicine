@@ -127,7 +127,7 @@
     //查询药品库数据
     function initMyTable(){
         $("#drugAptitudeTable").bootstrapTable({
-            url:"/drug/findDrugList",
+            url:"/findDrugList",
             pagination:true,
             pageList:[5,10,15,20],
             pageNumber:1,
@@ -150,17 +150,22 @@
                 }
             },
             columns:[
-                [
+
                     {field:'drugId',title:'药品编号'},
                     {field:'drugName',title:'产品名称'},
                     {field:'specification',title:'规格'},
                     {field:'manEnterprise',title:'生产企业'},
                     {field:'123',title:'操作',formatter:function(value,row,index){
-                            return '<a   href="javascript:openUserEdit('+row.id+');">下载</a>';
+                            return '<a   href="javascript:exportExcel2('+row.drugId+');">下载</a>';
                         }}
-                ]
+
             ]
         })
+    }
+
+    //下载
+    function exportExcel2(id){
+        location.href="./exportExcel2?id="+id;
     }
 </script>
 </html>

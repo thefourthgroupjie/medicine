@@ -79,6 +79,48 @@ public class DrugControllerImpl implements DrugServiceApi {
     @ResponseBody
     @Override
     public List<ConventionBean> findConventionList() {
+
         return drupMapper.findConventionList();
     }
+
+    @RequestMapping(value = "queryConventionListPoi",method = RequestMethod.POST)
+    @ResponseBody
+    @Override
+    public List<ConventionBean> queryConventionListPoi(Integer id) {
+        return drupMapper.queryConventionListPoi(id);
+    }
+
+
+    @RequestMapping(value = "queryDrugListPoi",method = RequestMethod.POST)
+    @ResponseBody
+    @Override
+    public List<DrugBean> queryDrugListPoi(Integer id) {
+        return drupMapper.queryDrugListPoi(id);
+    }
+
+
+    @RequestMapping(value = "queryDrugStoreListPoi",method = RequestMethod.POST)
+    @ResponseBody
+    @Override
+    public List<DrugStoreBean> queryDrugStoreListPoi(Integer id) {
+        return drupMapper.queryDrugStoreListPoi(id);
+    }
+
+
+    @RequestMapping(value = "queryCompanyListPoi",method = RequestMethod.POST)
+    @ResponseBody
+    @Override
+    public List<CompanyBean> queryCompanyListPoi(Integer id) {
+        return drupMapper.queryCompanyListPoi(id);
+    }
+
+    @RequestMapping(value = "queryAttratListPoi",method = RequestMethod.GET)
+    @ResponseBody
+    @Override
+    public List<ZsBean> queryAttratListPoi() {
+        return drupMapper.queryAttratListPoi();
+    }
+
+
 }
+

@@ -48,7 +48,7 @@
         <div class="location-now">
             <div class="location-text">
                 <img src="http://www.xb1y.com/Public/qiantai/images/compang_03.png">
-                当前位置： 首页 >  数据中心  >招商信息下载
+                当前位置： 首页 > 数据中心 >招商信息下载
             </div>
         </div>
         <!--数据中心-->
@@ -95,24 +95,29 @@
                     </li>
                 </ul>
             </div>
-<!--指定日期下载-->
-<div id="toolbar">
-    <form class="form-inline">
-        <div class="form-group">
-            <label for="userdate">起始日期:</label>
-            <div class="input-group" id="userdate">
-                <input type="text" class="form-control date" id="startTime">
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="userdate">结束日期:</label>
-            <div class="input-group" id="userdate">
-                <input type="text" class="form-control date" id="endTime">
-            </div>
-        </div>
-        <button type="button" class="btn btn-warning glyphicon glyphicon-cloud-download" onclick="searchUser()">开始下载</button>
+            <!--指定日期下载-->
+            <div id="toolbar">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="userdate">起始日期:</label>
+                        <div class="input-group" id="userdate">
+                            <input type="text" class="form-control date" id="startTime">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="userdate">结束日期:</label>
+                        <div class="input-group" id="userdate">
+                            <input type="text" class="form-control date" id="endTime">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-warning glyphicon glyphicon-cloud-download"
+                            onclick="exportExcel5()">开始下载
+                    </button>
 
-    </form>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 <script>
@@ -126,5 +131,8 @@
         todayBtn: true//显示今日按钮
     });
 
+    function exportExcel5(){
+        location.href="./exportExcel5";
+    }
 </script>
 </html>
