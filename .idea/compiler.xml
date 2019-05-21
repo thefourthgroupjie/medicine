@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-api-rhj" />
+        <module name="cloud-feign-rhj" />
+        <module name="cloud-provider-rhj" />
         <module name="cluod-common" />
         <module name="cluod-erueka" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-api" target="1.7" />
+      <module name="xb-feign-rhj" target="1.8" />
+      <module name="xb-provider-rhj" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-feign-rhj" options="-parameters" />
+      <module name="cloud-provider-rhj" options="-parameters" />
       <module name="cluod-erueka" options="-parameters" />
     </option>
   </component>

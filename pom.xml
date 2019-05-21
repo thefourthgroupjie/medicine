@@ -11,6 +11,9 @@
     <modules>
         <module>cluod-common</module>
         <module>cluod-erueka</module>
+        <module>cloud-api-rhj</module>
+        <module>cloud-feign-rhj</module>
+        <module>cloud-provider-rhj</module>
     </modules>
 
 

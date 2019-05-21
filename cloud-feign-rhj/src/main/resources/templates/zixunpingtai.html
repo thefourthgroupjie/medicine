@@ -1,0 +1,568 @@
+﻿    <!DOCTYPE html>
+<!-- saved from url=(0053)http://www.xb1y.com/index.php/Home/Article/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>资讯平台</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link rel="stylesheet" href="/zixunpingtai_files/common.css">
+<link rel="stylesheet" href="/zixunpingtai_files/css.css">
+<script src="/zixunpingtai_files/jQuery-2.2.0.min.js.下载"></script>
+<script src="/zixunpingtai_files/layer.js.下载"></script><link rel="stylesheet" href="/zixunpingtai_files/layer.css" id="layui_layer_skinlayercss" style="">
+<!--[if lt IE 9]>
+<script src="/Public/houtai/bootstrap/js/html5shiv.min.js"></script>
+<script src="/Public/houtai/bootstrap/js/respond.min.js"></script>
+<![endif]-->
+<link rel="shortcut  icon" type="image/x-icon" href="http://www.xb1y.com/index.php/Home/Article/favicon.ico" media="screen">
+
+    
+<link rel="stylesheet" href="/zixunpingtai_files/common.css">
+<link rel="stylesheet" href="/zixunpingtai_files/navregister.css">
+
+    <link rel="shortcut  icon" type="image/x-icon" href="http://www.xb1y.com/index.php/Home/Article/favicon.ico" media="screen">
+</head>
+<body class="hold-transition skin-blue sidebar-mini" id="app">
+<div class="wrapper">
+    <header class="main-header">
+<div class="logotop">
+    <div class="logotop-bar">
+        <div class="logotop-lf">
+            Hi,欢迎来到西北医药网
+            <span>
+                【
+               <span id="user"></span>
+
+                <span id="user1"></span> 
+                                】
+            </span>
+        </div>
+        <ul class="logotop-rt">
+            <li>服务热线：400-0097-600</li>
+            <li><a href="http://www.xb1y.com/index.php/Home/MemberBuyer/MyOrder.html">我的订单 </a></li>
+            <li><a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/wwp/%E6%88%91%E7%9A%84%E8%B4%AD%E7%89%A9%E8%BD%A6.html">我的购物车</a></li> 
+            <li><a href="http://www.xb1y.com/index.php/Home/Article/index.html#">帮助中心</a></li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Article/index.html#">收藏网站</a></li>
+        </ul>
+    </div>
+</div>
+<!--logo栏目-->
+<div class="logobox" style="overflow:initial;height:120px;">
+    <div class="logoimg">
+        <a href="http://www.xb1y.com/index.php/Home/Index/index.html">
+            <img src="/zixunpingtai_files/index_03.png" width="303" height="125">
+        </a>
+    </div>
+    <div class="logobox-rt" style="overflow:initial">
+        <form action="http://www.xb1y.com/index.php/Home/Index/search.html" method="get">
+            <div class="search-box" style="overflow:initial">
+                <input type="text" class="ss-input" name="key" value="" placeholder="请输入关键字进行搜索">
+                <button type="submit">搜索</button>
+				<div class="input-xlbox" id="zhaode">
+					
+						
+					
+				</div>
+            </div>
+        </form>
+		<script>
+
+			
+			$("body").on("input propertychange",".ss-input",function(){
+				 var name=$(".ss-input").val();
+				  // alert(name);
+				   $.ajax({
+						type:'post',
+						url:"/index.php/Home/Index/see.html",
+						data:{'name':name},
+						success:function(data){
+							if(data.state=='1'){
+								var html="";
+								//console.log(data.temp)
+								for(var i=0;i<data.temp.length;i++){
+									html +="<div class='xl-list' inclick>"+data.temp[i].goods_name +"</div>";
+								}
+								
+							   $("#zhaode").html(html);
+								
+							}
+						}
+					});
+				
+			}) 
+			var text22 = '';
+			$("#zhaode").on('mouseover',"div", function(){
+				 text22 = $(this).html()
+			    //$('.ss-input').val()
+			})
+			$('.ss-input').focus(function(){
+				$('.input-xlbox').show();
+				$('.input-xlbox').css('zIndex','999');
+				$('.input-xlbox').css('opacity','1');
+			});
+			$('.ss-input').blur(function(){
+				$('.input-xlbox').css('zIndex','-1');
+				$('.input-xlbox').css('opacity','0');
+				$(this).val(text22)
+			});
+			
+		</script>
+		<style>
+		.input-xlbox{position: absolute;width:350px;top:41px;left:-1px;background:#fff;border:1px solid #ff912f;display:none;}
+		.xl-list{width:100%;padding:5px;box-sizing:border-box;}
+		.xl-list:hover{background:#f2f2f2}
+		</style>
+        <div style="float:right;">
+					
+			
+		             <a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/wwp/%E6%88%91%E7%9A%84%E8%B4%AD%E7%89%A9%E8%BD%A6.html" class="myshopping">
+                <img src="/zixunpingtai_files/index_08.png">
+                我的购物车
+            </a> 
+        </div> 
+    </div>
+</div>
+<!--导航-->
+<div class="navbar">
+    <div class="navbox">
+        <h3>药品分类</h3>
+       <ul class="navbar-list">
+            <li><a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/swh/%E9%A6%96%E9%A1%B5.html">首页</a></li>
+            <li><a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/mwl/%E6%8B%9B%E5%95%86%E4%BB%A3%E7%90%86.html">招商/代理</a></li>
+            <li><a href="file:///C:/Users/dell/Desktop/前台/lyc/上榜企业.html">上榜企业</a></li>
+            <li><a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/gdh/%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83/%E8%B5%84%E8%AE%AF%E5%B9%B3%E5%8F%B0.html">数据中心</a></li>
+            <li><a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/yyh/%E8%B5%84%E8%AE%AF%E5%B9%B3%E5%8F%B0.html">资讯平台</a></li>
+            <li><a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/swh/%E5%8C%BB%E8%8D%AF%E4%BC%9A%E5%B1%95.html">医药会展</a></li>
+            <li><a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/gdh/%E6%B4%BB%E5%8A%A8%E4%B8%93%E5%8C%BA/%E6%B4%BB%E5%8A%A8%E4%B8%93%E5%8C%BA.html">活动专区</a></li> 
+        </ul>
+    </div>
+</div>
+</header>
+<div class="xb-rightbox">
+	<a href="http://www.xb1y.com/index.php/Home/Member/Member_index.html">
+		<div class="xb-right_list">
+			<img alt="" src="/zixunpingtai_files/gr.png">
+			我的
+		</div>
+	</a>
+	 <a href="http://www.xb1y.com/index.php/Home/MemberBuyer/MyOrder.html">
+		<div class="xb-right_list">
+			<img alt="" src="/zixunpingtai_files/dd.png">
+			订单
+		</div>
+	</a>
+	<a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/wwp/%E6%88%91%E7%9A%84%E8%B4%AD%E7%89%A9%E8%BD%A6.html">
+		<div class="xb-right_list">
+			<img alt="" src="/zixunpingtai_files/gwc.png">
+			购物车
+	
+		</div>
+	</a>
+	<a href="http://www.xb1y.com/index.php/Home/Article/index.html#">
+		<div class="xb-right_list">
+			<img alt="" src="/zixunpingtai_files/tw.png">
+			帮助
+		</div>
+	</a>
+	<a href="http://www.xb1y.com/index.php/Home/Article/index.html#">
+		<div class="xb-right_list">
+			<img alt="" src="/zixunpingtai_files/sc.png">
+			收藏
+		</div>
+	</a>
+</div>
+<style>
+.xb-rightbox{width:50px;height:655px;position: fixed;right:0;top:15%;background: #377bee;border-radius: 5px;padding:0 2.5px;box-sizing:border-box;color:#fff;text-align:center;}
+.xb-right_list{color:#fff;margin-top:50px;}
+.xb-right_list img{width:36px;}
+.xb-qq{margin:5px auto;width:20px;height:20px;border-radius:50%;background:#ff5a00;line-height:20px;font-size:12px;}
+</style>
+    <div class="content-wrapper">
+    <section class="content-header">
+        
+
+    </section>
+    <section class="content">
+        
+<!--位置导航-->
+<div class="location-now">
+    <div class="location-text">
+        <img src="/zixunpingtai_files/compang_03.png">
+        当前位置： 首页 &gt;  资讯平台
+    </div>
+</div>
+<!--资讯平台内容-->
+<div class="info-box">
+    <ul class="infobox-top">
+        <li style="background-color:#28aadc;">
+            <a href="D:\liuyue\Dubbo\medicine\cloud-feign-rhj\src\main\resources\templates\zixunpingtai.html">
+                  <img src="/zixunpingtai_files/info_03.png">
+                  <p>资讯专区 </p>
+            </a>
+        </li>
+        <li style="background-color:#219fd0;">
+            <a href="http://www.xb1y.com/index.php/Home/Article/doctorList.html">
+                <img src="/zixunpingtai_files/info_05.png">
+                <p>医药人才专区 </p>
+            </a>
+        </li>
+        <li style="background-color:#e98225;">
+            <a href="http://www.xb1y.com/index.php/Home/Article/video.html">
+                <img src="/zixunpingtai_files/info_07.png">
+                <p>视频专区</p>
+            </a>
+        </li>
+    </ul>
+    <!--资讯平台内容栏目-->
+    <div class="zixun-box">
+        <!--左边栏目内容-->
+        <div class="zixun-box-lf">
+            <!--政策法规栏目-->
+            <div class="zhengcefagui">
+                <!--药企资讯-->
+                <div class="drugcompany">
+                    <h4>
+                        今日头条
+                        <a href="file:///C:/Users/52680/Desktop/%E8%8D%AF%E4%BC%81%E8%B5%84%E8%AE%AF.html">更多&gt;&gt;</a>
+                    </h4>
+                    <ul class="yaoqi-listbox" id="toutiao">
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <a id="toDayContent1" >
+             <div id="toDayContent" style="margin-top: 50px;margin-left: 10px"></div>
+            </a>
+
+            <!--医药人才-->
+            <div class="yiyaorencai">
+                <h2>
+                    医药人才
+                    <a href="http://127.0.0.1:8081/page/yiyao">更多&gt;&gt;</a>
+                </h2>
+                <!--中医执业医师-->
+                <div class="zhongyi-img">
+                    <h5>
+                        <span>中医执业药师</span>
+                        <a href="http://127.0.0.1:8081/page/yiyao">更多&gt;&gt;</a>
+                    </h5>
+                    <div class="img-zylist">
+                    	<div id="zhongyi">
+
+
+
+                        </div>
+                    </div>
+                    <!--西医医师证-->
+                    <h5>
+                        <span>西医执业药师</span>
+                        <a href="http://www.xb1y.com/index.php/Home/Article/doctorList/act/1.html">更多&gt;&gt;</a>
+                    </h5>
+                    <div class="img-zylist">
+                    	<div class="list-imgzy">
+                            <img src="http://langmoren.oss-cn-beijing.aliyuncs.com/langmoren/1558085109904.png">
+                            <dl>
+                                <dt>性别：</dt>
+                                <dd>男</dd>
+                            </dl>
+                            <dl>
+                                <dt>专业：</dt>
+                                <dd>西医</dd>
+                            </dl>
+                            <dl>
+                                <dt>工作区域：</dt>
+                                <dd>深圳</dd>
+                            </dl>
+                            <dl>
+                                <dt>入职条件：</dt>
+                                <dd>挂证</dd>
+                            </dl>
+                            <dl>
+                                <dd style="width:100%;text-align:center;">
+                                	<a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/yyh/%E8%B4%A6%E5%8F%B7%E7%99%BB%E5%BD%95.html"><img src="/zixunpingtai_files/info_37.png" style="margin-left: 4px;">登录查看</a>
+                                	                                </dd>
+                            </dl>
+                        </div>                    </div>
+                </div>
+            </div>
+        </div>
+        <!--右边栏目内容-->
+        <div class="zixun-box-rt">
+            <!--热点话题-->
+            <div class="hot-top-tit">
+                <h5>头条热门</h5>
+                <ul class="hot-top-list" id="titleThree">
+
+                </ul>
+            </div>
+            <!--广告位-->
+            <div class="adds-location">
+			                   <a href="http://www.xb1y.com/index.php/Home/Article/index.html">
+                    <img src="http://langmoren.oss-cn-beijing.aliyuncs.com/langmoren/1558085133259.jpg">
+                </a>
+                <a href="http://www.xb1y.com/index.php/Home/Article/index.html">
+                    <img src="http://langmoren.oss-cn-beijing.aliyuncs.com/langmoren/1558085436706.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+
+
+    </section>
+</div>
+
+</div>
+    <!--底部内容-->
+<div class="footer-box">
+    <div class="footer-link" style="height:215px;">
+         <ul class="footer-linka">
+            <li style="font-size:18px;border-bottom:1.5px solid #fff">采购指南  </li>
+			
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/shrz.html">商户入驻</a></li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/dllc.html">代理流程</a></li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/mjgmlc.html">购买流程</a></li>
+        </ul>
+        <ul class="footer-linka">
+            <li style="font-size:18px; border-bottom:1.5px solid #fff">支付方式 </li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/zxzf.html">在线支付</a></li>
+        </ul>
+        <ul class="footer-linka">
+            <li style="font-size:18px;border-bottom:1.5px solid #fff">配送服务 </li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/smzt.html">上门自提</a></li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/xsps.html">限时配送</a></li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/psfwcx.html">配送服务查询</a></li>
+        </ul>
+        <ul class="footer-linka">
+            <li style="font-size:18px;border-bottom:1.5px solid #fff">售后服务 </li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/thgz.html">退货规则</a></li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/thlc.html">退货流程</a></li>
+        </ul> 
+        <ul class="footer-linka">
+            <li style="font-size:18px;border-bottom:1.5px solid #fff">商家合作</li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/qycg.html">企业采购</a></li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/xs.html">销售</a></li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/dlr.html">代理人</a></li>
+        </ul>
+        <ul class="footer-linka">
+            <li style="font-size:18px;border-bottom:1.5px solid #fff">关于我们</li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/lxwm.html">联系我们</a></li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/qyjj.html">企业简介</a></li>
+        </ul>
+		<ul class="footer-linka">
+            <li style="font-size:18px;border-bottom:1.5px solid #fff">帮助中心</li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/mmzh.html">密码找回</a></li>
+            <li><a href="http://www.xb1y.com/index.php/Home/Index/helpCenter/flag/mmxg.html">密码修改</a></li>
+			<li><a href="http://www.xb1y.com/index.php/Home/Index/liuyan.html">意见与反馈</a></li>
+        </ul>
+        <div class="erweima-box">
+            <img src="/zixunpingtai_files/erweima_03.png">
+            <p>扫描关注，微信二维码</p>
+        </div>
+    </div>
+    <div style="padding:15px;font-size:15px;text-align: center;color:#fff">备案号；陕ICP备18007246号-1</div>
+</div>
+<div class="footer-bottom">
+    <p>Copyright ©   西北医药网版权所有</p>
+</div>
+
+<script>
+
+    $(function () {
+        $.ajax({
+            url:'/drug/queryMedicalpersonnel',
+            type:'get',
+            dataType:'json',
+            success:function (data) {
+                var count = "";
+                for(var i = 0; i < data.length; i++){
+                    count +=
+                        '<div class="list-imgzy">'+
+
+                        '                            <dl>'+
+                        '                                <img src="http://langmoren.oss-cn-beijing.aliyuncs.com/langmoren/1558084949060.jpg " width="260" height="173">'+
+                        '                            </dl>' +
+                        '                            <dl>'+
+                        '                                <dt>'+'性别'+'</dt>' +
+                        '                                <dd>'+data[i].sex+'</dd>' +
+                        '                            </dl>' +
+                        '                            <dl>' +
+                        '                                <dt>'+'专业'+'</dt>' +
+                        '                                <dd>'+data[i].specialtyName+'</dd>' +
+                        '                            </dl>' +
+                        '                            <dl>' +
+                        '                                <dt>'+'工作区域'+'</dt>' +
+                        '                                <dd>'+data[i].workingArea+'</dd>' +
+                        '                            </dl>' +
+                        '                            <dl>' +
+                        '                                <dt>'+'入职条件'+'</dt>' +
+                        '                                <dd>'+data[i].entryRequirement+'</dd>' +
+                        '                            </dl>' +
+                        '                            <dl>' +
+                        '                                <dt>'+'电话号'+'</dt>' +
+                        '                                <dd>'+data[i].cellPhoneNumber+'</dd>' +
+                        '                            </dl>'+
+                        '</div>'
+
+                }
+                $("#zhongyi").html(count);
+            }
+        })
+    })
+
+</script>
+<script>
+    $(function(){
+        $.ajax({
+            'url':"/index.php/Home/AjaxMessage/index.html",
+            type:'get',
+            dataType:'json',
+            success:function(data){
+                if(data.status==1) {
+                    if(data.type===1){
+                    	layer.msg(data.message,{icon:1});
+                    }else{
+                    	layer.alert(data.message,{icon:2});
+                    }
+                }
+            }
+        })
+    })
+
+</script>
+
+<script>
+
+
+    $(function () {
+        $.ajax({
+            url:'/drug/testxinwen',
+            type:'get',
+            async:false,
+            success:function (data) {
+                var objArray = "";
+                for(var i = 0; i <= 5; i++){
+                    objArray +=
+                '<li>'+
+                    '<a href="'+data[i].url+'">'+
+                        '<img src="'+data[i].thumbnail_pic_s+'">'+
+                        '<div class="yaoqibox-rt">'+
+                        '<h5>'+data[i].title+'</h5>'+
+                    '<div class="newset-textzixun">'+
+
+                    '</div>'+
+                    '<strong>'+'详细>>'+'</strong>'+
+                    '</div>'+
+                    '</a>'+
+                    '</li>'
+                }
+                $("#toutiao").html(objArray);
+            }
+        })
+    })
+
+    /*$(function () {
+        $.ajax({
+            url:'/drug/testxinwen',
+            type:'GET',
+            async:false,
+            success:function(a){
+                var objArray=null;
+                $.each(a,(function(index,obj){
+                    if (index == 0) {
+                        objArray=obj;
+                        return;
+                    }
+                }))
+
+                $("#toDayContent").html(objArray.title);
+                $("#toDayContent1").attr('src',objArray.url);
+            }
+        })
+    })*/
+
+
+
+
+</script>
+
+<script>
+	$(function(){
+		$.ajax({
+			url:'drug/queryInformation',
+			type:'GET',
+			data:{'can':'军事'},
+			async:false,
+			success:function(mgs){
+				//alert(mgs);
+				var arr = eval(mgs);
+				var tuu = "";
+				tuu+='<img src="'+arr.result.list[0].pic+'">'
+				$("#tu").html(tuu);
+				var titleone = "";
+				titleone+='<a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/yyh/%E5%8C%BB%E8%8D%AF%E4%BA%BA%E6%89%8D%E5%88%97%E8%A1%A8.html">'+
+                                '<h4>'+arr.result.list[0].headline+'</h4>'
+                                +arr.result.list[0].details+
+                                '<strong class="xiangxi-zc">详细&gt;&gt;</strong>'+
+                            '</a>'    
+				$("#titleOne").html(titleone);
+				var titleone1 = "";
+				for(var i=0;i<arr.result.list.length;i++){
+					var newDate=/\d{4}-\d{1,2}-\d{1,2}/g.exec(arr.result.list[i].time)
+					titleone1+='<li>'+
+								'<a href="http://www.xb1y.com/index.php/Home/Article/article/id/4.html">'+
+                                   '<span>'+arr.result.list[i].title+'</span>'+
+                                   '<i>'+newDate+'</i>'+
+								'</a>'+
+								'</li>'                   
+				}
+				$("#titleOnea").html(titleone1);
+			}
+		})
+	})
+</script>
+<script>
+
+    var req;
+    function getUser(){
+      
+        $.ajax({
+            'url':"http://192.168.101.118:7070/getuser",
+            type:'get',
+            success:function(data){
+        
+        if(data!=null&&data!=""){
+          req=data.userId;
+         $("#hidden_userId").val(req)
+        $("#user").html('<font color="#e57816">'+data.userName+'</font>')
+          $("#user1").html('<a href="javaScript:gouser()">退出</a>')  
+        }else{
+        $("#user").html('<a href="账号登陆.html" style="color: #e57816;">请先登录</a>') 
+        $("#user1").html('<a href="账号注册.html">注册</a>')  
+        }
+            }
+        })
+    }
+  
+     function gouser(){
+     $.ajax({
+            'url':"http://192.168.101.118:7070/gouser",
+            type:'get',
+      async:false,
+            success:function(data){
+        alert(data);
+        location.reload();
+        if(data="退出成功"){
+        $("#user").html('<a href="账号登陆.html" style="color: #e57816;">请先登录</a>') 
+        $("#user1").html('<a href="账号注册.html">注册</a>')
+        }
+            }
+        })
+    }
+
+</script>
+</body>
+</html>
