@@ -16,6 +16,10 @@ public class PageController {
     public String goxiadan(){
         return "xiadan";
     }
+    @RequestMapping("toShouye")
+    public String toShouye(){
+        return "shouye";
+    }
 
 
 }
