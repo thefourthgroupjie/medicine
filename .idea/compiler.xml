@@ -9,13 +9,22 @@
         <module name="cloud-jiao-api" />
         <module name="cluod-api-lll" />
         <module name="cluod-common" />
+        <module name="drug-provider-zh" />
+        <module name="drug-fegin-zh" />
+        <module name="drug-api-zh" />
         <module name="cluod-erueka" />
         <module name="cluod-feign-lll" />
         <module name="cluod-proviter-lll" />
         <module name="dloud-provider" />
         <module name="dluod-fign" />
+        <module name="cluod-common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="culod-api-zh" target="1.7" />
+      <module name="culod-fegin-zh" target="1.8" />
+      <module name="culod-provider-zh" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -24,6 +33,8 @@
       <module name="cluod-proviter-lll" options="-parameters" />
       <module name="dloud-provider" options="-parameters" />
       <module name="dluod-fign" options="-parameters" />
+      <module name="drug-fegin-zh" options="-parameters" />
+      <module name="drug-provider-zh" options="-parameters" />
     </option>
   </component>
 </project>

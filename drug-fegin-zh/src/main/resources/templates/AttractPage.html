@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="/files/common.css">
+    <link rel="stylesheet" href="/files/css.css">
+    <script src="/资讯平台_files/
+-2.2.0.min.js"></script>
+    <script src="/files/layer.js"></script><link rel="stylesheet" href="/files/layer.css" id="layui_layer_skinlayercss" style="">
+    <!--[if lt IE 9]>
+    <script src="/Public/houtai/bootstrap/js/html5shiv.min.js"></script>
+    <script src="/Public/houtai/bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut  icon" type="image/x-icon" href="http://www.xb1y.com/index.php/Home/Information/favicon.ico" media="screen">
+
+
+    <link rel="stylesheet" href="/files/common.css">
+    <link rel="stylesheet" href="/files/navregister.css">
+
+
+
+    <script src="/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/js/bootstrap-table/bootstrap-table.css">
+    <script src="/js/bootstrap-table/bootstrap-table.js"></script>
+    <link rel="stylesheet" href="/bootstrap3/css/bootstrap.css">
+    <script src="/bootstrap3/js/bootstrap.js"></script>
+    <script src="/js/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
+    <script src="/js/bootstrap-bootbox/bootbox.js"></script>
+    <script src="/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+    <script src="/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+
+</head>
+<body>
+<style>
+    .xb-rightbox{width:50px;height:655px;position: fixed;right:0;top:15%;background: #377bee;border-radius: 5px;padding:0 2.5px;box-sizing:border-box;color:#fff;text-align:center;}
+    .xb-right_list{color:#fff;margin-top:50px;}
+    .xb-right_list img{width:36px;}
+    .xb-qq{margin:5px auto;width:20px;height:20px;border-radius:50%;background:#ff5a00;line-height:20px;font-size:12px;}
+</style>
+<div class="content-wrapper">
+    <section class="content-header">
+    </section>
+    <div class="content">
+
+        <!--位置导航-->
+        <div class="location-now">
+            <div class="location-text">
+                <img src="http://www.xb1y.com/Public/qiantai/images/compang_03.png">
+                当前位置： 首页 > 数据中心 >招商信息下载
+            </div>
+        </div>
+        <!--数据中心-->
+        <div class="databig-box">
+            <!--数据栏目顶部列表-->
+            <div class="info-box">
+                <ul class="data-top-list">
+                    <li style="background-color:#28aadc;">
+                        <a href="http://localhost:8081/page/toDrugPage">
+                            <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_03.png">
+                            <p>中标数据药品库 </p>
+                        </a>
+                    </li>
+                    <li style="background-color:#219fd0;">
+                        <a href="http://localhost:8081/page/toDrugStorePage">
+                            <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_05.png">
+                            <p>药店/诊所大全 </p>
+                        </a>
+                    </li>
+                    <li style="background-color:#1b93c1;">
+                        <a href="http://localhost:8081/page/toHospitalPage">
+                            <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_07.png">
+                            <p>医院大全</p>
+                        </a>
+                    </li>
+                    <li style="background-color:#dc7316;">
+                        <a href="http://localhost:8081/page/toAttractPage">
+                            <img src="http://www.xb1y.com/Public/qiantai/images/zhaoshangdown.png">
+                            <p>招商信息下载</p>
+                        </a>
+                    </li>
+                    <li style="background-color:#e3812b;">
+                        <a href="http://localhost:8081/page/toDrugAptitudePage">
+                            <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_09.png">
+                            <p>资质下载</p>
+                        </a>
+                    </li>
+
+                    <li style="background-color:#ef9545;">
+                        <a href="http://localhost:8081/page/toConventionPage">
+                            <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_11.png">
+                            <p>国药会展资料下载</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--指定日期下载-->
+            <div id="toolbar">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="userdate">起始日期:</label>
+                        <div class="input-group" id="userdate">
+                            <input type="text" class="form-control date" id="startTime">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="userdate">结束日期:</label>
+                        <div class="input-group" id="userdate">
+                            <input type="text" class="form-control date" id="endTime">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-warning glyphicon glyphicon-cloud-download"
+                            onclick="exportExcel5()">开始下载
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    //时间格式
+    $('.date').datetimepicker({
+        language: 'zh-CN',//显示中文
+        format: 'yyyy-mm-dd hh:ii:ss',//显示格式
+        minView: "month",//设置只显示到月份
+        initialDate: new Date(),//初始化当前日期
+        autoclose: true,//选中自动关闭
+        todayBtn: true//显示今日按钮
+    });
+
+    function exportExcel5(){
+        location.href="./exportExcel5";
+    }
+</script>
+</html>

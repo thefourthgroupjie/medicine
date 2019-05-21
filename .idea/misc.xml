@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/cluod-feign-lll/pom.xml" />
         <option value="$PROJECT_DIR$/dluod-fign/pom.xml" />
         <option value="$PROJECT_DIR$/dloud-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/drug-provider-zh/pom.xml" />
+        <option value="$PROJECT_DIR$/drug-fegin-zh/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -17,6 +17,7 @@
         <module>cluod-api-lll</module>
         <module>cluod-proviter-lll</module>
         <module>cluod-feign-lll</module>
+        <module>drug-api-zh</module>
     </modules>
 
 
