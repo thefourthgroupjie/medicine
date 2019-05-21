@@ -2,6 +2,7 @@ package com.xb.controller;
 
 import com.xb.model.DaiLiBean;
 import com.xb.model.GoodsBean;
+import com.xb.model.GyxxBean;
 import com.xb.service.DemoServiceFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

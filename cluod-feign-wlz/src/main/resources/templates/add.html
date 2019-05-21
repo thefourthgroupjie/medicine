@@ -81,8 +81,6 @@
                         <button type="submit">搜索</button>
                         <div class="input-xlbox" id="zhaode">
 
-
-
                         </div>
                     </div>
                 </form>
@@ -259,58 +257,7 @@
                 <div class="zhaoshang-box-lf">
                     <form id="search-form" method="post" onsubmit="return false">
                         <input type="hidden" name="tag" id="tag" value="">
-                        <ul class="zs-top-search">
-                            <li>
-                                选择区域：
-                                <select name="province_id" id="province_id" style="width: 130px;height: 30px;" onchange="con_select_submit_form()">
-                                    <option value="">---请选择---</option>
-                                    <option value="1">北京市</option><option value="338">天津市</option><option value="636">河北省</option><option value="3102">山西</option><option value="4670">内蒙古自治区</option><option value="5827">辽宁省</option><option value="7531">吉林省</option><option value="8558">黑龙江省</option><option value="10543">上海市</option><option value="10808">江苏省</option><option value="12596">浙江省</option><option value="14234">安徽省</option><option value="16068">福建省</option><option value="17359">江西省</option><option value="19280">山东省</option><option value="21387">河南省</option><option value="24022">湖北省</option><option value="25579">湖南省</option><option value="28240">广东省</option><option value="30164">广西壮族自治区</option><option value="31563">海南省</option><option value="31929">重庆市</option><option value="33007">四川省</option><option value="37906">贵州省</option><option value="39556">云南省</option><option value="41103">西藏自治区</option><option value="41877">陕西省</option><option value="43776">甘肃省</option><option value="45286">青海省</option><option value="45753">宁夏回族自治区</option><option value="46047">新疆维吾尔自治区</option><option value="47493">台湾省</option><option value="47494">香港特别行政区</option><option value="47495">澳门特别行政区</option>                </select>
-                            </li>
 
-                            <li>
-                                一级分类：
-                                <select name="class1_1" id="class1_1" style="width: 130px;height: 30px;" onchange="get_category();con_select_submit_form()">
-                                    <option value="">请选择商品分类</option>
-                                    <option value="1">中西药品</option><option value="214">医疗器械</option><option value="273">成人用品</option><option value="360">中药饮片</option><option value="584">母婴用品</option><option value="630">滋补养生</option><option value="652">保健用品</option><option value="676">药品原料</option>                </select>
-                                二级分类：
-                                <select name="class1_2" id="class1_2" style="width: 130px;height: 30px;" onchange="get_category();con_select_submit_form()">
-                                    <option value="">请选择商品分类</option>
-                                </select>
-
-                                三级分类：
-                                <select name="class1_3" id="class1_3" style="width: 130px;height: 30px;" onchange="con_select_submit_form()">
-                                    <option value="">请选择商品分类</option>
-                                </select>
-
-                            </li>
-                        </ul>
-                        <!--筛选-->
-                        <ul class="zs-shaixuan">
-                            <li>
-                                排序：
-                                <select name="date_sort" id="date_sort" style="width: 130px;height: 30px;" onchange="change_selected()">
-                                    <option value="">发布日期</option>
-                                    <option value="zs_addtime asc">升序</option>
-                                    <option value="zs_addtime desc">降序</option>
-                                </select>
-                                <select name="price_sort" id="price_sort" style="width: 130px;height: 30px;" onchange="change_selected()">
-                                    <option value="">商品价格</option>
-                                    <option value="goods_price desc">从高到低</option>
-                                    <option value="goods_price asc">从低到高</option>
-                                </select>
-                                <select name="num_sort" id="num_sort" style="width: 130px;height: 30px;" onchange="change_selected()">
-                                    <option value="">交易数量</option>
-                                    <option value="zs_addtime asc">升序</option>
-                                    <option value="zs_addtime desc">降序</option>
-                                </select>
-                            </li>
-                            <li style="float: right;">
-                                <div class="zs-searchrt">
-                                    <input type="text" name="keywords" placeholder="请输入关键词查找">
-                                    <button type="button" onclick="var index = layer.load(2);ajax_get_table()">搜索</button>
-                                </div>
-                            </li>
-                        </ul>
                     </form>
 
 
@@ -321,7 +268,7 @@
                             <h3>最新招商信息</h3>
                             <ul class="top-zs-list">
                                 <li>
-                                    <a href="http://www.xb1y.com/index.php/Home/Agent/agentDet/id/51.html">
+                                    <a href="/page/toDaiLi2">
                                         <h3>
                      <span>
                                              	【陕西省-西安市-莲湖区】

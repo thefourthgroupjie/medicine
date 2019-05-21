@@ -48,7 +48,7 @@ public class DemoControllerImp implements DemoServiceApi {
     @RequestMapping(value = "findGlxx",method = RequestMethod.POST)
     @ResponseBody
     @Override
-    public Map<String, Object> findGlxx(Integer page, Integer rows) {
+    public Map<String, Object> findGlxx(Integer page, Integer rows ) {
         HashMap<String, Object> params = new HashMap<>();
         int total= demoMapper.findGlxxCount();
         int start=(page-1)*rows;

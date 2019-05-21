@@ -24,13 +24,17 @@
 
     <select id="findGlxxCount" resultType="int" parameterType="com.xb.model.GyxxBean">
         select count(*) from t_gyxx
+
     </select>
 
     <select id="findGlxx" resultType="com.xb.model.GyxxBean">
         select tg.id,tg.name,tg.lxdh,tg.lxr,tg.shul,tg.time,tg.guge,
-         tf.name as typeName
+        tf.name as typeName
         from t_gyxx tg
         left join t_fltype_copy1 tf on tg.typeId = tf.id
+
         limit #{start},#{rows}
     </select>
+
+
 </mapper>
