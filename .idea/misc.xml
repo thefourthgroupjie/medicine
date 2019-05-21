@@ -12,6 +12,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-rhj/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-feign-rhj/pom.xml" />
         <option value="$PROJECT_DIR$/cluod-proviter-lll/pom.xml" />
         <option value="$PROJECT_DIR$/cluod-feign-lll/pom.xml" />
         <option value="$PROJECT_DIR$/dluod-fign/pom.xml" />

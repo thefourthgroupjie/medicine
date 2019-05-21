@@ -8,6 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-jiao-api" />
         <module name="cluod-api-lll" />
+        <module name="cloud-api-rhj" />
+        <module name="cloud-feign-rhj" />
+        <module name="cloud-provider-rhj" />
         <module name="cluod-common" />
         <module name="cluod-erueka" />
         <module name="cluod-feign-lll" />
@@ -20,6 +23,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-api" target="1.7" />
+      <module name="xb-feign-rhj" target="1.8" />
+      <module name="xb-provider-rhj" target="1.8" />
+    </bytecodeTargetLevel>
+    <bytecodeTargetLevel>
       <module name="culod-api-zh" target="1.7" />
       <module name="culod-fegin-zh" target="1.8" />
       <module name="culod-provider-zh" target="1.8" />
@@ -27,6 +35,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-feign-rhj" options="-parameters" />
+      <module name="cloud-provider-rhj" options="-parameters" />
       <module name="cluod-erueka" options="-parameters" />
       <module name="cluod-feign-lll" options="-parameters" />
       <module name="cluod-proviter-lll" options="-parameters" />
