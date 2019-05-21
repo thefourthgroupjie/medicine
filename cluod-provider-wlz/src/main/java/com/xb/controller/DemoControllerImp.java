@@ -29,8 +29,6 @@ public class DemoControllerImp implements DemoServiceApi {
         return demoMapper.queryGoods(goodsBean);
     }
 
-
-
     //分页查询
     @RequestMapping(value = "findDaiLi",method = RequestMethod.POST)
     @ResponseBody
