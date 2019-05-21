@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="393682e9-043b-4f6d-becb-ebcc03f2c4b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-api-wlz/target/classes/com/xb/service/DemoServiceApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-api-wlz/target/classes/com/xb/service/DemoServiceApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add2.html" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying.html" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying2.html" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/cluod-common/target/" />
@@ -49,88 +41,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/service/DemoServiceFeign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
-              <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="831">
-              <caret line="234" column="9" lean-forward="true" selection-start-line="234" selection-start-column="9" selection-end-line="234" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="204" column="44" selection-start-line="204" selection-start-column="44" selection-end-line="204" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="253" column="42" lean-forward="true" selection-start-line="253" selection-start-column="42" selection-end-line="253" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="274" column="44" lean-forward="true" selection-start-line="274" selection-start-column="44" selection-end-line="274" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -352,7 +263,7 @@
       <workItem from="1558398023639" duration="12998000" />
       <workItem from="1558421219233" duration="4811000" />
       <workItem from="1558436926881" duration="3019000" />
-      <workItem from="1558440312127" duration="1598000" />
+      <workItem from="1558440312127" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="wanglizhong">
       <created>1558334221100</created>
@@ -375,15 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558432709736</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="wanglizhong 提交啦">
+      <created>1558442059222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558442059222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130627000" />
+    <option name="totallyTimeSpent" value="130921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -430,7 +347,8 @@
     <MESSAGE value="wanglizhong" />
     <MESSAGE value="wanglizhong 提交" />
     <MESSAGE value="wanglizhong 提交代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="wanglizhong 提交代码" />
+    <MESSAGE value="wanglizhong 提交啦" />
+    <option name="LAST_COMMIT_MESSAGE" value="wanglizhong 提交啦" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../maven-repository/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/web/filter/RequestContextFilter.java">
@@ -703,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -731,6 +642,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="253" column="42" lean-forward="true" selection-start-line="253" selection-start-column="42" selection-end-line="253" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="831">
@@ -738,10 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html">
+    <entry file="file://$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="253" column="42" lean-forward="true" selection-start-line="253" selection-start-column="42" selection-end-line="253" selection-end-column="42" />
+        <state relative-caret-position="375">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
         </state>
       </provider>
     </entry>
