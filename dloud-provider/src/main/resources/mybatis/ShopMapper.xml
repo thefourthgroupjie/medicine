@@ -10,5 +10,18 @@
          select * from j_drug_name where id =#{value}
     </select>
 
+    <select id="findDrugCount" resultType="int" parameterType="model.ShopModel">
+        select count(*) from j_drug_name
+        <!--<include refid="where"></include>-->
+    </select>
+
+    <select id="findDrugList" resultType="model.ShopModel">
+        select * from j_drug_name
+        <!--<include refid="where"></include>-->
+        limit #{start},#{rows}
+    </select>
+
+
+
 
 </mapper>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 引入juquery -->
+    <script type="text/javascript" src="/niubi/js/jquery.min.js"></script>
+    <!-- 引入bootstrap的css、js -->
+    <script type="text/javascript" src="/niubi/bootstrap3/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="/niubi/bootstrap3/css/bootstrap.css">
+    <!--引入table-->
+    <script type="text/javascript" src="/niubi/bootstrap-table/bootstrap-table.js"></script>
+    <link rel="stylesheet" href="/niubi/bootstrap-table/bootstrap-table.css">
+    <script type="text/javascript" src="/niubi/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
+    <!--引入bootbox-->
+    <script type="text/javascript" src="/niubi/bootstrap-bootbox/bootbox.js"></script>
+    <!-- 引入日期的css、js -->
+    <link rel="stylesheet" href="/niubi/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css">
+    <script type="text/javascript" src="/niubi/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+    <!-- 引入文件上传的css、js -->
+    <script src="/niubi/js3/bootstrap-fileinput/js/fileinput.js"></script>
+    <link rel="stylesheet" href="/niubi/js3/bootstrap-fileinput/css/fileinput.css">
+    <script src="/niubi/js3/bootstrap-fileinput/js/locales/zh.js"></script>
+</head>
+<body>
+<div id="toolbar">
+    <button type="button" class="btn btn-success" onclick="saveBtn()">首页</button>
+</div>
+<table class="table" id="drugTable"></table>
+
+</body>
+<script type="text/javascript">
+    $(function(){
+        initVideo();
+    })
+    function initVideo(){
+        $("#drugTable").bootstrapTable({
+            toolbar: '#toolbar',
+            url: '../findDrugAll',
+            pagination: true,
+            pageList: [1,2,5,10,20],
+            pageNumber: 1,
+            pageSize: 10,
+            queryParams: function () {
+                return {
+                    page: this.pageNumber,
+                    rows: this.pageSize,
+                }
+            },
+            sidePagination:'server',//分页方式：client客户端分页，server服务端分页
+            columns:[
+                {field: "242", checkbox:true},
+                {field: "id", title: "编号"},
+                {field: "name", title: "名称"},
+                {field: "drugdetails", title: "药品介绍"},
+                {field: "drugfuction", title: "功效"},
+                {field: "kucun", title: "库存"},
+                {field: "drugid", title: "药品id"},
+                {field: "price", title: "价格"},
+
+                {field:'drugimg',title:'药品图片',formatter:function(value,row,index){
+                        return "<img width='50px' height='50px' src='"+value+"'/>";
+                    }},
+                {
+                    field: "tools", title: "操作", formatter: function (value, row, index) {
+                        var html = "<a href='javascript:deleteOne(" + row.id + ")'></a>";
+                        html += "<a href='javascript:updateVideo(" + row.id + ","+row.shulian+")'>加入购物车</a>";
+                        //  html += "<p>数量: <button onclick='numDec()'>-</button> <input type='text' id='quantity' /> <button onclick='numAdd()'>+</button></p>";
+                        return html;
+                    }
+                }
+            ]
+
+        })
+    }
+        //单删
+        function updateVideo(id,shulian){
+            $.ajax({
+                url: "/addDrugCar",
+                type: "get",
+                data: {
+                    id: id,
+                    shulian:shulian
+                },
+                success: function () {
+                    if (confirm("已经加入购物车")) {
+                        $('#myTable').bootstrapTable('refresh');
+                    }
+                }
+            })
+        }
+    /*商品数量+1*/
+    function numAdd(){
+        var quantity = document.getElementById("quantity").value;
+        var num_add = parseInt(quantity)+1;
+        if(quantity==""){
+            num_add = 1;
+        }
+        if(num_add>=10){
+            document.getElementById("quantity").value=num_add-1;
+            alert("商品数量不能大于10");
+        }else{
+            document.getElementById("quantity").value=num_add;
+            var Num=price*num_add;
+            document.getElementById("totalPrice").innerHTML=Num.toFixed(2);
+        }
+    }
+    /*商品数量-1*/
+    function numDec() {
+        var quantity = document.getElementById("quantity").value;
+        var num_dec = parseInt(quantity) - 1;
+        if (num_dec > 0) {
+            document.getElementById("quantity").value = num_dec;
+            var Num = price * num_dec;
+            document.getElementById("totalPrice").innerHTML = Num.toFixed(2);
+        }
+    }
+    function keyup(){
+        var quantity = document.getElementById("quantity").value;
+        if(isNaN(quantity) ||  parseInt(quantity)!=quantity || parseInt(quantity)<1){
+            quantity = 1;
+            return;
+        }
+        if(quantity>=10){
+            document.getElementById("quantity").value=quantity.substring(0,quantity.length-1);
+            alert("商品数量不能大于10");
+        }
+    }
+
+
+
+
+    var res;
+    function createAddContent(url){
+        $.ajax({
+            url:url,
+            async:false,
+            success:function(data){
+                res = data;
+            }
+        });
+        return res;
+    }
+
+    //打开新增弹框
+    function saveBtn(){
+        bootbox.dialog({
+            title: '经纪人入职',
+            message: createAddContent("../toAdd"),
+            closeButton: true,//显示关闭按钮
+            buttons: {
+                "success": {
+
+                    "label": "<i class='icon-ok'></i> 保存",
+                    "className": "btn-sm btn-success",
+                    "callback": function () {
+                        $.ajax({
+                            url: '/insertBroker',
+                            type: 'post',
+                            data: $("#myForm").serialize(),
+                            success: function () {
+
+                                $('#myTable').bootstrapTable('refresh');
+                            }
+                        });
+                    }
+                },
+                "cancel": {
+                    "label": "<i class='icon-info'></i> 取消",
+                    "className": "btn-sm btn-danger",
+                    "callback": function () {
+
+                    }
+                }
+            }
+
+        })
+        initProvince();
+
+    }
+
+    function updateSuo(id){
+        $.ajax({
+            url:'../updateAttentionType/'+id,
+            type:'post',
+            //data:{id:id},
+            success:function(data){
+                if (!data) {
+                    initVideo()
+                }
+            }
+        })
+    }
+    /*function lock(id,attentionType){
+        $.ajax({
+            url:'/updateAttentionType/'+id+'/'+attentionType,
+            type:'post',
+            success:function(data){
+                if (!data) {
+                    initVideo()
+                }
+            }
+        })
+    }*/
+
+    //初始化省的数据
+    function initProvince(){
+        $.ajax({
+            url:"../queryArea",
+            type:"post",
+            data:{id:0},
+            async:false,
+            success:function(data){
+                var str = "<option value=-1>请选择</option>";
+                for(var i =0;i<data.length;i++){
+                    str+="<option value='"+data[i].id+"'>"+data[i].name+"</option>";
+                }
+
+                $("#provinceId").html(str);
+            }
+        })
+    }
+
+    //初始化市的数据
+    function initCity(province){
+        $.ajax({
+            url:"../queryArea",
+            type:"post",
+            data:{id:province},
+            async:false,
+            success:function(data){
+                var str = "<option value=-1>请选择</option>";
+                for(var i =0;i<data.length;i++){
+                    if(data[i].id==province){
+                        str+="<option value='"+data[i].id+"' selected='selected'>"+data[i].name+"</option>";
+                    }else{
+                        str+="<option value='"+data[i].id+"'>"+data[i].name+"</option>";
+                    }
+                }
+                $("#cityId").html(str);
+            }
+        })
+    }
+    //初始化区的数据
+    function initRegion(city){
+        $.ajax({
+            url:"../queryArea",
+            type:"post",
+            data:{id:city},
+            async:false,
+            success:function(data){
+                var str = "<option value=-1>请选择</option>";
+                for(var i =0;i<data.length;i++){
+                    str+="<option value='"+data[i].id+"'>"+data[i].name+"</option>";
+                }
+                $("#shopId").html(str);
+            }
+        })
+    }
+</script>
+</html>
