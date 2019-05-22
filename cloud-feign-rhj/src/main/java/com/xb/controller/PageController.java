@@ -42,5 +42,9 @@ public class PageController {
     public String hd(){
         return "hd";
     }
+    @RequestMapping("ggg")
+    public String gg(){
+        return "tuangou";
+    }
 
 }

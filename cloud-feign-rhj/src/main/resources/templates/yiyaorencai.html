@@ -233,18 +233,23 @@
 <div class="info-box">
     <ul class="infobox-top">
         <li style="background-color:#28aadc;">
-            <a href="http://www.xb1y.com/index.php/Home/Article/index.html">
+            <a href="http://127.0.0.1:8086/page/zixun">
                   <img src="/yiyaorencai_files/info_03.png">
                   <p>资讯专区 </p>
             </a>
         </li>
         <li style="background-color:#219fd0;">
-            <a href="http://www.xb1y.com/index.php/Home/Article/doctorList.html">
+            <a href="http://127.0.0.1:8086/page/yiyao">
                 <img src="/yiyaorencai_files/info_05.png">
                 <p>医药人才专区 </p>
             </a>
         </li>
-
+        <li style="background-color:#e98225;">
+            <a href="/index.php/Home/Article/video.html">
+                <img src="/yiyaorencai_files\info_07.png">
+                <p>视频专区</p>
+            </a>
+        </li>
     </ul>
     <!--资讯平台内容栏目-->
     <div class="zixun-box">
@@ -281,17 +286,18 @@
             <!--热点话题-->
             <div class="hot-top-tit">
                 <h5>热点话题</h5>
-                <ul class="hot-top-list">
-                    <li><a href="http://www.xb1y.com/index.php/Home/Article/article/id/11.html">的点点滴滴多</a></li><li><a href="http://www.xb1y.com/index.php/Home/Article/article/id/8.html">六小龄童遇疯狂别车 网友：没亮金箍棒算对方命大</a></li><li><a href="http://www.xb1y.com/index.php/Home/Article/article/id/6.html">军委机关将总体实行“部—局—处”三级体制</a></li><li><a href="http://www.xb1y.com/index.php/Home/Article/article/id/3.html">韩国检方对崔顺实女儿签发逮捕令 将其护照作废</a></li><li><a href="http://www.xb1y.com/index.php/Home/Article/article/id/2.html">中国战舰东海遇外国飞机接近 官兵用流利英语警告</a></li><li><a href="http://www.xb1y.com/index.php/Home/Article/article/id/1.html">专家谈“曹德旺跑路”：别等企业过不下去了再减税</a></li>                </ul>
+                <ul class="hot-top-list" id="redianhuati">
+
+
+
+                </ul>
             </div>
             <!--广告位-->
             <div class="adds-location">
-                <a href="http://www.xb1y.com/index.php/Home/Article/doctorList.html#">
+                <a href="">
                     <img src="http://langmoren.oss-cn-beijing.aliyuncs.com/langmoren/1558085133259.jpg">
                 </a>
-                <a href="http://www.xb1y.com/index.php/Home/Article/doctorList.html#">
-                    <img src="http://langmoren.oss-cn-beijing.aliyuncs.com/langmoren/1558085436706.jpg">
-                </a>
+
             </div>
         </div>
     </div>
@@ -376,6 +382,26 @@
 
 </script>
 <script>
+
+    $(function () {
+        $.ajax({
+            url:'/drug/testxinwen',
+            type:'get',
+            async:false,
+            success:function (data) {
+                var objArray = "";
+                for(var i = 0; i <= 5; i++){
+                    objArray +=
+                    '<li>'+
+                    '<a href="'+data[i].url+'">'+data[i].title+'</a>'+
+                    '</li>'
+                }
+                $("#redianhuati").html(objArray);
+            }
+        })
+    })
+
+
     $(function () {
         $.ajax({
             url:'/drug/queryMedicalpersonnel',
@@ -388,7 +414,7 @@
                         '<div class="list-imgzy">'+
 
                         '                            <dl>'+
-                        '                                <img src="http://langmoren.oss-cn-beijing.aliyuncs.com/langmoren/1558085436706.jpg" width="260" height="173">'+
+                        '                                <img src="http://langmoren.oss-cn-beijing.aliyuncs.com/langmoren/1558085133259.jpg" width="260" height="173">'+
                         '                            </dl>' +
                         '                            <dl>'+
                         '                                <dt>'+'性别'+'</dt>' +
@@ -427,11 +453,9 @@
             },
             success: function () {
                 if (confirm("已经加入购物车")) {
-
                 }
             }
         })
-
     }
 </script>
 </body></html>

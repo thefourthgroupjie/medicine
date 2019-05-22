@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-api-rhj" />
         <module name="cloud-feign-rhj" />
         <module name="cloud-jiao-api" />
         <module name="cloud-provider-rhj" />
@@ -20,6 +19,8 @@
         <module name="drug-api-zh" />
         <module name="drug-fegin-zh" />
         <module name="drug-provider-zh" />
+        <module name="cloud-provider-rhj" />
+        <module name="cloud-api-rhj" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

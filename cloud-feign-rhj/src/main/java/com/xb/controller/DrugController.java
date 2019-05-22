@@ -55,6 +55,49 @@ public class DrugController  {
         return drugSerivce.queryMedicalpersonnel();
     }
 
+
+    //军事
+    @ResponseBody
+    @RequestMapping(value="junshi",produces= "application/json; charset=utf-8")
+    public List junshi(String type){
+        Map<String, Object> params = new HashMap<String, Object>();
+        params.put("key", "003888abeaa639afdeb2adda5c4ba08e");
+        params.put("type","junshi");
+        String result = HttpClient.sendGet("http://v.juhe.cn/toutiao/index", params);
+        JSONObject resultObject = JSONObject.parseObject(result);
+        JSONObject resultJSONO = resultObject.getJSONObject("result");
+        JSONArray data = resultJSONO.getJSONArray("data");
+        System.out.println(data);
+        List list=new ArrayList<String>();
+        HashMap map = new HashMap();
+        String jsonString = data.toJSONString();
+        List<HttpJson> listHttpJson = JSONObject.parseArray(jsonString, HttpJson.class);//将字符串装换成对象,先封装个对象,用来传递数据
+        return listHttpJson;
+    }
+
+
+    //体育
+    @ResponseBody
+    @RequestMapping(value="tiyuzixun",produces= "application/json; charset=utf-8")
+    public List tiyuzixun(String type){
+        Map<String, Object> params = new HashMap<String, Object>();
+        params.put("key", "003888abeaa639afdeb2adda5c4ba08e");
+        params.put("type","tiyu");
+        String result = HttpClient.sendGet("http://v.juhe.cn/toutiao/index", params);
+        JSONObject resultObject = JSONObject.parseObject(result);
+        JSONObject resultJSONO = resultObject.getJSONObject("result");
+        JSONArray data = resultJSONO.getJSONArray("data");
+        System.out.println(data);
+        List list=new ArrayList<String>();
+        HashMap map = new HashMap();
+        String jsonString = data.toJSONString();
+        List<HttpJson> listHttpJson = JSONObject.parseArray(jsonString, HttpJson.class);//将字符串装换成对象,先封装个对象,用来传递数据
+        return listHttpJson;
+    }
+
+
+
+    //今日头条
     @ResponseBody
     @RequestMapping(value="testxinwen",produces= "application/json; charset=utf-8")
     public List testxinwen(String type){
