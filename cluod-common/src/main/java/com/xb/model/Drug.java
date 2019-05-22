@@ -1,8 +1,11 @@
 package com.xb.model;
 
 
-public class Drug {
+import java.io.Serializable;
 
+public class Drug implements Serializable {
+
+    private static final long serialVersionUID = -2430219220702731185L;
     private Integer id;
 
     private String name;

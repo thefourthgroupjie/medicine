@@ -40,4 +40,16 @@ public class PageController {
 
         return "cheshi";
     }
+
+    @RequestMapping("guanyu")
+    public String xiangq(){
+
+        return "guanyu";
+    }
+
+    @RequestMapping("hsoucang")
+    public String hsoucang(){
+
+        return "hsoucang";
+    }
 }

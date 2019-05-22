@@ -2,6 +2,7 @@ package com.xb.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.xb.common.ConstantConf;
+import com.xb.model.DrugName;
 import com.xb.model.MySqls;
 import com.xb.utils.HttpClientUtil;
 import com.xb.mapper.DemoMapper;
@@ -25,8 +26,7 @@ public class DemoControllerImp implements DemoServiceApi {
     @Override
     public List<Drug> queryDrug() {
 
-
-        return demoMapper.queryDrug();
+return demoMapper.queryDrug();
     }
 
     @RequestMapping(value = "queryDrugType",method = RequestMethod.POST)
@@ -64,4 +64,16 @@ public class DemoControllerImp implements DemoServiceApi {
     public List<MySqls> queryMySql(Integer id) {
         return demoMapper.queryMySql(id);
     }
+
+    @Override
+    public List<DrugName> queryDrugName(Integer id) {
+
+        return demoMapper.queryDrugName(id);
+    }
+
+    @Override
+    public List<MySqls> shoucang(Integer id) {
+        return demoMapper.shoucang(id);
+    }
+
 }

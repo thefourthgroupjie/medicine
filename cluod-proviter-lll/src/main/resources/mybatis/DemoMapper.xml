@@ -21,5 +21,13 @@
 
      SELECT * from j_drug_name where drugid=#{id}
     </select>
+    <select id="queryDrugName" resultType="com.xb.model.DrugName" parameterType="int">
+
+     SELECT * from j_drug_name where id=#{id}
+    </select>
+<update id="shoucang"  parameterType="int">
+    SELECT * from j_drug_name where drugid=#{id}
+    update j_drug_name j set j.typeid=100 where j.id={#id}
+</update>
 
 </mapper>
