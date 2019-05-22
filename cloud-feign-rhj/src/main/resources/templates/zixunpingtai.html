@@ -200,7 +200,7 @@
             </a>
         </li>
         <li style="background-color:#219fd0;">
-            <a href="http://www.xb1y.com/index.php/Home/Article/doctorList.html">
+            <a href="http://127.0.0.1:8086/page/yiyao">
                 <img src="/zixunpingtai_files/info_05.png">
                 <p>医药人才专区 </p>
             </a>
@@ -231,21 +231,43 @@
 
             </div>
 
-            <a id="toDayContent1" >
-             <div id="toDayContent" style="margin-top: 50px;margin-left: 10px"></div>
-            </a>
+            <div class="zhengcefagui-list">
+                <h3>
+                    体育资讯
+                    <a href="">更多>></a>
+                </h3>
+                <ul class="zhengce-list-left" id="tiyuzixun">
+
+
+
+                </ul>
+            </div>
+
+            <div class="zhengcefagui-list" style="margin-right:0;">
+                <h3 style="background-color:#2d69cf;">
+                    军事资讯
+                    <a href="">更多>></a>
+                </h3>
+                <ul class="zhengce-list-left" id="junshizixun">
+
+
+
+                </ul>
+            </div>
+
+
 
             <!--医药人才-->
             <div class="yiyaorencai">
                 <h2>
                     医药人才
-                    <a href="http://127.0.0.1:8081/page/yiyao">更多&gt;&gt;</a>
+                    <a href="http://127.0.0.1:8086/page/yiyao">更多&gt;&gt;</a>
                 </h2>
                 <!--中医执业医师-->
                 <div class="zhongyi-img">
                     <h5>
                         <span>中医执业药师</span>
-                        <a href="http://127.0.0.1:8081/page/yiyao">更多&gt;&gt;</a>
+                        <a href="http://127.0.0.1:8086/page/yiyao">更多&gt;&gt;</a>
                     </h5>
                     <div class="img-zylist">
                     	<div id="zhongyi">
@@ -279,20 +301,30 @@
                                 <dd>挂证</dd>
                             </dl>
                             <dl>
-                                <dd style="width:100%;text-align:center;">
-                                	<a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/yyh/%E8%B4%A6%E5%8F%B7%E7%99%BB%E5%BD%95.html"><img src="/zixunpingtai_files/info_37.png" style="margin-left: 4px;">登录查看</a>
-                                	                                </dd>
+                                <dt>手机号：</dt>
+                                <dd></dd>
                             </dl>
-                        </div>                    </div>
+                            <!--<dl>
+                                <dd style="width:100%;text-align:center;">
+                                	<a href="file:///C:/Users/dell/Desktop/%E5%89%8D%E5%8F%B0/yyh/%E8%B4%A6%E5%8F%B7%E7%99%BB%E5%BD%95.html">
+                                        <img src="/zixunpingtai_files/info_37.png" style="margin-left: 4px;">登录查看</a>
+                                </dd>
+                            </dl>-->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!--右边栏目内容-->
         <div class="zixun-box-rt">
             <!--热点话题-->
+
+
             <div class="hot-top-tit">
                 <h5>头条热门</h5>
-                <ul class="hot-top-list" id="titleThree">
+                <ul class="hot-top-list" id="redianhuati">
+
+
 
                 </ul>
             </div>
@@ -435,8 +467,52 @@
 </script>
 
 <script>
+    //体育资讯
+    $(function () {
+        $.ajax({
+            url:'/drug/junshi',
+            type:'get',
+            async:false,
+            success:function (data) {
+                var objArray = "";
+                for(var i = 0; i <= 5; i++){
+                    objArray +=
+                        '<li>'+
+                        '<a href="'+data[i].url+'">'+
+                        '<span>'+data[i].title+'</span>'+
+                        '<i>'+data[i].date+'</i>'+
+                        '</a>'+
+                        '</li>'
+                }
+                $("#junshizixun").html(objArray);
+            }
+        })
+    })
 
 
+//体育资讯
+    $(function () {
+        $.ajax({
+            url:'/drug/tiyuzixun',
+            type:'get',
+            async:false,
+            success:function (data) {
+                var objArray = "";
+                for(var i = 0; i <= 5; i++){
+                    objArray +=
+                '<li>'+
+                    '<a href="'+data[i].url+'">'+
+                        '<span>'+data[i].title+'</span>'+
+                        '<i>'+data[i].date+'</i>'+
+                    '</a>'+
+                '</li>'
+                }
+                $("#tiyuzixun").html(objArray);
+            }
+        })
+    })
+
+//头条热门
     $(function () {
         $.ajax({
             url:'/drug/testxinwen',
@@ -445,6 +521,25 @@
             success:function (data) {
                 var objArray = "";
                 for(var i = 0; i <= 5; i++){
+                    objArray +=
+                        '<li>'+
+                        '<a href="'+data[i].url+'">'+data[i].title+'</a>'+
+                        '</li>'
+                }
+                $("#redianhuati").html(objArray);
+            }
+        })
+    })
+
+//今日头条
+    $(function () {
+        $.ajax({
+            url:'/drug/testxinwen',
+            type:'get',
+            async:false,
+            success:function (data) {
+                var objArray = "";
+                for(var i = 0; i <= 2; i++){
                     objArray +=
                 '<li>'+
                     '<a href="'+data[i].url+'">'+
@@ -463,28 +558,6 @@
             }
         })
     })
-
-    /*$(function () {
-        $.ajax({
-            url:'/drug/testxinwen',
-            type:'GET',
-            async:false,
-            success:function(a){
-                var objArray=null;
-                $.each(a,(function(index,obj){
-                    if (index == 0) {
-                        objArray=obj;
-                        return;
-                    }
-                }))
-
-                $("#toDayContent").html(objArray.title);
-                $("#toDayContent1").attr('src',objArray.url);
-            }
-        })
-    })*/
-
-
 
 
 </script>
