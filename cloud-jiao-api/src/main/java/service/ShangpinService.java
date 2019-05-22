@@ -22,4 +22,12 @@ public interface ShangpinService {
     @RequestMapping(value = "addDrugCar")
     @ResponseBody
     void updateCar(@RequestParam("shulian")Integer shulian,@RequestParam("id") Integer id);
+
+    @RequestMapping(value = "findDrugById")
+    @ResponseBody
+    ShopModel findDrugById(@RequestParam("shulian")Integer goodsId);
+
+    @RequestMapping(value = "addOrdelGoods")
+    @ResponseBody
+    void addComment(@RequestParam("id") Integer id,@RequestParam("counts") Integer counts);
 }

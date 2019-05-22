@@ -24,7 +24,8 @@
 </head>
 <body>
 <div id="toolbar">
-    <button type="button" class="btn btn-success" onclick="saveBtn()">首页</button>
+    <a href="http://localhost:8081/page/toShouye">首页</a>
+    <input type="hidden" name="message" value="<%=httpServletRequest.getAttribute('message') %>">
 </div>
 <table class="table" id="drugTable"></table>
 
@@ -60,7 +61,7 @@
                 {field:'count',title:'购买数量',formatter:function(value,row,index){
                         var html =
                             "<input onclick='jian("+row.id+")' type='button' value='-'>"
-                            +"<input id='shulian"+row.id+"' type='text' value='0' size='3'>"
+                            +"<input id='shulian"+row.id+"' type='text' value='1' size='3'>"
                             +"<input onclick='jia("+row.id+")' type='button' value='+'>"
                         return html;
                 }},

@@ -46,5 +46,16 @@ public class ShopServiceImpl implements ShangpinService {
         shopMapper.updateCar(shulian,id);
     }
 
+    @Override
+    public ShopModel findDrugById(Integer goodsId) {
+        ShopModel shopModel = shopMapper.findDrugById(goodsId);
+        return shopModel;
+    }
+
+    @Override
+    public void addComment(Integer id, Integer counts) {
+
+    }
+
 
 }

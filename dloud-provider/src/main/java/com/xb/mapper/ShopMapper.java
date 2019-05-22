@@ -19,4 +19,6 @@ public interface ShopMapper {
 
 
     void updateCar(Integer shulian, Integer id);
+
+    ShopModel findDrugById(Integer goodsId);
 }

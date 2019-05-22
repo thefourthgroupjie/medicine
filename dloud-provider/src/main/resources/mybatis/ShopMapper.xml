@@ -24,6 +24,9 @@
         update j_drug_name set shulian =#{shulian} where id = #{id}
     </update>
 
+    <select id="findDrugById" parameterType="int" resultType="model.ShopModel">
+        select * from j_drug_name where id=#{goodsId}
+    </select>
 
 
 </mapper>

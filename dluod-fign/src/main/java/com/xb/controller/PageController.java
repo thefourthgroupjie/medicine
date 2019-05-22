@@ -17,5 +17,9 @@ public class PageController {
         return "xiadan";
     }
 
+    @RequestMapping("gocang")
+    public String gocang(){
+        return "cang";
+    }
 
 }
