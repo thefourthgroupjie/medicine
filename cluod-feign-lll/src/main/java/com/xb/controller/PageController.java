@@ -12,8 +12,6 @@ public class PageController {
 
         return "queryQiye";
     }
-
-
     @RequestMapping("toquery")
 
     public String query(){
@@ -33,8 +31,6 @@ public class PageController {
         return "queryDianpu";
     }
 
-
-
     @RequestMapping("cheshi")
     public String cheshi(){
 
@@ -46,10 +42,14 @@ public class PageController {
 
         return "guanyu";
     }
-
     @RequestMapping("hsoucang")
     public String hsoucang(){
 
         return "hsoucang";
     }
+    @RequestMapping("addimg")
+    public String addimg(){
+        return "addimg";
+    }
+
 }

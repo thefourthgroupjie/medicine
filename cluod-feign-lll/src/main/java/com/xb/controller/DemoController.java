@@ -7,14 +7,16 @@ import com.xb.model.DrugName;
 import com.xb.model.DrugType;
 import com.xb.model.MySqls;
 import com.xb.service.DemoServiceFeign;
+import com.xb.utils.OSSClientUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 
-import java.util.ArrayList;
+import java.io.IOException;
 import java.util.List;
 
 @Controller
@@ -72,15 +74,7 @@ public class DemoController {
         return demoServiceFeign.queryDrugType2(id);
     }
 
-    //简单的智能对话
-    @RequestMapping(value = "testGet",method = RequestMethod.POST)
-    @ResponseBody
-    public String testGet(String msg){
 
-
-        return demoServiceFeign.testGet(msg);
-
-    }
 
     @RequestMapping(value = "queryMySql",method = RequestMethod.GET)
     @ResponseBody
@@ -104,6 +98,22 @@ public class DemoController {
 
 
         return demoServiceFeign.shoucang(id);
+    }
+    /**
+     * OSS阿里云上传图片
+     */
+    @RequestMapping("updaloadImg")
+    @ResponseBody
+    public String uploadImg(MultipartFile imgg)throws IOException {
+        if (imgg == null || imgg.getSize() <= 0) {
+            throw new IOException("file不能为空");
+        }
+        OSSClientUtil ossClient=new OSSClientUtil();
+        String name = ossClient.uploadImg2Oss(imgg);
+        String imgUrl = ossClient.getImgUrl(name);
+        String[] split = imgUrl.split("\\?");
+        //System.out.println(split[0]);
+        return split[0];
     }
 
 }

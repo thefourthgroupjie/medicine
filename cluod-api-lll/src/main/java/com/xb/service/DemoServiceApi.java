@@ -25,8 +25,7 @@ public interface DemoServiceApi {
     @RequestMapping(value = "queryDrugType2",method = RequestMethod.POST)
     List<DrugType> queryDrugType2(@RequestParam("id") Integer id);
 
-    @RequestMapping(value = "testGet",method = RequestMethod.POST)
-    String testGet(@RequestParam("msg") String msg);
+
 
     @RequestMapping(value = "queryMySql",method = RequestMethod.POST)
     List<MySqls> queryMySql(@RequestParam("id") Integer id);
