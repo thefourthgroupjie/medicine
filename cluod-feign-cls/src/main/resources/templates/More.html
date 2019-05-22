@@ -3,7 +3,7 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>活动专区</title>
+    <title>限时秒杀页面</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="../hd_files/common.css">
     <link rel="stylesheet" href="../hd_files/css.css">
@@ -32,9 +32,9 @@
                     Hi,欢迎来到西北医药网
                     <span>
                 【
-                <a href="http://www.xb1y.com/index.php/Home/Member/Member_login.html" style="color: #e57816;">请先登录</a>
+                <a href="http://192.168.1.105:8014/page/toLogin" style="color: #e57816;">请先登录</a>
                 |
-                <a href="http://www.xb1y.com/index.php/Home/Member/Member_register.html">注册</a>
+                <a href="http://192.168.1.105:8014/page/zhuce">注册</a>
                                 】
             </span>
                 </div>
@@ -117,7 +117,7 @@
             <div class="location-now">
                 <div class="location-text">
                     <img src="../hd_files/compang_03.png">
-                    当前位置： 首页 &gt;  活动专区 &gt;  积分秒杀区域
+                    <h1>当前位置： 首页 &gt;  活动专区 &gt;  限时秒杀区域</h1>
                 </div>
             </div>
             <!--活动专区内容区域-->
@@ -140,13 +140,13 @@
                                     content+=' <li>\n' +
                                         '                            <div class="productzs-imglist">\n' +
                                         '                                <div class="productimg-top">\n' +
-                                        '                                    <a href="/Drug/activity?id='+obj.id+'">\n' +
+                                        '                                    <a href="http://localhost:8089/page/tuangou?id='+obj.id+'">\n' +
                                         '                                        <img src="'+obj.picture+'">\n' +
                                         '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
                                         '                                        <p class="prodct-newszs-name" style="color: #999">规格:'+obj.gg+'</p>\n' +
                                         '                                        <p class="prodct-newszs-name" style="width: 96%">价格：'+obj.jg+'</p>                        </a>\n' +
                                         '                                </div>\n' +
-                                        '                                <a  href=\'javascript:activityck("+obj.id+")\' class="zs-shop">兑换</a>\n' +
+                                        '                                <a  href=\'javascript:activityck('+obj.jg+')\' class="zs-shop">兑换</a>\n' +
                                         '                            </div>\n' +
                                         '                        </li>';
                                     $("#jfdhdrugs").html(content);
@@ -155,6 +155,17 @@
                             }
 
                         })
+                    }
+                    function  activityck(jg) {
+
+                        if (jg>=50){
+                            layer.msg('恭喜，商品兑换成功');
+                            return true;
+                        }else{
+                            layer.msg('很遗憾你的积分不够兑换此商品，请充值');
+                            return false;
+                        }
+
                     }
                 </script>
                 <ul class="xianshimiaosha-product" id="jfdhdrugs">

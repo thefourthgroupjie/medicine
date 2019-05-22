@@ -32,9 +32,9 @@
                     Hi,欢迎来到西北医药网
                     <span>
                 【
-                <a href="http://www.xb1y.com/index.php/Home/Member/Member_login.html" style="color: #e57816;">请先登录</a>
+                <a href="http://192.168.1.105:8014/page/toLogin" style="color: #e57816;">请先登录</a>
                 |
-                <a href="http://www.xb1y.com/index.php/Home/Member/Member_register.html">注册</a>
+                <a href="http://192.168.1.105:8014/page/zhuce">注册</a>
                                 】
             </span>
                 </div>
@@ -143,13 +143,13 @@
                                     content+=' <li>\n' +
                                         '                            <div class="productzs-imglist">\n' +
                                         '                                <div class="productimg-top">\n' +
-                                        '                                    <a href="/Drug/activity?id='+obj.id+'">\n' +
+                                        '                                    <a href="http://localhost:8089/page/MSintroduceOne?id='+obj.id+'">\n' +
                                         '                                        <img src="'+obj.picture+'">\n' +
                                         '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
                                         '                                        <p class="prodct-newszs-name" style="color: #999">规格:'+obj.gg+'</p>\n' +
                                         '                                        <h3 class="prodct-newszs-name" style="width: 96%">价格：'+obj.jg+'</h3>                        </a>\n' +
                                         '                                </div>\n' +
-                                        '                                <a  href=\'javascript:activityck("+obj.id+")\' class="zs-shop">查看详情</a>\n' +
+                                        '                                <a  href=\'javascript:activityckk('+obj.id+')\' class="zs-shop">查看详情</a>\n' +
                                         '                            </div>\n' +
                                         '                        </li>';
                                     $("#mzhddrugs").html(content);
@@ -161,6 +161,9 @@
 
                     }
 
+                    function activityckk(id){
+                        location.href="http://localhost:8089/page/MSintroduceOne?id="+id;
+                    }
                 </script>
 
                 <ul class="xianshimiaosha-product" id="mzhddrugs">

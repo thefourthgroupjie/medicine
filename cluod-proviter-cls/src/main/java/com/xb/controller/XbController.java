@@ -80,18 +80,42 @@ public class XbController implements XbServiceApi {
     /**
      * 详情查看
      */
-    @RequestMapping(value = "xiangqing",method = RequestMethod.POST)
+    /*@RequestMapping(value = "xiangqing",method = RequestMethod.POST)
     @ResponseBody
     @Override
     public List<XiangDetails> xiangqing(XiangDetails xiangDetails) {
         return xbMapper.xiangqing(xiangDetails);
     }
-
+*/
     @RequestMapping(value = "xiangqing1",method = RequestMethod.POST)
     @ResponseBody
     @Override
-    public List<XiangDetails> xiangqing1(Integer id) {
+    public List<XiangDetails> xiangqing1(@RequestBody Integer id) {
         return xbMapper.xiangqing1(id);
+    }
+
+    /**
+     * 团购
+     * @param id
+     * @return
+     */
+    @RequestMapping(value = "tongbu",method = RequestMethod.POST)
+    @ResponseBody
+    @Override
+    public List<TuanDetails> tongbu(@RequestBody Integer id) {
+        return xbMapper.tongbu(id);
+    }
+
+    /**
+     * 买赠
+     * @param id
+     * @return
+     */
+    @RequestMapping(value = "maizengDetails",method = RequestMethod.POST)
+    @ResponseBody
+    @Override
+    public List<MaizengDetails> maizengDetails(@RequestBody Integer id) {
+        return xbMapper.maizengDetails(id);
     }
 
 

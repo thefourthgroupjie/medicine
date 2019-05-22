@@ -32,9 +32,9 @@
                     Hi,欢迎来到西北医药网
                     <span>
                 【
-                <a href="http://www.xb1y.com/index.php/Home/Member/Member_login.html" style="color: #e57816;">请先登录</a>
+                <a href="http://192.168.1.105:8014/page/toLogin" style="color: #e57816;">请先登录</a>
                 |
-                <a href="http://www.xb1y.com/index.php/Home/Member/Member_register.html">注册</a>
+                <a href="http://192.168.1.105:8014/page/zhuce">注册</a>
                                 】
             </span>
                 </div>
@@ -139,13 +139,13 @@
                                     content+=' <li>\n' +
                                         '                            <div class="productzs-imglist">\n' +
                                         '                                <div class="productimg-top">\n' +
-                                        '                                    <a href="/Drug/activity?id='+obj.id+'">\n' +
+                                        '                                    <a href="http://localhost:8089/page/Maizeng?id='+obj.id+'">\n' +
                                         '                                        <img src="'+obj.picture+'">\n' +
                                         '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
                                         '                                        <p class="prodct-newszs-name" style="color: #999">积分:'+obj.jf+'</p>\n' +
                                         '                                        <p class="prodct-newszs-name" style="width: 96%">价格：'+obj.jg+'</p>                        </a>\n' +
                                         '                                </div>\n' +
-                                        '                                <a  href=\'javascript:activityck("+obj.id+")\' class="zs-shop">兑换</a>\n' +
+                                        '                                <a  href=\'javascript:activityckjgg('+obj.id+')\' class="zs-shop">兑换</a>\n' +
                                         '                            </div>\n' +
                                         '                        </li>';
                                     $("#jfdhdrugs").html(content);
@@ -153,6 +153,17 @@
 
                             }
                         })
+                    }
+                    function  activityckjgg(jg) {
+
+                        if (jg>=50){
+                            layer.msg('恭喜，商品兑换成功');
+                            return true;
+                        }else{
+                            layer.msg('很遗憾你的积分不够兑换此商品，请充值');
+                            return false;
+                        }
+
                     }
                 </script>
                 <ul class="xianshimiaosha-product" id="jfdhdrugs">

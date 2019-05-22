@@ -1,6 +1,7 @@
 package com.xb.mapper;
 
 import com.xb.model.*;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.HashMap;
 import java.util.List;
@@ -39,7 +40,21 @@ public interface XbMapper {
     /**
      * 详情查询
      */
-    List<XiangDetails> xiangqing(XiangDetails xiangDetails);
+    /*List<XiangDetails> xiangqing(XiangDetails xiangDetails);*/
 
     List<XiangDetails> xiangqing1(Integer id);
+
+    /**
+     * 同步
+     * @param id
+     * @return
+     */
+    List<TuanDetails> tongbu(Integer id);
+
+    /**
+     * 买赠
+     * @param id
+     * @return
+     */
+    List<MaizengDetails> maizengDetails(Integer id);
 }

@@ -3,7 +3,7 @@
 <html xmlns:th="http://www.springframework.org/schema/jdbc"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>活动专区</title>
+    <title>团购专区页面</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="stylesheet" href="../hd_files/common.css">
     <link rel="stylesheet" href="../hd_files/css.css">
@@ -32,9 +32,9 @@
                     Hi,欢迎来到西北医药网
                     <span>
                 【
-                <a href="http://www.xb1y.com/index.php/Home/Member/Member_login.html" style="color: #e57816;">请先登录</a>
+                <a href="http://192.168.1.105:8014/page/toLogin" style="color: #e57816;">请先登录</a>
                 |
-                <a href="http://www.xb1y.com/index.php/Home/Member/Member_register.html">注册</a>
+                <a href="http://192.168.1.105:8014/page/zhuce">注册</a>
                                 】
             </span>
                 </div>
@@ -138,7 +138,7 @@
                                     content+=' <li>\n' +
                                         '                            <div class="productzs-imglist">\n' +
                                         '                                <div class="productimg-top">\n' +
-                                        '                                    <a href="/Drug/activity?id='+obj.id+'">\n' +
+                                        '                                    <a href="http://localhost:8089/page/tuangou?id='+obj.id+'">\n' +
                                         '                                        <img src="'+obj.picture+'">\n' +
                                         '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
                                         '                                        <p class="prodct-newszs-name" style="color: #999">规格:'+obj.gg+'</p>\n' +
@@ -152,6 +152,7 @@
                             }
                         })
                     }
+
                 </script>
                 <ul class="xianshimiaosha-product" id="tgzqdrugs">
                 </ul>

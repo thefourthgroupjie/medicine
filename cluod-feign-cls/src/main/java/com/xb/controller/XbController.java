@@ -69,11 +69,11 @@ public class XbController {
     /**
      * 详情查看
      */
-    @RequestMapping(value = "xiangqing",method = RequestMethod.GET)
+    /*@RequestMapping(value = "xiangqing",method = RequestMethod.GET)
     @ResponseBody
     public List<XiangDetails> xiangqing(XiangDetails xiangDetails){
         return userServiceFeign.xiangqing(xiangDetails);
-    }
+    }*/
     /**
      * 详情查看
      */
@@ -81,5 +81,21 @@ public class XbController {
     @ResponseBody
     public List<XiangDetails> xiangqing1(Integer id){
         return userServiceFeign.xiangqing1(id);
+    }
+    /**
+     * 团购
+     */
+    @RequestMapping(value = "tongbu",method = RequestMethod.GET)
+    @ResponseBody
+    public List<TuanDetails> tongbu(Integer id){
+        return userServiceFeign.tongbu(id);
+    }
+    /**
+     * 团购
+     */
+    @RequestMapping(value = "maizengDetails",method = RequestMethod.GET)
+    @ResponseBody
+    public List<MaizengDetails> maizengDetails(Integer id){
+        return userServiceFeign.maizengDetails(id);
     }
 }

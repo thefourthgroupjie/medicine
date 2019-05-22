@@ -3,7 +3,7 @@
 <html xmlns:th="http://www.springframework.org/schema/jdbc"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>活动专区</title>
+    <title>活动专区展示页面</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 <link rel="stylesheet" href="../hd_files/common.css">
 <link rel="stylesheet" href="../hd_files/css.css">
@@ -32,9 +32,9 @@
             Hi,欢迎来到西北医药网
             <span>
                 【
-                <a href="http://www.xb1y.com/index.php/Home/Member/Member_login.html" style="color: #e57816;">请先登录</a>
+                <a href="http://192.168.1.105:8014/page/toLogin" style="color: #e57816;">请先登录</a>
                 |
-                <a href="http://www.xb1y.com/index.php/Home/Member/Member_register.html">注册</a>
+                <a href="http://192.168.1.105:8014/page/zhuce">注册</a>
                                 】
             </span>
         </div>
@@ -149,7 +149,7 @@
                                             '                                        <p class="prodct-newszs-name" style="color: #999">规格:'+obj.gg+'</p>\n' +
                                             '                                        <h3 class="news-index-pricestyle" style="width: 96%">价格：'+obj.jg+'</h3>                        </a>\n' +
                                             '                                </div>\n' +
-                                            '                                <a  href=\'javascript:activityid("+obj.id+")\' class="zs-shop">查看详情</a>\n' +
+                                            '                                <a  href=\'javascript:activityid('+obj.id+')\' class="zs-shop">查看详情</a>\n' +
                                             '                            </div>\n' +
                                             '                        </li>';
                                         $("#drugs").html(content);
@@ -157,6 +157,9 @@
 
                                 }
                             })
+                        }
+                        function activityid(id){
+                            location.href="http://localhost:8089/page/MSintroduceOne?id="+id;
                         }
                     </script>
                     <ul class="xianshimiaosha-product" id="drugs">
@@ -183,19 +186,22 @@
                                         content+=' <li>\n' +
                                             '                            <div class="productzs-imglist">\n' +
                                             '                                <div class="productimg-top">\n' +
-                                            '                                    <a href="/Drug/activity?id='+obj.id+'">\n' +
+                                            '                                    <a href="http://localhost:8089/page/tuangou?id='+obj.id+'">\n' +
                                             '                                        <img src="'+obj.picture+'">\n' +
                                             '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
                                             '                                        <p class="prodct-newszs-name" style="color: #999">规格:'+obj.gg+'</p>\n' +
                                             '                                        <h3 class="news-index-pricestyle" style="width: 96%">价格：'+obj.jg+'</h3>                        </a>\n' +
                                             '                                </div>\n' +
-                                            '                                <a  href=\'javascript:activityck("+obj.id+")\' class="zs-shop">我要参团</a>\n' +
+                                            '                                <a  href=\'javascript:activityck('+obj.id+')\' class="zs-shop">我要参团</a>\n' +
                                             '                            </div>\n' +
                                             '                        </li>';
                                         $("#tgzqdrugs").html(content);
                                     })
                                 }
                             })
+                        }
+                        function activityck(id){
+                            location.href="http://localhost:8089/page/tuangou?id="+id;
                         }
                     </script>
                     <ul class="xianshimiaosha-product" id="tgzqdrugs">
@@ -222,13 +228,13 @@
                                         content+=' <li>\n' +
                                             '                            <div class="productzs-imglist">\n' +
                                             '                                <div class="productimg-top">\n' +
-                                            '                                    <a href="/Drug/activity?id='+obj.id+'">\n' +
+                                            '                                    <a href="http://localhost:8089/page/Maizeng?id='+obj.id+'">\n' +
                                             '                                        <img src="'+obj.picture+'">\n' +
                                             '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
                                             '                                        <p class="prodct-newszs-name" style="color: #999">积分:'+obj.jf+'</p>\n' +
                                             '                                        <p class="prodct-newszs-name" style="width: 96%">价格：'+obj.jg+'</p>                        </a>\n' +
                                             '                                </div>\n' +
-                                            '                                <a  href=\'javascript:activityck("+obj.id+")\' class="zs-shop">兑换</a>\n' +
+                                            '                                <a  href=\'javascript:activityckjgg('+obj.jg+')\' class="zs-shop">兑换</a>\n' +
                                             '                            </div>\n' +
                                             '                        </li>';
                                         $("#jfdhdrugs").html(content);
@@ -236,6 +242,20 @@
 
                                 }
                             })
+                        }
+                        function activityck(id){
+                            location.href="http://localhost:8089/page/tuangou?id="+id;
+                        }
+                        function  activityckjgg(jg) {
+
+                            if (jg>=50){
+                                layer.msg('恭喜，商品兑换成功');
+                                return true;
+                            }else{
+                                layer.msg('很遗憾你的积分不够兑换此商品，请充值');
+                                return false;
+                            }
+
                         }
                     </script>
                     <ul class="xianshimiaosha-product" id="jfdhdrugs">
@@ -245,7 +265,7 @@
                 </div>
 <!--买赠活动-->
                 <div class="maizenhuodong">
-                    <h1>买赠活动</h1>
+                    <center><h1><font color="green" size="30px">买赠活动</font></h1></center>
 
                     <script type="text/javascript" th:inline="none" >
 
@@ -265,13 +285,13 @@
                                         content+=' <li>\n' +
                                             '                            <div class="productzs-imglist">\n' +
                                             '                                <div class="productimg-top">\n' +
-                                            '                                    <a href="http://www.xb1y.com/index.php/Home/Goods/goodInfo/id/1.html='+obj.id+'">\n' +
+                                            '                                    <a href="http://localhost:8089/page/Maizeng?id='+obj.id+'">\n' +
                                             '                                        <img src="'+obj.picture+'">\n' +
                                             '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
                                             '                                        <p class="prodct-newszs-name" style="color: #999">规格:'+obj.gg+'</p>\n' +
                                             '                                        <h3 class="prodct-newszs-name" style="width: 96%">价格：'+obj.jg+'</h3>                        </a>\n' +
                                             '                                </div>\n' +
-                                            '                                <a  href=\'javascript:activityck("+obj.id+")\' class="zs-shop">查看详情</a>\n' +
+                                            '                                <a  href=\'javascript:activityck1('+obj.id+')\' class="zs-shop">查看详情</a>\n' +
                                             '                            </div>\n' +
                                             '                        </li>';
                                         $("#mzhddrugs").html(content);
@@ -282,7 +302,9 @@
                             })
 
                         }
-
+                        function activityck1(id){
+                            location.href="http://localhost:8089/page/Maizeng?id="+id;
+                        }
                     </script>
 
                     <ul class="xianshimiaosha-product" id="mzhddrugs">

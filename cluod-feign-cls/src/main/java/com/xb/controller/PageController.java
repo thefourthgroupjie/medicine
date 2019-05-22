@@ -72,6 +72,30 @@ public class PageController {
      */
     @RequestMapping("MSintroduceOne")
     public String MSintroduceOne(){
-        return "xiangqing";
+        return "xiangq";
+    }
+    /**
+     *商品团购介绍跳转页面
+     * @return
+     */
+    @RequestMapping("tuangou")
+    public String tuangou(){
+        return "tuangou";
+    }
+    /**
+     *商品买赠介绍跳转页面
+     * @return
+     */
+    @RequestMapping("Maizeng")
+    public String Maizeng(){
+        return "Maizeng";
+    }
+    /**
+     *商品其他跳转页面
+     * @return
+     */
+    @RequestMapping("pageTest")
+    public String pageTest(){
+        return "pageTest";
     }
 }

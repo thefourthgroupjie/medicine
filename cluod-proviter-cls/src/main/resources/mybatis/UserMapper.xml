@@ -8,7 +8,7 @@
 
 <!--详情查询-->
     <select id="xqdetails" parameterType="com.xb.model.Xqdetails" resultType="com.xb.model.Xqdetails">
-      select  * from  xs_details
+      select  * from  xs_details1
     </select>
     <!--团购查询-->
     <select id="tgdetails" parameterType="com.xb.model.Tgdetails" resultType="com.xb.model.Tgdetails">
@@ -24,12 +24,20 @@
       select  * from  mz_details
     </select>
     <!--详情查询-->
-    <select id="xiangqing" parameterType="com.xb.model.XiangDetails" resultType="com.xb.model.XiangDetails">
+    <!--<select id="xiangqing" parameterType="com.xb.model.XiangDetails" resultType="com.xb.model.XiangDetails">
       select  * from  xq_XiangDetails
-    </select>
+    </select>-->
 
     <!--详情查询-->
-    <select id="xiangqing1" parameterType="int" resultType="com.xb.model.XiangDetails">
+    <select id="xiangqing1" parameterType="com.xb.model.XiangDetails" resultType="com.xb.model.XiangDetails">
       select  * from  xq_XiangDetails where id=#{value}
+    </select>
+<!--团购-->
+    <select id="tongbu" parameterType="com.xb.model.TuanDetails" resultType="com.xb.model.TuanDetails">
+      select  * from  xq_tuandetails where id=#{value}
+    </select>
+    <!--买赠-->
+    <select id="maizengDetails" parameterType="com.xb.model.MaizengDetails" resultType="com.xb.model.MaizengDetails">
+      select  * from  xq_maizengdetails where id=#{value}
     </select>
 </mapper>
