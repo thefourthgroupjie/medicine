@@ -3,12 +3,20 @@ package com.xb.controller;
 import com.xb.model.*;
 import com.xb.service.DrugService;
 import com.xb.util.ExportExcel;
+import org.apache.solr.client.solrj.SolrClient;
+import org.apache.solr.client.solrj.SolrQuery;
+import org.apache.solr.client.solrj.SolrServerException;
+import org.apache.solr.client.solrj.response.QueryResponse;
+import org.apache.solr.common.SolrDocument;
+import org.apache.solr.common.SolrDocumentList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -18,6 +26,103 @@ public class DrugController {
 
     @Autowired
     private DrugService drugService;
+
+    @Autowired
+    private SolrClient client;
+
+
+    //药品库solr条件查询高亮显示
+    @RequestMapping(value="serch")
+    @ResponseBody
+    public Map<String,Object> userlist( DrugBean users,Integer page,Integer rows) throws IOException, SolrServerException {
+        //返回的参数map
+        Map<String,Object> mSolr=new HashMap
+                <String,Object>();
+        //查询的耳集合
+        List<DrugBean> userslist=new ArrayList<>();
+        //查询参数的对象SolrQuery
+        SolrQuery params = new SolrQuery();
+
+        //判断名称是否为空
+        if(!"".equals(users.getDrugName()) && users.getDrugName()!=null ){
+            //不为空关键词为前台传递的参数
+            params.set("q", users.getDrugName());
+        }else{
+            //为空查询所有
+            params.set("q", "*:*");
+
+        }
+
+        params.set("df", "drugName");
+        //默认返回的字段
+        params.set("fl", "id,drugId,drugName,drugForm,drugChara,specification,conversion,unit,packingUnit,directoryType,manEnterprise,shoEnterprise,price,retail");
+        // 高亮字段
+        params.addHighlightField("drugName");
+        //分页
+        if(page==null){
+            params.setStart(0);
+        }else {
+            params.setStart((page-1)*rows);
+        }
+        if(rows==null){
+            params.setRows(5);
+        }else {
+            params.setRows(rows);
+        }
+        //高亮
+        //打开开关
+        params.setHighlight(true);
+        //设置前缀
+        params.setHighlightSimplePre("<span style='color:red'>");
+        //设置后缀
+        params.setHighlightSimplePost("</span>");
+        //solr查询返回的对象QueryResponse
+        QueryResponse queryResponse = client.query("core1",params);
+        //查询返回的真正结果
+        SolrDocumentList results = queryResponse.getResults();
+        //查询总条数
+        long numFound = results.getNumFound();
+        //高亮显示的内容
+        Map<String, Map<String, List<String>>> highlight = queryResponse.getHighlighting();
+        //循环遍历结果把查询内容放到list集合中
+        for (SolrDocument result : results) {
+            DrugBean user=new DrugBean();
+            String highname="";
+            //获得高亮内容
+            Map<String, List<String>> map = highlight.get(result.get("id"));
+            //获得高亮内容的list
+            List<String> list = map.get("drugName");
+            //判断是否为空
+            if(list==null){
+                //如果为空没有高亮
+                highname=(String)result.get("drugName");
+            }else{
+                //不为空有高亮
+                highname=list.get(0);
+            }
+            /* 依次把字段放到product对象中 */
+            user.setId((String) result.get("id"));
+            user.setDrugId((Integer) result.get("drugId"));
+            user.setDrugForm((String) result.get("drugForm"));
+            user.setDrugChara((String) result.get("drugChara"));
+            user.setSpecification((String) result.get("specification"));
+            user.setConversion((Integer) result.get("conversion"));
+            user.setUnit((String) result.get("unit"));
+            user.setPackingUnit((String) result.get("packingUnit"));
+            user.setDirectoryType((String) result.get("directoryType"));
+            user.setManEnterprise((String) result.get("manEnterprise"));
+            user.setShoEnterprise((String) result.get("shoEnterprise"));
+            user.setPrice((String) result.get("price"));
+            user.setRetail((String) result.get("retail"));
+            user.setDrugName(highname);
+            userslist.add(user);
+
+        }
+        //把条数和查询结果放到map中
+        mSolr.put("total",numFound);
+        mSolr.put("rows",userslist);
+        return mSolr;
+    }
 
 
     //药品数据库查询分页
@@ -97,7 +202,7 @@ public class DrugController {
 
     //产品资质下载
     @RequestMapping("page/exportExcel2")
-    public void exportExcel2(HttpServletResponse response,Integer id){
+    public void exportExcel2(HttpServletResponse response,String id){
         //定义导出的excel标题
         String title="产品资质信息表";
         //定义导出的列头

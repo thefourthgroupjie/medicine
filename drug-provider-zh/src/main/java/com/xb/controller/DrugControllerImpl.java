@@ -94,7 +94,7 @@ public class DrugControllerImpl implements DrugServiceApi {
     @RequestMapping(value = "queryDrugListPoi",method = RequestMethod.POST)
     @ResponseBody
     @Override
-    public List<DrugBean> queryDrugListPoi(Integer id) {
+    public List<DrugBean> queryDrugListPoi(String id) {
         return drupMapper.queryDrugListPoi(id);
     }
 

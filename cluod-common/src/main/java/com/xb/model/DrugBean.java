@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class DrugBean implements Serializable {
     private static final long serialVersionUID = -2430219220702731185L;
 
-    private  Integer id;
+    private  String id;
 
     private  Integer drugId;
 
@@ -33,11 +33,11 @@ public class DrugBean implements Serializable {
 
     private  String retail;
 
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 

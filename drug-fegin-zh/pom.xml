@@ -20,7 +20,11 @@
     </properties>
 
     <dependencies>
-
+        <!-- solr -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-solr</artifactId>
+        </dependency>
         <!-- 加入POI核心依赖 -->
         <dependency>
             <groupId>org.apache.poi</groupId>

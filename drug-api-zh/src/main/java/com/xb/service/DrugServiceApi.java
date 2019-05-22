@@ -25,7 +25,7 @@ public interface DrugServiceApi {
     @RequestMapping(value = "queryConventionListPoi",method = RequestMethod.POST)
     List<ConventionBean> queryConventionListPoi(@RequestParam("id") Integer id);
     @RequestMapping(value = "queryDrugListPoi",method = RequestMethod.POST)
-    List<DrugBean> queryDrugListPoi(@RequestParam("id") Integer id);
+    List<DrugBean> queryDrugListPoi(@RequestParam("id") String id);
     @RequestMapping(value = "queryDrugStoreListPoi",method = RequestMethod.POST)
     List<DrugStoreBean> queryDrugStoreListPoi(@RequestParam("id") Integer id);
     @RequestMapping(value = "queryCompanyListPoi",method = RequestMethod.POST)
