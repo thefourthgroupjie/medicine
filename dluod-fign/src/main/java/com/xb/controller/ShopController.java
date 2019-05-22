@@ -184,14 +184,6 @@ public class ShopController {
                 redisTemplate.opsForList().leftPush(key,we);
             }
         }
-        for (int i=0;i<split.length;i++){
-            Integer id = Integer.parseInt(split[i]);
-            Integer counts =Integer.parseInt(split2[i]);
-            System.out.println("ids"+ids);
-            System.out.println("counts"+counts);
-            //生成订单
-            shopService.addComment(id,counts);
-        }
 
     }
 

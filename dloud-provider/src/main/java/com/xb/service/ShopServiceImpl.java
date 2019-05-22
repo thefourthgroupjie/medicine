@@ -52,10 +52,7 @@ public class ShopServiceImpl implements ShangpinService {
         return shopModel;
     }
 
-    @Override
-    public void addComment(Integer id, Integer counts) {
 
-    }
 
 
 }
