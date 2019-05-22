@@ -21,5 +21,9 @@ public class PageController {
     public String gocang(){
         return "cang";
     }
+    @RequestMapping("toShouye")
+    public String toShouye(){
+        return "shouye";
+    }
 
 }
