@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebed9d34-7053-4b32-81ae-89ba651e3c37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/CluodFeignWlzApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/CluodFeignWlzApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/CluodProviderWlzApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/main/java/com/xb/mapper/DemoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/main/resources/mybatis/DemoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-provider-wlz/src/test/java/com/xb/CluodProviderWlzApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ebed9d34-7053-4b32-81ae-89ba651e3c37" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cluod-api-wlz/target/" />
@@ -44,16 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="264" column="40" lean-forward="true" selection-start-line="264" selection-start-column="40" selection-end-line="264" selection-end-column="40" />
+            <state relative-caret-position="483">
+              <caret line="165" column="18" selection-start-line="163" selection-start-column="54" selection-end-line="164" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -169,8 +140,18 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,11 +221,20 @@
       <updated>1558494276566</updated>
       <workItem from="1558494277848" duration="14905000" />
       <workItem from="1558523134582" duration="450000" />
+      <workItem from="1558535444670" duration="241000" />
     </task>
+    <task id="LOCAL-00001" summary="提交代码了">
+      <created>1558535554569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558535554569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15355000" />
+    <option name="totallyTimeSpent" value="15596000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -257,6 +247,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -295,6 +286,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="提交代码了" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交代码了" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$3/CluodProviderWlzApplication.java" />
@@ -360,6 +357,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-erueka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="7" lean-forward="true" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="165" column="18" selection-start-line="163" selection-start-column="54" selection-end-line="164" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
@@ -413,20 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-erueka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="7" lean-forward="true" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="264" column="40" lean-forward="true" selection-start-line="264" selection-start-column="40" selection-end-line="264" selection-end-column="40" />
         </state>
       </provider>
     </entry>
