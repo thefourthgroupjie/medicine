@@ -35,7 +35,7 @@ public interface DrugMapper {
 
     List<DrugStoreBean> queryDrugStoreListPoi(@Param("id") Integer id);
 
-    List<DrugBean> queryDrugListPoi(@Param("id") Integer id);
+    List<DrugBean> queryDrugListPoi(@Param("id") String id);
 
     List<ZsBean> queryAttratListPoi();
 }

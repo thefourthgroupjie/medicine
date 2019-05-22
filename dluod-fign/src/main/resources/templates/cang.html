@@ -3,32 +3,32 @@
 <html>
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>我的购物车</title>
+    <title>我的收藏列表</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-<link rel="stylesheet" href="../mycar_files/common.css">
-<link rel="stylesheet" href="../mycar_files/css.css">
-<script src="../mycar_files/jQuery-2.2.0.min.js"></script>
-<script src="../mycar_files/layer.js"></script><link rel="stylesheet" href="../mycar_files/layer.css" id="layui_layer_skinlayercss" style="">
+    <link rel="stylesheet" href="/mycar_files/common.css">
+    <link rel="stylesheet" href="/mycar_files/css.css">
+    <script src="/mycar_files/jQuery-2.2.0.min.js"></script>
+    <script src="/mycar_files/layer.js"></script><link rel="stylesheet" href="/mycar_files/layer.css" id="layui_layer_skinlayercss" style="">
 
-<link rel="shortcut  icon" type="image/x-icon" href="http://www.xb1y.com/index.php/Home/Goods/favicon.ico" media="screen">
-<link rel="stylesheet" href="../mycar_files/common.css">
-<link rel="stylesheet" href="../mycar_files/navregister.css">
+    <link rel="shortcut  icon" type="image/x-icon" href="http://www.xb1y.com/index.php/Home/Goods/favicon.ico" media="screen">
+    <link rel="stylesheet" href="/mycar_files/common.css">
+    <link rel="stylesheet" href="/mycar_files/navregister.css">
     <link rel="shortcut  icon" type="image/x-icon" href="http://www.xb1y.com/index.php/Home/Goods/favicon.ico" media="screen">
     <!-- 引入jquery的js -->
-    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
     <!-- 引入bootstrap的js,css -->
-    <link rel="stylesheet" href="../js/bootstrap3/css/bootstrap.css">
-    <script type="text/javascript" src="../js/bootstrap3/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="/js/bootstrap3/css/bootstrap.css">
+    <script type="text/javascript" src="/js/bootstrap3/js/bootstrap.js"></script>
     <!-- 引入table的js、css -->
-    <link rel="stylesheet" href="../js/bootstrap-table/bootstrap-table.css">
-    <script src="../js/bootstrap-table/bootstrap-table.js"></script>
-    <script src="../js/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
+    <link rel="stylesheet" href="/js/bootstrap-table/bootstrap-table.css">
+    <script src="/js/bootstrap-table/bootstrap-table.js"></script>
+    <script src="/js/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
     <!--引入时间的js css 中文-->
-    <script src="../js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
-    <link rel="stylesheet" href="../js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css">
-    <script src="../js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+    <link rel="stylesheet" href="/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css">
+    <script src="/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
     <!-- 引入弹框的js、css -->
-    <script src="../js/bootstrap-bootbox/bootbox.js"></script>
+    <script src="/js/bootstrap-bootbox/bootbox.js"></script>
 </head>
 <body class="hold-transition skin-blue sidebar-mini" id="app">
 <div class="wrapper">
@@ -149,7 +149,7 @@
                 //数量增加操作
                 function plus(e){
                     var mm = $(e).parent().parent().parent();
-                    var price = mm.find("#goods_price").text();
+                    var price = mm.find("#price").text();
 
                     if(mm.find(".nums").val()==''){
                         mm.find(".nums").val(1);
@@ -164,7 +164,7 @@
                 }
                 function shuliang1(e) {
                     var mm = $(e).parent().parent().parent();
-                    var price = mm.find("#goods_price").text();
+                    var price = mm.find("#price").text();
 
                     if(mm.find(".nums").val()==''){
                         mm.find(".nums").val(1);
@@ -177,7 +177,7 @@
                 //数量减少操作
                 function reduce(e){
                     var mm = $(e).parent().parent().parent();
-                    var price = mm.find("#goods_price").text();
+                    var price = mm.find("#price").text();
 
                     if(mm.find(".nums").val()==''){
                         mm.find(".nums").val(1);
@@ -340,7 +340,7 @@
     /*查询购物车*/
     function  selectCarAll() {
         $.ajax({
-            url:'/selectCarAll',
+            url:'/queryCar',
             type:"get",
             dataType:"json",
             success:function (data) {
@@ -363,20 +363,20 @@
                         '            </li>\n' +
                         '            <li class="myshop-guige" style="color: #666;">'+data[i].price+'</li>\n' +
                         '            <li class="myshop-procom" style="color: #666;"></li>\n' +
-                    '            <li class="myshop-proper">￥<span id="goods_price">'+data[i].price+'</span></li>\n' +
-                    '            <li class="myshopcar-num">\n' +
-                    '                <div class="num-add-jian">\n' +
-                    '                    <a href="javascript:void(0);" onclick="reduce(this)">-</a>\n' +
-                    '                    <input onkeyup="this.value=this.value.replace(/[^\\d]/g,\'\');" onBlur="shuliang1(this) " onafterpaste="this.value=this.value.replace(/\\D/g,\'\')" type="text" name="goods_num[]" class="nums" id="num'+data[i].id+'" value="'+ data[i].shulian+'">\n' +
-                    '                    <a href="javascript:void(0);" onclick="plus(this)">+</a>\n' +
-                    '                </div>\n' +
-                    '            </li>\n' +
-                    '            <li class="myshopcar-count" style="color: #fe1b1b;font-weight: bold;">￥<span id="price">'+(data[i].price*data[i].shulian)+'</span></li>\n' +
-                    '            <li class="myshop-itemlist">\n' +
-                    '                <input type="button"   value="删除"  onclick="deleteCar('+data[i].id+')">\n' +
-                    '                <input type="button"   value="收藏"  onclick="shoucang('+data[i].id+')">\n' +
-                    '            </li>\n' +
-                    '        </ul>'
+                        '            <li class="myshop-proper">￥<span id="goods_price">'+data[i].price+'</span></li>\n' +
+                        '            <li class="myshopcar-num">\n' +
+                        '                <div class="num-add-jian">\n' +
+                        '                    <a href="javascript:void(0);" onclick="reduce(this)">-</a>\n' +
+                        '                    <input onkeyup="this.value=this.value.replace(/[^\\d]/g,\'\');" onBlur="shuliang1(this) " onafterpaste="this.value=this.value.replace(/\\D/g,\'\')" type="text" name="goods_num[]" class="nums" id="num'+data[i].id+'" value="'+ data[i].shulian+'">\n' +
+                        '                    <a href="javascript:void(0);" onclick="plus(this)">+</a>\n' +
+                        '                </div>\n' +
+                        '            </li>\n' +
+                        '            <li class="myshopcar-count" style="color: #fe1b1b;font-weight: bold;">￥<span id="price">'+(data[i].price*data[i].shulian)+'</span></li>\n' +
+                        '            <li class="myshop-itemlist">\n' +
+                        '                <input type="button"   value="取消收藏"  onclick="deleteCar('+data[i].id+')">\n' +
+                        '                <input type="button"   value="收藏"  onclick="shoucang('+data[i].id+')">\n' +
+                        '            </li>\n' +
+                        '        </ul>'
                 }
 
                 $("#myshoppro-list").append(html1)
@@ -398,10 +398,10 @@
     })
     function deleteCar(id){
         $.ajax({
-            url: "/deleteCar?id="+id,
+            url: "/deleteCang?id="+id,
             type: "get",
             success: function () {
-                if (confirm("已经删除")) {
+                if (confirm("已经取消收藏")) {
 
                 }
             }

@@ -7,6 +7,9 @@ eureka:
 spring:
   application:
     name: springcloud-feign
+  data:
+    solr:
+      host: http://127.0.0.1:8080/solr
   thymeleaf:
     cache: false
     check-template: true

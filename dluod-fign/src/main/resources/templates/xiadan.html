@@ -24,7 +24,8 @@
 </head>
 <body>
 <div id="toolbar">
-    <button type="button" class="btn btn-success" onclick="saveBtn()">首页</button>
+    <a href="http://localhost:8081/page/toShouye">首页</a>
+    <input type="hidden" name="message" value="<%=httpServletRequest.getAttribute('message') %>">
 </div>
 <table class="table" id="drugTable"></table>
 
@@ -57,14 +58,20 @@
                 {field: "kucun", title: "库存"},
                 {field: "drugid", title: "药品id"},
                 {field: "price", title: "价格"},
-
+                {field:'count',title:'购买数量',formatter:function(value,row,index){
+                        var html =
+                            "<input onclick='jian("+row.id+")' type='button' value='-'>"
+                            +"<input id='shulian"+row.id+"' type='text' value='1' size='3'>"
+                            +"<input onclick='jia("+row.id+")' type='button' value='+'>"
+                        return html;
+                }},
                 {field:'drugimg',title:'药品图片',formatter:function(value,row,index){
                         return "<img width='50px' height='50px' src='"+value+"'/>";
                     }},
                 {
                     field: "tools", title: "操作", formatter: function (value, row, index) {
                         var html = "<a href='javascript:deleteOne(" + row.id + ")'></a>";
-                        html += "<a href='javascript:updateVideo(" + row.id + ","+row.shulian+")'>加入购物车</a>";
+                        html += "<a href='javascript:updateVideo(" + row.id + ")'>加入购物车</a>";
                         //  html += "<p>数量: <button onclick='numDec()'>-</button> <input type='text' id='quantity' /> <button onclick='numAdd()'>+</button></p>";
                         return html;
                     }
@@ -73,8 +80,22 @@
 
         })
     }
-        //单删
-        function updateVideo(id,shulian){
+    function jia(id){
+        var shulian = $("#shulian"+id).val();
+        shulian = Number(shulian)+1;
+        $("#shulian"+id).val(shulian);
+    }
+
+    function jian(id){
+        var shulian = $("#shulian"+id).val();
+        if(shulian > 0){
+            shulian = Number(shulian)-1;
+            $("#shulian"+id).val(shulian);
+        }
+    }
+
+        function updateVideo(id){
+            var shulian = $("#shulian"+id).val();
             $.ajax({
                 url: "/addDrugCar",
                 type: "get",
@@ -84,7 +105,7 @@
                 },
                 success: function () {
                     if (confirm("已经加入购物车")) {
-                        $('#myTable').bootstrapTable('refresh');
+
                     }
                 }
             })

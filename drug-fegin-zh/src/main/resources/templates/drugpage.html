@@ -56,38 +56,38 @@
             <div class="info-box">
                 <ul class="data-top-list">
                     <li style="background-color:#28aadc;">
-                        <a href="http://localhost:8081/page/toDrugPage">
+                        <a href="http://localhost:8082/page/toDrugPage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_03.png">
                             <p>中标数据药品库 </p>
                         </a>
                     </li>
                     <li style="background-color:#219fd0;">
-                        <a href="http://localhost:8081/page/toDrugStorePage">
+                        <a href="http://localhost:8082/page/toDrugStorePage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_05.png">
                             <p>药店/诊所大全 </p>
                         </a>
                     </li>
                     <li style="background-color:#1b93c1;">
-                        <a href="http://localhost:8081/page/toHospitalPage">
+                        <a href="http://localhost:8082/page/toHospitalPage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_07.png">
                             <p>医院大全</p>
                         </a>
                     </li>
                     <li style="background-color:#dc7316;">
-                        <a href="http://localhost:8081/page/toAttractPage">
+                        <a href="http://localhost:8082/page/toAttractPage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/zhaoshangdown.png">
                             <p>招商信息下载</p>
                         </a>
                     </li>
                     <li style="background-color:#e3812b;">
-                        <a href="http://localhost:8081/page/toDrugAptitudePage">
+                        <a href="http://localhost:8082/page/toDrugAptitudePage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_09.png">
                             <p>资质下载</p>
                         </a>
                     </li>
 
                     <li style="background-color:#ef9545;">
-                        <a href="http://localhost:8081/page/toConventionPage">
+                        <a href="http://localhost:8082/page/toConventionPage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_11.png">
                             <p>国药会展资料下载</p>
                         </a>
@@ -101,7 +101,7 @@
                         <label for="drugName">产品名称：</label>
                         <input type="text" class="form-control" id="drugName" placeholder="请输入产品名称">
                     </div>
-                    <div class="form-group">
+                  <!--  <div class="form-group">
                         <label for="drugId">编号：</label>
                         <input type="text" class="form-control" id="drugId" placeholder="请输入编号">
                     </div>
@@ -120,7 +120,7 @@
                     <div class="form-group">
                         <label for="directoryType">目录类型：</label>
                         <input type="text" class="form-control" id="directoryType" placeholder="请输入目录类型">
-                    </div>
+                    </div>-->
                     <button type="button" class="btn btn-primary glyphicon glyphicon-search" onclick="searchUser()">开始查询</button>
                 </form>
             </div>
@@ -145,7 +145,8 @@
     //查询药品库数据
     function initMyTable(){
         $("#drugTable").bootstrapTable({
-            url:"/findDrugList",
+            url:"/serch",
+            toolbar:"#toolbar",
             pagination:true,
             pageList:[5,10,15,20],
             pageNumber:1,
@@ -165,6 +166,8 @@
                 return{
                     page:this.pageNumber,
                     rows:this.pageSize,
+                    drugName:$("#drugName").val(),
+
                 }
             },
             columns:[
