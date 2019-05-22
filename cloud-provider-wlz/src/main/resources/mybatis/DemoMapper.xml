@@ -32,7 +32,6 @@
         tf.name as typeName
         from t_gyxx tg
         left join t_fltype_copy1 tf on tg.typeId = tf.id
-
         limit #{start},#{rows}
     </select>
 

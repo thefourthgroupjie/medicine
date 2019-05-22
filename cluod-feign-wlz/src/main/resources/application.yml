@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8082
 eureka:
   client:
     service-url:
@@ -20,3 +20,4 @@ spring:
       maxWait: 1000
       testOnBorrow: true
       timeout: 1000
+

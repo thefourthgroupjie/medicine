@@ -13,7 +13,7 @@
         <module>cluod-erueka</module>
         <module>cluod-api-wlz</module>
         <module>cluod-feign-wlz</module>
-        <module>cluod-proviter-wlz</module>
+        <module>cloud-provider-wlz</module>
     </modules>
 
 

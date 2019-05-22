@@ -40,7 +40,7 @@
             Hi,欢迎来到西北医药网
             <span>
                 【
-                <a href="http://www.xb1y.com/index.php/Home/Member/Member_login.html" style="color: #e57816;">请先登录</a>
+                <a href="http://127.0.0.1:8014/page/toLogin" style="color: #e57816;">请先登录</a>
                 |
                 <a href="http://www.xb1y.com/index.php/Home/Member/Member_register.html">注册</a>
                                 】
@@ -49,7 +49,7 @@
         <ul class="logotop-rt">
             <li>服务热线：400-0097-600</li>
             <li><a href="http://www.xb1y.com/index.php/Home/MemberBuyer/MyOrder.html">我的订单 </a></li>
-            <li><a href="http://www.xb1y.com/index.php/Home/Goods/user_cart.html">我的购物车</a></li> 
+            <li><a href="http://localhost:8091/page/queryQiye">我的购物车</a></li>
             <li><a href="http://www.xb1y.com/index.php/Home/Agent/index.html#">帮助中心</a></li>
             <li><a href="http://www.xb1y.com/index.php/Home/Agent/index.html#">收藏网站</a></li>
         </ul>
@@ -68,9 +68,7 @@
                 <input type="text" class="ss-input" name="key" value="" placeholder="请输入关键字进行搜索">
                 <button type="submit">搜索</button>
 				<div class="input-xlbox" id="zhaode">
-					
-						
-					
+
 				</div>
             </div>
         </form>
@@ -126,7 +124,7 @@
                 <img src="../zsdl_files/index_06.png"> 缺药登记
             </a>
 			
-		             <a href="http://www.xb1y.com/index.php/Home/Goods/user_cart.html" class="myshopping">
+		             <a href="http://localhost:8010/page/goshop" class="myshopping">
                 <img src="../zsdl_files/index_08.png">
                 我的购物车
             </a> 
@@ -138,13 +136,13 @@
     <div class="navbox">
         <h3>药品分类</h3>
         <ul class="navbar-list">
-            <li><a href="http://www.xb1y.com/index.php/Home/Index/index.html">首页</a></li>
-            <li><a href="http://www.xb1y.com/index.php/Home/Agent/index.html">招商/代理</a></li>
-            <li><a href="http://www.xb1y.com/index.php/Home/Board/index.html">上榜企业</a></li>
-            <li><a href="http://www.xb1y.com/index.php/Home/Information/index.html">数据中心</a></li>
-            <li><a href="http://www.xb1y.com/index.php/Home/Article/index.html">资讯平台</a></li>
-            <li><a href="http://www.xb1y.com/index.php/Home/Drugshow/index.html">医药会展</a></li>
-            <li><a href="http://www.xb1y.com/index.php/Home/Activityzone/index.html">活动专区</a></li> 
+            <li><a href="">首页</a></li>
+            <li><a href=" http://localhost:8082/page/toMain">招商/代理</a></li>
+            <li><a href="http://localhost:8081/page/queryQiye">上榜企业</a></li>
+            <li><a href=" http://localhost:8081/page/toDrugPage">数据中心</a></li>
+            <li><a href=" http://127.0.0.1:8081/page/zixun">资讯平台</a></li>
+            <li><a href=" http://127.0.0.1:8081/page/yiyaohuizhan">医药会展</a></li>
+            <li><a href="http://localhost:8089/page/activity">活动专区</a></li>
         </ul>
     </div>
 </div>
@@ -162,7 +160,7 @@
 			订单
 		</div>
 	</a>
-	<a href="http://www.xb1y.com/index.php/Home/Goods/user_cart.html">
+	<a href="http://localhost:8010/page/goshop">
 		<div class="xb-right_list">
 			<img alt="" src="../zsdl_files/gwc.png">
 			购物车
@@ -220,7 +218,7 @@ $(function(){
 	//alert((urlstr + '/').indexOf($(this).attr('href')));
 	
 	 var urlstatus=false;
-	$("#menu a").each(function () {
+	$("#menu a").each(function (){
 		if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
 			$(this).addClass('cur'); urlstatus = true;
 		} else {

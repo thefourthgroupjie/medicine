@@ -60,13 +60,6 @@
         </dependency>
     </dependencies>
 
-    <dependency>
-        <groupId>com.xb</groupId>
-        <artifactId>cluod-common</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <scope>compile</scope>
-    </dependency>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
