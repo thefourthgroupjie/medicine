@@ -201,7 +201,7 @@
             <div class="location-now">
                 <div class="location-text">
                     <img src="../qianTai_files/compang_03.png">
-                    当前位置： 首页 &gt;  上榜企业
+                    当前位置： 首页 &gt;  上榜企业 &gt;<a href="/page/guanyu">关于我们</a>
                 </div>
             </div>
             <!--内容-->
@@ -258,9 +258,11 @@
                                             '                                        <img src="'+obj.drugimg+'">\n' +
                                             '                                        <p class="prodct-newszs-name">'+obj.name+'</p>\n' +
                                             '                                        <p class="prodct-newszs-name" style="color: #999">主治:'+obj.drugdetails+'</p>\n' +
-                                            '                                        <h3 class="prodct-newszs-name" style="width: 96%">库存:'+obj.kucun+'</h3>                        </a>\n' +
+                                            '                                        <p class="prodct-newszs-name" style="color: #999">库存:'+obj.kucun+'</p>\n' +
+                                            '                                        <h4 class="prodct-newszs-name" style="width: 96%;color: #b2a6ff">价格:'+obj.price+'</h4>\n' +
                                             '                                </div>\n'+
-                                            '                                <a   class="zs-shop">加入购物车</a>\n'+
+                                            '                                <a href=""  class="zs-shop">查看详情</a>\n'+
+
                                             '                            </div>\n' +
                                             '                        </li>';
                                         $("#drugs").html(content);
@@ -268,6 +270,18 @@
 
                                 }
                             })
+                        }
+                        function updates(id){
+                                   $.ajax({
+                                        url:'/main/shoucang?id='+id,
+                                        success:function(data){
+                                            if(data){
+                                                alert("收藏成功");
+                                            }else{
+                                               alert("收藏失败");
+                                            }
+                                        }
+                                    })
                         }
                     </script>
                     <div class="search-com">

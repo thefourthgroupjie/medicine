@@ -1,8 +1,12 @@
 package com.xb.model;
 
-public class MySqls {
+import java.io.Serializable;
 
-private Integer id;
+public class MySqls implements Serializable {
+
+    private static final long serialVersionUID = -2430219220702731185L;
+
+    private Integer id;
 
 private String name;
 
@@ -15,6 +19,25 @@ private String drugfuction;
 private Integer kucun;
 
 private Integer drugid;
+
+    public Integer getPrice() {
+        return price;
+    }
+
+    public void setPrice(Integer price) {
+        this.price = price;
+    }
+
+    public Integer getShulian() {
+        return shulian;
+    }
+
+    public void setShulian(Integer shulian) {
+        this.shulian = shulian;
+    }
+
+    private Integer price;
+    private Integer shulian;
 
     public Integer getId() {
         return id;
@@ -82,6 +105,8 @@ private Integer drugid;
                 ", drugfuction='" + drugfuction + '\'' +
                 ", kucun=" + kucun +
                 ", drugid=" + drugid +
+                ", price=" + price +
+                ", shulian=" + shulian +
                 '}';
     }
 }

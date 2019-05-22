@@ -18,6 +18,24 @@ public class DrugName implements Serializable {
     private Integer kucun;
 
     private Integer drugid;
+    private Integer price;
+    private Integer shulian;
+
+    public Integer getPrice() {
+        return price;
+    }
+
+    public void setPrice(Integer price) {
+        this.price = price;
+    }
+
+    public Integer getShulian() {
+        return shulian;
+    }
+
+    public void setShulian(Integer shulian) {
+        this.shulian = shulian;
+    }
 
     public Integer getId() {
         return id;
@@ -85,6 +103,8 @@ public class DrugName implements Serializable {
                 ", drugfuction='" + drugfuction + '\'' +
                 ", kucun=" + kucun +
                 ", drugid=" + drugid +
+                ", price=" + price +
+                ", shulian=" + shulian +
                 '}';
     }
 }

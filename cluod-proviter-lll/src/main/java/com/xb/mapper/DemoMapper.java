@@ -1,6 +1,7 @@
 package com.xb.mapper;
 
 import com.xb.model.Drug;
+import com.xb.model.DrugName;
 import com.xb.model.DrugType;
 import com.xb.model.MySqls;
 import org.apache.ibatis.annotations.Select;
@@ -19,4 +20,8 @@ public interface DemoMapper {
 
 
     List<MySqls> queryMySql(Integer id);
+
+    List<DrugName> queryDrugName(Integer id);
+
+    List<MySqls> shoucang(Integer id);
 }

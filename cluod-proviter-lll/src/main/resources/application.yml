@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8090
 eureka:
   client:
     serviceUrl:
@@ -25,3 +25,4 @@ mybatis:
     encoding: UTF-8
     content-type: textml
     mode: HTML5
+

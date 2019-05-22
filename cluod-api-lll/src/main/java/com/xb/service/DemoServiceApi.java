@@ -2,6 +2,7 @@ package com.xb.service;
 
 
 import com.xb.model.Drug;
+import com.xb.model.DrugName;
 import com.xb.model.DrugType;
 import com.xb.model.MySqls;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -29,4 +30,10 @@ public interface DemoServiceApi {
 
     @RequestMapping(value = "queryMySql",method = RequestMethod.POST)
     List<MySqls> queryMySql(@RequestParam("id") Integer id);
+
+    @RequestMapping(value = "queryDrugName",method = RequestMethod.POST)
+    List<DrugName> queryDrugName(@RequestParam("id") Integer id);
+
+    @RequestMapping(value = "shoucang",method = RequestMethod.POST)
+    List<MySqls> shoucang(@RequestParam("id") Integer id);
 }
