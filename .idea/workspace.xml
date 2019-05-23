@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18636b21-be5f-4fc3-9c2f-1c3bd3f82a35" name="Default Changelist" comment="Merge branch 'renhaojie' of https://github.com/thefourthgroupjie/medicine&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/java/com/xb/utils/OSSClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/resources/templates/addimg.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-api-lll/src/main/java/com/xb/service/DemoServiceApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-api-lll/src/main/java/com/xb/service/DemoServiceApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-rhj/target/classes/com/xb/service/DrugServiceApi.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cluod-feign-lll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-lll/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-lll/src/main/java/com/xb/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/java/com/xb/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-lll/src/main/java/com/xb/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/java/com/xb/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-lll/src/main/resources/templates/hsoucang.html" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/resources/templates/hsoucang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-feign-lll/src/main/resources/templates/queryDianpu.html" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/resources/templates/queryDianpu.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluod-proviter-lll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-proviter-lll/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluod-proviter-lll/src/main/java/com/xb/controller/DemoControllerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-proviter-lll/src/main/java/com/xb/controller/DemoControllerImp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-api-rhj/target/" />
@@ -63,7 +56,26 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluod-feign-lll/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cluod-proviter-lll/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,28 +120,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/cloud-provider-rhj/src/main/java/com/xb/mapper/DrugMapper.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cloud-provider-rhj/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cloud-provider-rhj/src/main/java/com/xb/controller/DrugController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/java/com/xb/utils/HttpClient.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cluod-erueka/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/yiyaorencai.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/InformationBean.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/java/com/xb/controller/DrugController.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cloud-api-rhj/src/main/java/com/xb/service/DrugServiceApi.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/dloud-provider/src/main/java/com/xb/service/ShopServiceImpl.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/java/com/xb/controller/PageController.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cloud-provider-rhj/src/main/java/com/xb/CloudProviderRhjApplication.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/java/com/xb/utils/HttpClient.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/dluod-fign/src/main/resources/templates/shouye.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/yaoshiList.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/MedicalpersonnelBean.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/zixunpingtai.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/HttpJson.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/drugList.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cloud-provider-rhj/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/MedicalpersonnelBean.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cloud-api-rhj/src/main/java/com/xb/service/DrugServiceApi.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/SpecialtyBean.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/Medical.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/java/com/xb/controller/PageController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dluod-fign/src/main/resources/templates/shouye.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/NewsTypeBean.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cloud-provider-rhj/src/main/java/com/xb/CloudProviderRhjApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dloud-provider/src/main/java/com/xb/service/ShopServiceImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/drugList.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/Medical.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/zixunpingtai.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/InformationBean.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cloud-provider-rhj/src/main/java/com/xb/controller/DrugController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cloud-provider-rhj/src/main/java/com/xb/mapper/DrugMapper.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/yaoshiList.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -181,6 +193,8 @@
         <option value="$PROJECT_DIR$/cluod-provider-cls/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/drug-provider-zh/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cluod-proviter-lll/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cluod-feign-lll/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-proviter-lll/pom.xml" />
       </list>
     </option>
   </component>
@@ -191,6 +205,12 @@
         <option name="userSettingsFile" value="E:\work\ranjian\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="584" />
@@ -211,6 +231,16 @@
               <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicine" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-feign-lll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicine" type="462c0819:PsiDirectoryNode" />
+              <item name="cluod-proviter-lll" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -224,7 +254,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558573824870" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558576217788" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -370,6 +400,7 @@
       <workItem from="1558507203599" duration="6011000" />
       <workItem from="1558513782560" duration="1536000" />
       <workItem from="1558572875411" duration="829000" />
+      <workItem from="1558576070885" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'renhaojie' of https://github.com/thefourthgroupjie/medicine&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/workspace.xml">
       <created>1558506729900</created>
@@ -389,7 +420,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65401000" />
+    <option name="totallyTimeSpent" value="65503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,6 +433,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -409,7 +441,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26279318" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26545843" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3286119" />
@@ -429,7 +461,7 @@
       <window_info anchor="bottom" id="Spring" order="14" weight="0.3286119" />
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.2624729" />
-      <window_info anchor="right" id="Maven" order="0" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.32942432" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
@@ -511,14 +543,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="整合" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/yiyaohuizhan.html" />
-    <entry file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/yaoshiList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825">
-          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/drugList.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -696,9 +720,7 @@
     <entry file="file://$PROJECT_DIR$/cluod-fegin-wlz/src/main/java/com/xb/CluodFeginWlzApplication.java" />
     <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/pom.xml" />
     <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/java/com/xb/CluodProviderClsApplication.java" />
-    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/Jfdetails.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/Jfdetails.java" />
     <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/java/com/xb/mapper/XbMapper.java" />
     <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/static/static/js/my97/lang/en.js" />
@@ -740,6 +762,20 @@
     <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-lll/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-proviter-lll/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

@@ -11,7 +11,7 @@
 <groupId>com.jk</groupId>
 <artifactId>cluo-proviter-lll</artifactId>
 <version>0.0.1-SNAPSHOT</version>
-<name>user_provider</name>
+<name>cluo-proviter-lll</name>
 <description>Demo project for Spring Boot</description>
 
 <properties>

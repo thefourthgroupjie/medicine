@@ -11,7 +11,7 @@
     <groupId>com.xb</groupId>
     <artifactId>cluod-feign-lll</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cluod-feign-wlz</name>
+    <name>cluod-feign-lll</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
