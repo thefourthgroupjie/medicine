@@ -151,10 +151,16 @@ public class ShopController {
         //查出id对应的价格，然后和将单价和个数 *
         for (int i=0;i<ids.length;i++){
             ShopModel shopModel = findDrugById(Integer.parseInt(ids[i]));
-            double goodsPrice = shopModel.getPrice();
-            int count1 = Integer.parseInt(counts[i]);
-            double xiaoji = count1*goodsPrice;
-            total+=xiaoji;
+            int goodsCount = shopModel.getKucun();
+            int count2 = Integer.parseInt(counts[i]);
+            if (count2>goodsCount){
+                System.out.println("购买数量已超出库存");
+            }else {
+                double goodsPrice = shopModel.getPrice();
+                int count1 = Integer.parseInt(counts[i]);
+                double xiaoji = count1 * goodsPrice;
+                total += xiaoji;
+            }
         }
 
         System.out.println(total);
