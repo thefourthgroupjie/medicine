@@ -9,7 +9,7 @@
     <relativePath/> <!-- lookup parent from repository -->
 </parent>
 <groupId>com.jk</groupId>
-<artifactId>user_provider</artifactId>
+<artifactId>cluo-proviter-lll</artifactId>
 <version>0.0.1-SNAPSHOT</version>
 <name>user_provider</name>
 <description>Demo project for Spring Boot</description>
@@ -54,12 +54,6 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-test</artifactId>
         <scope>test</scope>
-    </dependency>
-    <dependency>
-        <groupId>com.xb</groupId>
-        <artifactId>cluod-feign-wlz</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <scope>compile</scope>
     </dependency>
     <dependency>
         <groupId>com.alibaba</groupId>

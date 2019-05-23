@@ -1,10 +1,10 @@
 package com.xb.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.xb.common.ConstantConf;
+
 import com.xb.model.DrugName;
 import com.xb.model.MySqls;
-import com.xb.utils.HttpClientUtil;
+
 import com.xb.mapper.DemoMapper;
 import com.xb.model.Drug;
 import com.xb.model.DrugType;
@@ -44,19 +44,7 @@ return demoMapper.queryDrug();
     }
 
 
-    @RequestMapping(value = "testGet",method = RequestMethod.POST)
-    @ResponseBody
-    @Override
-    public String testGet(String msg) {
-        HashMap<String, Object> hashMap = new HashMap<>();
-        hashMap.put("key", "free");
-        hashMap.put("appid", 0);
-        hashMap.put("msg", msg);
-        String post = HttpClientUtil.get(ConstantConf.JIQIREN, hashMap);
-        JSONObject parseObject = JSON.parseObject(post);
-        String string = parseObject.getString("content");
-        return string;
-    }
+
 
     @RequestMapping(value ="queryMySql",method = RequestMethod.POST)
     @ResponseBody
@@ -65,6 +53,8 @@ return demoMapper.queryDrug();
         return demoMapper.queryMySql(id);
     }
 
+    @RequestMapping(value ="queryDrugName",method = RequestMethod.POST)
+    @ResponseBody
     @Override
     public List<DrugName> queryDrugName(Integer id) {
 

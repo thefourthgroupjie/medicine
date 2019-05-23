@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18636b21-be5f-4fc3-9c2f-1c3bd3f82a35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="18636b21-be5f-4fc3-9c2f-1c3bd3f82a35" name="Default Changelist" comment="Merge branch 'renhaojie' of https://github.com/thefourthgroupjie/medicine&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/java/com/xb/utils/OSSClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/resources/templates/addimg.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drug-provider-zh/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/drug-provider-zh/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-api-lll/src/main/java/com/xb/service/DemoServiceApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-api-lll/src/main/java/com/xb/service/DemoServiceApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-feign-lll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-lll/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-feign-lll/src/main/java/com/xb/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/java/com/xb/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-feign-lll/src/main/java/com/xb/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/java/com/xb/controller/PageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-feign-lll/src/main/resources/templates/hsoucang.html" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/resources/templates/hsoucang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-feign-lll/src/main/resources/templates/queryDianpu.html" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-lll/src/main/resources/templates/queryDianpu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-proviter-lll/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-proviter-lll/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-proviter-lll/src/main/java/com/xb/controller/DemoControllerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-proviter-lll/src/main/java/com/xb/controller/DemoControllerImp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-api-rhj/target/" />
@@ -175,6 +180,7 @@
         <option value="$PROJECT_DIR$/cluod-api-cls/src/main/java/com/xb/service/XbServiceApi.java" />
         <option value="$PROJECT_DIR$/cluod-provider-cls/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/drug-provider-zh/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cluod-proviter-lll/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -196,6 +202,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -208,7 +215,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +224,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558572913066" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558573824870" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -363,6 +369,7 @@
       <workItem from="1558252091191" duration="56492000" />
       <workItem from="1558507203599" duration="6011000" />
       <workItem from="1558513782560" duration="1536000" />
+      <workItem from="1558572875411" duration="829000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'renhaojie' of https://github.com/thefourthgroupjie/medicine&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/workspace.xml">
       <created>1558506729900</created>
@@ -371,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558506729900</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="整合">
+      <created>1558573019887</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558573019887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64572000" />
+    <option name="totallyTimeSpent" value="65401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -395,7 +409,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26012793" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26279318" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3286119" />
@@ -404,7 +418,7 @@
       <window_info anchor="bottom" id="Messages" order="3" weight="0.3264642" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="6" visible="true" weight="0.3275488" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.24787535" />
@@ -414,7 +428,7 @@
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.3286119" />
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.2624729" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.2624729" />
       <window_info anchor="right" id="Maven" order="0" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -493,10 +507,10 @@
     <MESSAGE value="页面查询" />
     <MESSAGE value="Merge branch 'zhanghao' of https://github.com/thefourthgroupjie/medicine&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Merge branch 'renhaojie' of https://github.com/thefourthgroupjie/medicine&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'renhaojie' of https://github.com/thefourthgroupjie/medicine&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="整合" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/hd.html" />
     <entry file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/yiyaohuizhan.html" />
     <entry file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/yaoshiList.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -681,90 +695,24 @@
     <entry file="file://$PROJECT_DIR$/cluod-fegin-wlz/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/cluod-fegin-wlz/src/main/java/com/xb/CluodFeginWlzApplication.java" />
     <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/java/com/xb/CluodProviderClsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/java/com/xb/CluodProviderClsApplication.java" />
     <entry file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/Jfdetails.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/java/com/xb/mapper/XbMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/java/com/xb/mapper/XbMapper.java" />
     <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/static/static/js/my97/lang/en.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/templates/templates/hd.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/java/com/xb/controller/XbController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/java/com/xb/CluodFeignClsApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/java/com/xb/controller/XbController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-api-cls/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-api-cls/src/main/java/com/xb/service/XbServiceApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/java/com/xb/service/XbServiceFeign.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/resources/mybatis/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/static/static/js/my97/lang/en.js" />
+    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/templates/templates/hd.html" />
+    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/java/com/xb/controller/XbController.java" />
+    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/java/com/xb/CluodFeignClsApplication.java" />
+    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/java/com/xb/controller/XbController.java" />
+    <entry file="file://$PROJECT_DIR$/cluod-api-cls/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cluod-api-cls/src/main/java/com/xb/service/XbServiceApi.java" />
+    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/java/com/xb/service/XbServiceFeign.java" />
+    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/resources/mybatis/UserMapper.xml" />
     <entry file="jar://$USER_HOME$/.m2/repository/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.jar!/com/sun/jersey/client/apache4/ApacheHttpClient4Handler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -789,12 +737,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

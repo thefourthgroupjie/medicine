@@ -234,12 +234,12 @@
 
                         /* 页面加载 */
                         $(function () {
-                     //获取当前页面的url值 "?+参数 "
-                   var ids=window.location.search;
+                            //获取当前页面的url值 "?+参数 "
+                            var ids=window.location.search;
                             //截取等号后面的值
-                     var idss=ids.split("=")[1];
-                    // 将截取到的值赋给id
-                    var  id=idss;
+                            var idss=ids.split("=")[1];
+                            // 将截取到的值赋给id
+                            var  id=idss;
                             initMyTableName(id)
                         });
 
@@ -261,10 +261,11 @@
                                             '                                        <p class="prodct-newszs-name" style="color: #999">库存:'+obj.kucun+'</p>\n' +
                                             '                                        <h4 class="prodct-newszs-name" style="width: 96%;color: #b2a6ff">价格:'+obj.price+'</h4>\n' +
                                             '                                </div>\n'+
-                                            '                                <a href=""  class="zs-shop">查看详情</a>\n'+
+                                            '                                <a href="/page/hsoucang?id='+obj.id+'&imgs='+obj.drugimg+'"class="zs-shop">查看详情</a>\n'+
 
                                             '                            </div>\n' +
                                             '                        </li>';
+
                                         $("#drugs").html(content);
                                     })
 
