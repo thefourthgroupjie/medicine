@@ -11,7 +11,7 @@
     <groupId>com.xb</groupId>
     <artifactId>cluod-proviter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>cluod-proviter</name>
+    <name>cloud-provider-wlz</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

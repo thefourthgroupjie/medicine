@@ -1,10 +1,10 @@
 package com.xb.controller;
 
-import com.xb.mapper.DemoMapper;
+import com.xb.mapper.GoodsMapper;
 import com.xb.model.DaiLiBean;
 import com.xb.model.GoodsBean;
 import com.xb.model.GyxxBean;
-import com.xb.service.DemoServiceApi;
+import com.xb.service.GoodsServiceApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -17,9 +17,9 @@ import java.util.List;
 import java.util.Map;
 
 @Controller
-public class DemoControllerImp implements DemoServiceApi {
+public class GoodsControllerImp implements GoodsServiceApi {
     @Autowired
-    private DemoMapper demoMapper;
+    private GoodsMapper demoMapper;
 
     // 查询列表
     @RequestMapping(value = "queryGoods", method = RequestMethod.POST)

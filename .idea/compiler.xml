@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cluod-feign-wlz" />
+        <module name="cluod-api-wlz" />
         <module name="cloud-provider-wlz" />
         <module name="cluod-erueka" />
         <module name="cluod-common" />
-        <module name="cluod-api-wlz" />
+        <module name="cluod-feign-wlz" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,7 +1,7 @@
 package com.xb.controller;
 
 import com.xb.model.GoodsBean;
-import com.xb.service.DemoServiceFeign;
+import com.xb.service.GoodsServiceFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
@@ -14,9 +14,9 @@ import java.util.Map;
 
 @Controller
 @RequestMapping("goods")
-public class DemoController {
+public class GoodsController {
     @Autowired
-    private DemoServiceFeign demoServiceFeign;
+    private GoodsServiceFeign demoServiceFeign;
     @Autowired
     private RedisTemplate redisTemplate;
 

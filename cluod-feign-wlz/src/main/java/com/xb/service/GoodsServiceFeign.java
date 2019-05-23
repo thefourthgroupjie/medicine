@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 
 
 @FeignClient("springcloud-server")
-public interface DemoServiceFeign extends DemoServiceApi{
+public interface GoodsServiceFeign extends GoodsServiceApi {
 
 
 }

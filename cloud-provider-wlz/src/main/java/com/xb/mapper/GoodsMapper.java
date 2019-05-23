@@ -6,7 +6,7 @@ import com.xb.model.GyxxBean;
 
 import java.util.List;
 
-public interface DemoMapper {
+public interface GoodsMapper {
     List<GoodsBean> queryGoods(GoodsBean goodsBean);
 
 

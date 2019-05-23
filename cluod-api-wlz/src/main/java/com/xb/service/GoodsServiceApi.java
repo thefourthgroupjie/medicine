@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 import java.util.Map;
 
-public interface DemoServiceApi {
+public interface GoodsServiceApi {
     // 查询列表
     @RequestMapping(value = "queryGoods",method = RequestMethod.POST)
     List<GoodsBean> queryGoods( GoodsBean goodsBean);
