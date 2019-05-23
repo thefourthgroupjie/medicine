@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xb.mapper.LoginMapper">
+
+    <!-- 登录 根据name查询用户信息  回显-->
+    <select id="queryUserByName" resultType="com.xb.model.UserBean" parameterType="string">
+		select t.id,t.userName,t.userPhone,t.userPwd,t.userEmail,t.stuats from t_user t where t.userName = #{userName}
+	</select>
+
+
+
+    <!--注册用户名验重-->
+    <select id="testUserName" resultType="com.xb.model.UserBean">
+          select t.id,t.userName,t.userPhone,t.userPwd,t.userEmail from t_user t where t.userName = #{userName}
+    </select>
+    <!--手机号验重-->
+    <select id="testUserPhone" resultType="com.xb.model.UserBean">
+        select t.id,t.userName,t.userPhone,t.userPwd,t.userEmail from t_user t where t.userPhone=#{userPhone}
+    </select>
+    <!--提交注册表单-->
+    <insert id="addUserBean" parameterType="com.xb.model.UserBean">
+        INSERT INTO t_user (userName,userPwd,userPhone,userEmail,stuats)
+         VALUES(#{userName},#{userPwd},#{userPhone},#{userEmail},0)
+    </insert>
+
+    <!--修改密码查询信息手机号-->
+   <select id="selectUser" resultType="com.xb.model.UserBean">
+          select * from t_user t where t.userPhone=#{userPhone}
+    </select>
+    <!--修改密码-->
+    <update id="updatePwd">
+        update t_user set userPwd =#{userPwd} where userPhone=#{userPhone}
+    </update>
+
+    <!-- 查询手机号存不存在 -->
+    <select id="findUserByLoginNumber" parameterType="string" resultType="com.xb.model.UserBean">
+		select t.id,t.userName,t.userPhone,t.userPwd,t.userEmail from t_user t where t.userPhone = #{userPhone}
+	</select>
+    <!-- 手机号登录 -->
+    <select id="quicklogin" parameterType="com.xb.model.UserBean" resultType="com.xb.model.UserBean">
+ 	select * from t_user t where t.userPhone= #{userPhone}
+    </select>
+</mapper>

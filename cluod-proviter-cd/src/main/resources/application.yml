@@ -1,0 +1,38 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: provide-service
+  thymeleaf: content-type=textml
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/1810a?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    content-type: textml
+    mode: HTML5
+ #redis
+jedis:
+  pool:
+    host: 127.0.0.1
+    port: 6379
+    config:
+      maxTotal: 100
+      maxIdle: 10
+      maxWaitMillis: 100000
