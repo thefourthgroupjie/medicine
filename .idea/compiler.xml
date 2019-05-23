@@ -10,13 +10,10 @@
         <module name="cloud-feign-rhj" />
         <module name="cloud-jiao-api" />
         <module name="cloud-provider-rhj" />
-        <module name="cluod-api-cls" />
         <module name="cluod-api-lll" />
         <module name="cluod-common" />
         <module name="cluod-erueka" />
-        <module name="cluod-feign-cls" />
         <module name="cluod-feign-lll" />
-        <module name="cluod-proviter-cls" />
         <module name="cluod-proviter-lll" />
         <module name="dloud-provider" />
         <module name="dluod-fign" />
@@ -26,16 +23,19 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cluod-api-cls" target="1.5" />
       <module name="cluod-api-wlz" target="1.5" />
+      <module name="cluod-feign-cls" target="1.8" />
       <module name="cluod-feign-wlz" target="1.8" />
       <module name="cluod-provider-wlz" target="1.8" />
+      <module name="cluod-proviter-cls" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-feign-rhj" options="-parameters" />
       <module name="cloud-provider-rhj" options="-parameters" />
-      <module name="cluod-api-cls" options="-parameters" />
+      <module name="cluod-api-cls" options="" />
       <module name="cluod-erueka" options="-parameters" />
       <module name="cluod-feign-cls" options="-parameters" />
       <module name="cluod-feign-lll" options="-parameters" />
