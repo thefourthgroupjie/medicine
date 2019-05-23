@@ -25,6 +25,11 @@
         <module name="drug-provider-zh" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cluod-api-wlz" target="1.5" />
+      <module name="cluod-feign-wlz" target="1.8" />
+      <module name="cluod-provider-wlz" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18636b21-be5f-4fc3-9c2f-1c3bd3f82a35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,17 +55,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cluod-api-cls/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -212,23 +203,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="medicine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="medicine" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,12 +214,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558577048766" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558579068199" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -393,6 +370,7 @@
       <workItem from="1558513782560" duration="1536000" />
       <workItem from="1558572875411" duration="829000" />
       <workItem from="1558576070885" duration="934000" />
+      <workItem from="1558578744046" duration="1076000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'renhaojie' of https://github.com/thefourthgroupjie/medicine&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/workspace.xml">
       <created>1558506729900</created>
@@ -433,7 +411,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66335000" />
+    <option name="totallyTimeSpent" value="67411000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,16 +431,16 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26545843" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26812366" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.31344903" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.31344903" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.3264642" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49946696" visible="true" weight="0.31344903" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.4989339" visible="true" weight="0.31344903" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.24787535" />
@@ -581,78 +559,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'chenlishan' of https://github.com/thefourthgroupjie/medicine&#10;&#10;# Conflicts:&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/encodings.xml&#10;#&#9;.idea/misc.xml&#10;#&#9;pom.xml" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/drug-provider-zh/src/main/resources/mybatis/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/Medical.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="523" column="32" lean-forward="true" selection-start-line="523" selection-start-column="32" selection-end-line="523" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8654#8658#0" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#5;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/static/yiyaorencai_files/info_05.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drug-api-zh/src/main/java/com/xb/service/DrugServiceApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drug-provider-zh/src/main/java/com/xb/controller/DrugControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/yiyaorencai.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="292" column="102" selection-start-line="292" selection-start-column="102" selection-end-line="292" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-api-rhj/src/main/java/com/xb/service/DrugServiceApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -741,12 +647,10 @@
     <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/static/static/js/my97/lang/en.js" />
     <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/templates/templates/hd.html" />
     <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/java/com/xb/controller/XbController.java" />
-    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/pom.xml" />
     <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/java/com/xb/CluodFeignClsApplication.java" />
     <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/java/com/xb/controller/XbController.java" />
     <entry file="file://$PROJECT_DIR$/cluod-api-cls/src/main/java/com/xb/service/XbServiceApi.java" />
     <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/java/com/xb/service/XbServiceFeign.java" />
-    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/cluod-provider-cls/pom.xml" />
     <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/resources/mybatis/UserMapper.xml" />
     <entry file="jar://$USER_HOME$/.m2/repository/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.jar!/com/sun/jersey/client/apache4/ApacheHttpClient4Handler.class">
@@ -798,13 +702,51 @@
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/Administrator.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml" />
+    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cluod-api-cls/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        <state relative-caret-position="300">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-cls/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -825,7 +767,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Spring (cluod-feign-cls)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -860,7 +802,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>drug-fegin-zh</last-edited>
+          <last-edited>cluod-feign-cls</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
