@@ -13,21 +13,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-rhj/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-feign-rhj/pom.xml" />
-        <option value="$PROJECT_DIR$/cluod-proviter-lll/pom.xml" />
-        <option value="$PROJECT_DIR$/cluod-feign-lll/pom.xml" />
-        <option value="$PROJECT_DIR$/dluod-fign/pom.xml" />
-        <option value="$PROJECT_DIR$/dloud-provider/pom.xml" />
-        <option value="$PROJECT_DIR$/drug-provider-zh/pom.xml" />
-        <option value="$PROJECT_DIR$/drug-fegin-zh/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/cloud-xin/pom.xml" />
-        <option value="$PROJECT_DIR$/cluod-api-cls/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">

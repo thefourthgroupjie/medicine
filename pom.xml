@@ -18,10 +18,14 @@
         <module>cluod-proviter-lll</module>
         <module>cluod-feign-lll</module>
         <module>drug-api-zh</module>
+        <module>drug-provider-zh</module>
+        <module>drug-fegin-zh</module>
         <module>cloud-api-rhj</module>
         <module>cloud-feign-rhj</module>
         <module>cloud-provider-rhj</module>
         <module>cluod-api-cls</module>
+        <module>cluod-proviter-cls</module>
+        <module>cluod-feign-cls</module>
     </modules>
 
 
