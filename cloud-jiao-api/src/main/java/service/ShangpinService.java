@@ -17,15 +17,17 @@ public interface ShangpinService {
 
     @RequestMapping(value = "findDrugAll")
     @ResponseBody
-    Map<String, Object> findDrugAll(@RequestParam("page") Integer page, @RequestParam("rows") Integer rows);
+    Map<String, Object> findDrugAll(@RequestParam ("page")Integer page,@RequestParam("rows") Integer rows);
 
     @RequestMapping(value = "addDrugCar")
     @ResponseBody
-    void updateCar(@RequestParam("shulian") Integer shulian, @RequestParam("id") Integer id);
+    void updateCar(@RequestParam("shulian")Integer shulian,@RequestParam("id") Integer id);
 
-    @RequestMapping(value = "findDrugById")
+    @RequestMapping(value = "queryTotal")
     @ResponseBody
-    ShopModel findDrugById(@RequestParam("shulian") Integer goodsId);
+    ShopModel findDrugById(@RequestParam("goodsId")Integer goodsId);
 
-
+    @RequestMapping(value = "addComment")
+    @ResponseBody
+    void addComment(@RequestParam("ids")Integer ids,@RequestParam("couts") Integer counts);
 }

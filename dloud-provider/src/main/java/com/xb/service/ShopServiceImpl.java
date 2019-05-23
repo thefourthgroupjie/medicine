@@ -1,6 +1,7 @@
 package com.xb.service;
 
 import com.xb.mapper.ShopMapper;
+import model.Order;
 import model.ShopModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -9,6 +10,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import service.ShangpinService;
 
+import java.sql.Time;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -52,7 +55,24 @@ public class ShopServiceImpl implements ShangpinService {
         return shopModel;
     }
 
+    @Override
+    public void addComment(Integer ids, Integer counts) {
+        //随机生成订单号
+        long codes = (long) Math.ceil(Math.random()*899999+100000);
+        //删库存
+        shopMapper.uptAccount(ids,counts);
+        //根绝id查找数据
+        ShopModel shopModel = shopMapper.findProductById(ids);
+        System.out.println(shopModel);
+        //定义总返回值
+        Order order = new Order();
+        order.setOrderid(codes);
+        order.setOrdername(shopModel.getName());
+        order.setOrderprice(shopModel.getPrice());
+        order.setOrderTime(new Date());
+        shopMapper.saveOrder(order);
 
+    }
 
 
 }

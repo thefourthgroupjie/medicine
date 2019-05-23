@@ -52,10 +52,10 @@
                         <input type="checkbox" class="chose-all" name="" onclick="changeState02(this.checked)">全选
                     </li>
                     <li class="myshop-proinfobox">商品信息</li>
-                    <li class="myshop-guige">规格</li>
-                    <li class="myshop-procom">生产厂家</li>
-                    <li class="myshop-proper">单价</li>
-                    <li class="myshopcar-num">数量</li>
+                    <li class="myshop-guige">库存</li>
+                    <li class="myshop-procom">单价</li>
+                    <li class="myshop-proper">数量</li>
+                    <li class="myshopcar-num">总价</li>
                     <li class="myshop-discount">折扣优惠</li>
                     <!--<li class="myshopcar-count">合计</li>-->
                     <li class="myshop-itemlist">操作</li>
@@ -361,7 +361,7 @@
                         '            <li class="myshop-proinfobox">\n' +
                         '                <a href="/index.php/Home/Goods/goodInfo/id/912.html" target="_black" style="color: #666";><span id="spname">'+data[i].name+'</span></a>\n' +
                         '            </li>\n' +
-                        '            <li class="myshop-guige" style="color: #666;">'+data[i].price+'</li>\n' +
+                        '            <li class="myshop-guige" style="color: #666;">'+data[i].kucun+'</li>\n' +
                         '            <li class="myshop-procom" style="color: #666;"></li>\n' +
                     '            <li class="myshop-proper">￥<span id="goods_price">'+data[i].price+'</span></li>\n' +
                     '            <li class="myshopcar-num">\n' +
