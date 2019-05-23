@@ -38,6 +38,17 @@
     .xb-right_list img{width:36px;}
     .xb-qq{margin:5px auto;width:20px;height:20px;border-radius:50%;background:#ff5a00;line-height:20px;font-size:12px;}
 </style>
+
+
+<div class="logobox" style="overflow:initial;height:120px;">
+    <div class="logoimg">
+        <a href="http://192.168.1.125:8010/page/toShouye">
+            <img src="/img/index_03.png" width="303" height="125">
+        </a>
+    </div>
+</div>
+
+
 <div class="content-wrapper">
     <section class="content-header">
     </section>
@@ -56,25 +67,25 @@
             <div class="info-box">
                 <ul class="data-top-list">
                     <li style="background-color:#28aadc; width: 25%" >
-                        <a href="http://localhost:8082/page/toDrugAptitudePage">
+                        <a href="http://192.168.1.116:8082/page/toDrugAptitudePage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/qualiti_03.png">
                             <p>产品资质 </p>
                         </a>
                     </li>
                     <li style="background-color:#219fd0; width: 25%">
-                        <a href="http://localhost:8082/page/toDrugStoreAptitudePage">
+                        <a href="http://192.168.1.116:8082/page/toDrugStoreAptitudePage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/qualiti_05.png">
                             <p>药店/诊所资质 </p>
                         </a>
                     </li>
                     <li style="background-color:#1b93c1;width: 25%">
-                        <a href="http://localhost:8082/page/toHospitalAptitudePage">
+                        <a href="http://192.168.1.116:8082/page/toHospitalAptitudePage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/qualiti_07.png">
                             <p>医院资质</p>
                         </a>
                     </li>
                     <li style="background-color:#dc7316; width: 25%">
-                        <a href="http://localhost:8082/page/toComPanyAptitudePage">
+                        <a href="http://192.168.1.116:8082/page/toComPanyAptitudePage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/qualiti_09.png">
                             <p>商业公司资质</p>
                         </a>
@@ -124,6 +135,7 @@
     function initMyTable(){
         $("#drugStoreAptitudeTable").bootstrapTable({
             url:"/findDrugStoreList1",
+            toolbar:"#toolbar",
             pagination:true,
             pageList:[5,10,15,20],
             pageNumber:1,

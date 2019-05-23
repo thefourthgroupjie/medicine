@@ -38,6 +38,16 @@
     .xb-right_list img{width:36px;}
     .xb-qq{margin:5px auto;width:20px;height:20px;border-radius:50%;background:#ff5a00;line-height:20px;font-size:12px;}
 </style>
+
+
+<div class="logobox" style="overflow:initial;height:120px;">
+    <div class="logoimg">
+        <a href="http://192.168.1.125:8010/page/toShouye">
+            <img src="/img/index_03.png" width="303" height="125">
+        </a>
+    </div>
+</div>
+
 <div class="content-wrapper">
     <section class="content-header">
     </section>
@@ -56,38 +66,38 @@
             <div class="info-box">
                 <ul class="data-top-list">
                     <li style="background-color:#28aadc;">
-                        <a href="http://localhost:8082/page/toDrugPage">
+                        <a href="http://192.168.1.116:8082/page/toDrugPage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_03.png">
                             <p>中标数据药品库 </p>
                         </a>
                     </li>
                     <li style="background-color:#219fd0;">
-                        <a href="http://localhost:8082/page/toDrugStorePage">
+                        <a href="http://192.168.1.116:8082/page/toDrugStorePage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_05.png">
                             <p>药店/诊所大全 </p>
                         </a>
                     </li>
                     <li style="background-color:#1b93c1;">
-                        <a href="http://localhost:8082/page/toHospitalPage">
+                        <a href="http://192.168.1.116:8082/page/toHospitalPage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_07.png">
                             <p>医院大全</p>
                         </a>
                     </li>
                     <li style="background-color:#dc7316;">
-                        <a href="http://localhost:8082/page/toAttractPage">
+                        <a href="http://192.168.1.116:8082/page/toAttractPage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/zhaoshangdown.png">
                             <p>招商信息下载</p>
                         </a>
                     </li>
                     <li style="background-color:#e3812b;">
-                        <a href="http://localhost:8082/page/toDrugAptitudePage">
+                        <a href="http://192.168.1.116:8082/page/toDrugAptitudePage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_09.png">
                             <p>资质下载</p>
                         </a>
                     </li>
 
                     <li style="background-color:#ef9545;">
-                        <a href="http://localhost:8082/page/toConventionPage">
+                        <a href="http://192.168.1.116:8082/page/toConventionPage">
                             <img src="http://www.xb1y.com/Public/qiantai/images/dataimg_11.png">
                             <p>国药会展资料下载</p>
                         </a>
@@ -112,6 +122,7 @@
     function initConventionTable(){
         $("#conventionTable").bootstrapTable({
             url:"/findConventionList",
+            toolbar:"#toolbar",
             //search:true,//是否显示搜索框
             //searchText:'试试',//初始化搜索文字
             showColumns:false,//是否显示 内容列下拉框

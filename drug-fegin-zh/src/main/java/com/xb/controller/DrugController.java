@@ -36,8 +36,7 @@ public class DrugController {
     @ResponseBody
     public Map<String,Object> userlist( DrugBean users,Integer page,Integer rows) throws IOException, SolrServerException {
         //返回的参数map
-        Map<String,Object> mSolr=new HashMap
-                <String,Object>();
+        Map<String,Object> mSolr=new HashMap<String,Object>();
         //查询的耳集合
         List<DrugBean> userslist=new ArrayList<>();
         //查询参数的对象SolrQuery
