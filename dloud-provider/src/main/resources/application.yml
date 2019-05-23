@@ -6,7 +6,7 @@ spring:
     name: server-provider
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.1.105:3306/1810a?ServerTimeZone=HongKong&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://192.168.1.114:3306/1810a?ServerTimeZone=HongKong&useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
   #\u914D\u7F6E\u626B\u63CF mybatis xml \u6620\u5C04\u8DEF\u5F84
@@ -16,3 +16,4 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8888/eureka/
+

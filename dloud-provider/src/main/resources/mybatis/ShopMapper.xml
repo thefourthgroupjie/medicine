@@ -28,5 +28,18 @@
         select * from j_drug_name where id=#{goodsId}
     </select>
 
+    <update id="uptAccount">
+        update j_drug_name set kucun =kucun-#{counts} where id = #{ids}
+    </update>
+
+    <select id="findProductById" parameterType="int" resultType="model.ShopModel">
+         select * from j_drug_name where id =#{ids}
+    </select>
+    <!--新增订单 -->
+    <insert id="saveOrder" parameterType="model.Order">
+        insert into t_order(orderid,ordername,orderprice,orderTime)
+        values(#{orderid},#{ordername},#{orderprice},#{orderTime})
+    </insert>
+
 
 </mapper>

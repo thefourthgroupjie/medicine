@@ -23,9 +23,11 @@ public interface ShangpinService {
     @ResponseBody
     void updateCar(@RequestParam("shulian")Integer shulian,@RequestParam("id") Integer id);
 
-    @RequestMapping(value = "findDrugById")
+    @RequestMapping(value = "queryTotal")
     @ResponseBody
-    ShopModel findDrugById(@RequestParam("shulian")Integer goodsId);
+    ShopModel findDrugById(@RequestParam("goodsId")Integer goodsId);
 
-
+    @RequestMapping(value = "addComment")
+    @ResponseBody
+    void addComment(@RequestParam("ids")Integer ids,@RequestParam("couts") Integer counts);
 }
