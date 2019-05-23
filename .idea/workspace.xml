@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list default="true" id="ebed9d34-7053-4b32-81ae-89ba651e3c37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-wlz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-wlz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb/controller/DemoControllerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb/controller/GoodsControllerImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb/mapper/DemoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb/mapper/GoodsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-wlz/src/main/resources/mybatis/DemoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-wlz/src/main/resources/mybatis/GoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-api-wlz/src/main/java/com/xb/service/DemoServiceApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-api-wlz/src/main/java/com/xb/service/GoodsServiceApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-api-wlz/target/classes/com/xb/service/DemoServiceApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/GoodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/service/DemoServiceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/service/GoodsServiceFeign.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cluod-api-wlz/target/" />
+    <ignored path="$PROJECT_DIR$/cluod-common/target/" />
+    <ignored path="$PROJECT_DIR$/cluod-feign-wlz/target/" />
+    <ignored path="$PROJECT_DIR$/cluod-erueka/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider-wlz/target/" />
     <list default="true" id="18636b21-be5f-4fc3-9c2f-1c3bd3f82a35" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -95,11 +116,58 @@
       <replace>/zixun_files</replace>
       <replace>../</replace>
     </replaceStrings>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluod-erueka/src/main/java/com/xb/CluodEruekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb/CloudProviderWlzApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/CluodFeignWlzApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-provider-wlz/src/main/resources/mybatis/GoodsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/cluod-feign-wlz/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb/controller/GoodsControllerImp.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/templates/yaoshiList.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cluod-common/src/main/java/com/xb/model/SpecialtyBean.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
@@ -128,6 +196,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb/CloudProviderWlzApplication.java" />
+        <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/CluodFeignWlzApplication.java" />
+        <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add2.html" />
+        <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-wlz/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-wlz/src/main/resources/mybatis/DemoMapper.xml" />
+        <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html" />
+        <option value="$PROJECT_DIR$/cloud-provider-wlz/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="174" />
+    <option name="y" value="1" />
+    <option name="width" value="980" />
+    <option name="height" value="788" />
         <option value="$PROJECT_DIR$/cloud-api/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-feign-rhj/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-feign-rhj/src/main/java/com/xb/CloudFeignRhjApplication.java" />
@@ -206,6 +294,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,6 +341,22 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\medicine\cloud-provider-wlz\src\main\java\com\xb" />
+      <recent name="E:\medicine\cloud-provider-wlz\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558592873956" />
@@ -295,6 +400,10 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Spring Boot.CluodFeignWlzApplication">
+    <configuration name="CloudProviderWlzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-wlz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xb.CloudProviderWlzApplication" />
   <component name="RunManager" selected="Spring Boot.CloudFeignRhjApplication">
     <configuration name="CloudFeignRhjApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-feign-rhj" />
@@ -362,6 +471,9 @@
     <configuration name="DluodFignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dluod-fign" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xb.DluodFignApplication" />
+    <configuration name="CluodFeignWlzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cluod-feign-wlz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xb.CluodFeignWlzApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -400,6 +512,35 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="ebed9d34-7053-4b32-81ae-89ba651e3c37" name="Default Changelist" comment="" />
+      <created>1558494276566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558494276566</updated>
+      <workItem from="1558494277848" duration="14905000" />
+      <workItem from="1558523134582" duration="450000" />
+      <workItem from="1558535444670" duration="644000" />
+      <workItem from="1558578445004" duration="1497000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交代码了">
+      <created>1558535554569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558535554569</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20190522">
+      <created>1558535922983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558535922983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17496000" />
       <changelist id="18636b21-be5f-4fc3-9c2f-1c3bd3f82a35" name="Default Changelist" comment="" />
       <created>1558437638095</created>
       <option name="number" value="Default" />
@@ -550,6 +691,42 @@
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
       <window_info anchor="right" id="JRebel Setup Guide" order="10" visible="true" weight="0.3297587" />
     </layout-to-restore>
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25718608" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.3289689" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="bottom" id="Debug" order="11" visible="true" weight="0.10801964" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.3289689" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -597,6 +774,39 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="提交代码了" />
+    <MESSAGE value="20190522" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190522" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$3/CluodProviderWlzApplication.java" />
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3328">
+          <caret line="170" column="39" lean-forward="true" selection-start-line="170" selection-start-column="39" selection-end-line="170" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/gunying2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="101" column="23" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
     <MESSAGE value="数据中心药品库查询" />
     <MESSAGE value="页面查询" />
     <MESSAGE value="Merge branch 'zhanghao' of https://github.com/thefourthgroupjie/medicine&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
@@ -703,6 +913,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-erueka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="7" lean-forward="true" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/templates/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="165" column="18" selection-start-line="163" selection-start-column="54" selection-end-line="164" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb/controller/GoodsControllerImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb/mapper/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-wlz/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.17/tomcat-embed-core-9.0.17.jar!/org/apache/coyote/AbstractProcessorLight.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-wlz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-api-wlz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/service/GoodsServiceFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-erueka/src/main/java/com/xb/CluodEruekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-wlz/src/main/java/com/xb/CloudProviderWlzApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluod-feign-wlz/src/main/java/com/xb/CluodFeignWlzApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-wlz/src/main/resources/mybatis/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
     <entry file="file://$PROJECT_DIR$/cluod-provider-cls/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/cluod-feign-lll/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -832,6 +1154,9 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -10,6 +10,7 @@
         <module name="cloud-feign-rhj" />
         <module name="cloud-jiao-api" />
         <module name="cloud-provider-rhj" />
+        <module name="cloud-provider-wlz" />
         <module name="cluod-api-lll" />
         <module name="cluod-common" />
         <module name="cluod-erueka" />
@@ -28,6 +29,7 @@
       <module name="cluod-feign-cls" target="1.8" />
       <module name="cluod-feign-wlz" target="1.8" />
       <module name="cluod-provider-wlz" target="1.8" />
+      <module name="cluod-proviter" target="1.8" />
       <module name="cluod-proviter-cls" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -35,10 +37,13 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-feign-rhj" options="-parameters" />
       <module name="cloud-provider-rhj" options="-parameters" />
+      <module name="cloud-provider-wlz" options="-parameters" />
       <module name="cluod-api-cls" options="" />
       <module name="cluod-erueka" options="-parameters" />
       <module name="cluod-feign-cls" options="-parameters" />
       <module name="cluod-feign-lll" options="-parameters" />
+      <module name="cluod-feign-wlz" options="-parameters" />
+      <module name="cluod-proviter" options="-parameters" />
       <module name="cluod-proviter-cls" options="-parameters" />
       <module name="cluod-proviter-lll" options="-parameters" />
       <module name="dloud-provider" options="-parameters" />
