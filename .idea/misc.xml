@@ -26,6 +26,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/cloud-xin/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-api-cls/pom.xml" />
       </set>
     </option>
   </component>

@@ -21,6 +21,7 @@
         <module>cloud-api-rhj</module>
         <module>cloud-feign-rhj</module>
         <module>cloud-provider-rhj</module>
+        <module>cluod-api-cls</module>
     </modules>
 
 

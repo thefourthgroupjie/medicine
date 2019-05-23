@@ -15,5 +15,6 @@ spring:
     name: springcloud-server
 
 mybatis:
+
   mapper-locations: classpath:mybatis/*.xml
 
