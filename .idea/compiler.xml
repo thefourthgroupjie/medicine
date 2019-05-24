@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-feign-rhj" />
-        <module name="cluod-common" />
-        <module name="cluod-erueka" />
         <module name="cloud-provider-rhj" />
+        <module name="cloud-feign-rhj" />
+        <module name="cluod-erueka" />
+        <module name="cluod-common" />
         <module name="cloud-api-rhj" />
       </profile>
     </annotationProcessing>
