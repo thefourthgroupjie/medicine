@@ -18,10 +18,13 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/cluod-api-cls/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-api-lll/pom.xml" />
         <option value="$PROJECT_DIR$/cluod-api-wlz/pom.xml" />
         <option value="$PROJECT_DIR$/cluod-feign-cls/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-feign-lll/pom.xml" />
         <option value="$PROJECT_DIR$/cluod-feign-wlz/pom.xml" />
         <option value="$PROJECT_DIR$/cluod-proviter-cls/pom.xml" />
+        <option value="$PROJECT_DIR$/cluod-proviter-lll/pom.xml" />
       </set>
     </option>
   </component>

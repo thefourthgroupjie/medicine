@@ -7,6 +7,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
@@ -160,6 +161,9 @@ public class ShopController {
                 int count1 = Integer.parseInt(counts[i]);
                 double xiaoji = count1 * goodsPrice;
                 total += xiaoji;
+                String str = String.valueOf(total);
+                Cookie cookie = new Cookie("total",str);
+                response.addCookie(cookie);
             }
         }
 
